@@ -14,8 +14,8 @@ sections:
   templates:
   - post
 - type: directory
-  path: exampleSite/content/french/blogs
-  label: Post (fr)
+  path: exampleSite/content/korean/blogs
+  label: Post (kr)
   create: documents
   match: "**/*"
   templates:
@@ -30,8 +30,8 @@ sections:
   templates:
   - author
 - type: directory
-  path: exampleSite/content/french/author
-  label: Author (fr)
+  path: exampleSite/content/korean/author
+  label: Author (kr)
   create: documents
   match: "**/*"
   templates:
@@ -46,8 +46,8 @@ sections:
   templates:
   - publication
 - type: directory
-  path: exampleSite/content/french/publications
-  label: Publication (fr)
+  path: exampleSite/content/korean/publications
+  label: Publication (kr)
   create: documents
   match: "**/*"
   templates:
@@ -62,8 +62,8 @@ sections:
   templates:
   - project
 - type: directory
-  path: exampleSite/content/french/projects
-  label: Projects (fr)
+  path: exampleSite/content/korean/projects
+  label: Projects (kr)
   create: documents
   match: "**/*"
 - type: heading
@@ -76,8 +76,8 @@ sections:
   templates:
   - talk
 - type: directory
-  path: exampleSite/content/french/talks
-  label: Talk (fr)
+  path: exampleSite/content/korean/talks
+  label: Talk (kr)
   create: documents
   match: "**/*"
   templates:
@@ -92,8 +92,8 @@ sections:
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/french
-  label: All Pages (fr)
+  path: exampleSite/content/korean
+  label: All Pages (kr)
   create: all
   match: "**/*"
   templates:
@@ -106,8 +106,8 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: exampleSite/data/fr
-  label: Data (fr)
+  path: exampleSite/data/kr
+  label: Data (kr)
   create: all
   match: "**/*"
 - type: directory
@@ -125,7 +125,7 @@ sections:
   new_doc_ext: toml
 upload_dir: exampleSite/static/images
 public_path: "/images"
-front_matter_path: ''
+kront_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
