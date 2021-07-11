@@ -92,7 +92,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = true
+enable = false
 label = "contact"
 link = "contact"
   
@@ -130,7 +130,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; Bokyung Lee"
 
 
 ################################### Korean language #####################################
@@ -140,4 +140,4 @@ languageCode = "kr-kr"
 contentDir = "content/korean"
 weight = 2
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; Bokyung Lee"
