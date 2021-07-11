@@ -83,7 +83,7 @@ author = "Themefisher"
 google_analitycs_id = "" # your id
 
 # body particles
-particles = true
+particles = false
 
 # Preloader
 [params.preloader]
