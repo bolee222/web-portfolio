@@ -22,7 +22,12 @@
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 25px 10px;
+    align-content: right;
     @include desktop {
         padding: 10px 0;
     }
+}
+
+.navbar-pad {
+    padding: 0.5rem 0.5rem !important;
 }

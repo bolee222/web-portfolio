@@ -8,7 +8,7 @@
         <div class="banner-title-bold">{{ .title | markdownify }}</div>
         {{ end }}
         <div class="row">
-            <div class="col-6">
+            <div class="col-5">
                 {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
                 <div>
                     {{with .title}} {{ end }}
@@ -30,9 +30,9 @@
                     {{ end }} {{ end }}
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-3">
                 {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
-                <img src="{{ .image | absURL }}" class="img-left" alt="" style="width:120%" /> {{ end }} {{ end }}
+                <img src="{{ .image | absURL }}" class="img-left" alt="" style="width:90%" /> {{ end }} {{ end }}
                 <div class="social-icon-list">bokung.lee@autodesk.com </div>
                 <div class="social-icon-list-bold"><a href="www.google.com"> CV </a> / <a href="www.google.com"> linked In </a> / <a href=""> vimeo </a>
                 </div>
@@ -62,7 +62,7 @@
                 <div></div>
             </div>
 
-            <div class="col-lg-8">
+            <div class="col-lg-7">
                 <div class="cv-text-bold">{{ .name }}</div>
                 <div class="cv-text">{{ .academy }}</div>
             </div>
