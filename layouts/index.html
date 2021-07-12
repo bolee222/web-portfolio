@@ -4,71 +4,77 @@
 {{ if $data.homepage.banner.enable }}
 <section class="section pb-0" id="home">
     <div class="container">
+        {{ with $data.homepage.banner }}
+        <div class="banner-title-bold">{{ .title | markdownify }}</div>
+        {{ end }}
         <div class="row">
-            <div class="col-12">
-                {{ with $data.homepage.banner }}
-                <h1 class="display-1 font-weight-bold title mb-4">
-                    {{ .title | markdownify }}
-                </h1>
-                <p class="h3 mb-5">{{ .subtitle | markdownify }}</p>
-                {{ end }} {{ if $data.homepage.banner.social }}
-                <ul class="list-inline social-icons">
-                    {{ range .Site.Params.social }}
-                    <li class="list-inline-item">
-                        <a href="{{ .link | safeURL }}"><i class="{{.icon }}"></i></a>
-                    </li>
-                    {{ end }}
-                </ul>
-                {{ end }}
+            <div class="col-6">
+                {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
+                <div>
+                    {{with .title}} {{ end }}
+                    <div class="banner-text">{{.content | markdownify }}</div>
+                </div>
+                {{ end }} {{ end }}
             </div>
-        </div>
-    </div>
+            <div class="col-4 banner-text">
+                <div>
+                    {{ if $data.homepage.blog.enable }}
+                    <div class="container">
+                        <div class="row">
+                            {{ range first 4 (where .Site.RegularPages "Section" "==" "blogs") }}
+                            <div class="linear-news"> <i class={{.Params.icon}}></i>[ {{ .PublishDate.Format "2006-01-06" }} ] {{ .Params.description }}</div>
+                            {{ end }}
+                            <div class="col-12 text-left">
+                                <a href="{{`blogs` | absLangURL }}" class="btn btn-primary btn-style">{{ i18n "all_blog"}}</a
+                                    >
+                                </div>
+                              </div>
+                          </div>
+                          {{ end }}
+                </div>
+            </div>
+            <div class="col-2">
+                {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
+                <img src="{{ .image | absURL }}" class="img-left" alt="" style="width:120%"/>
+                {{ end }} {{ end }} {{ if $data.homepage.banner.social }}
+                {{ range .Site.Params.social }}
+                  <div class="social-icon-list"><a href ="{{ .link }}"> / <i class={{ .icon }}></i> _ {{ .title }} / </a> {{ end }} {{ end }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 </section>
 {{ end }}
 <!-- /banner -->
 
-<!-- about -->
-{{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
-<section class="section pb-0" id="about">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-2">
-                <img src="{{ .image | absURL }}" class="img-fluid rounded-lg mb-4" alt="" />
-            </div>
-            <div class="col-lg-8">
-                {{with .title}}
-                <h2>{{ . | markdownify}}</h2>
-                {{ end }}
-                <p>{{ .content | markdownify }}</p>
-            </div>
-        </div>
-    </div>
-</section>
-{{ end }} {{ end }}
-<!-- /about -->
 
 <!-- education -->
 {{ if $data.homepage.education.enable }} {{ with $data.homepage.education }}
 <section class="section pb-0" id="education">
-    <div class="container">
+    <div class="container cv-section-padding">
         <div class="row">
-            <div class="col-lg-2">
+            <div class="col-lg-3">
                 <div class="cv-title">{{ .title | markdownify }}</div>
             </div>
-            <div class="col-lg-7">
-                <div class="row justify-content-around">
-                    {{ range .education_item }}
-                    <div class="col-lg-5 col-sm-6 mb-4">
-                        <h4 class="title-border">{{ .name }}</h4>
-                        <p>{{ .duration }} <br />{{ .academy }}</p>
-                    </div>
-                </div>
+            <div class="col-lg-9"></div>
+        </div>
+        {{ range .education_item }}
+        <div class="row cv-lineBox">
+            <div class="col-lg-2">
+                <div></div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="cv-text-bold">{{ .name }}</div>
+                <div class="cv-text">{{ .academy }}</div>
             </div>
             <div class="col-lg-2">
                 <div class="cv-text">{{ .duration }}</div>
             </div>
-            {{ end }}
         </div>
+        {{ end }}
     </div>
 </section>
 {{ end }} {{ end }}

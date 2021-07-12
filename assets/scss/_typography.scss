@@ -13,10 +13,11 @@ body {
 p,
 .paragraph {
     font-weight: 400;
-    color: $text-color-light;
-    font-size: 18px;
-    line-height: 1.7;
+    color: $text-color;
+    font-size: 16px;
+    line-height: 1.5;
     font-family: $primary-font;
+    margin-bottom: 20px;
 }
 
 h1,
@@ -89,15 +90,65 @@ h6,
 }
 
 .cv-title {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     color: $text-color;
     font-family: $primary-font;
 }
 
 .cv-text {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     color: $text-color;
     font-family: $primary-font;
+    line-height: 1.5;
+}
+
+.cv-text-bold {
+    font-size: 15px;
+    font-weight: 700;
+    color: $text-color;
+    font-family: $primary-font;
+    line-height: 1.5;
+}
+
+.banner-title-bold {
+    font-size: 40px;
+    font-weight: 800;
+    color: $text-color;
+    font-family: $hightlight-font;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.banner-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: $text-color;
+    font-family: $primary-font;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding-right: 40px;
+}
+
+.linear-news {
+    font-size: 15px;
+    font-weight: 400;
+    color: $text-color;
+    font-family: $primary-font;
+    line-height: 1.3;
+    padding-right: 10px;
+    margin-bottom: 13px !important;
+}
+
+.social-icon-list {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: $text-color;
+    font-family: $hightlight-font;
+}
+
+.social-icon-list a {
+    color: $primary-color
 }

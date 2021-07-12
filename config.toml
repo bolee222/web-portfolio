@@ -98,7 +98,7 @@ link = "contact"
   
 ############################# social site ########################
 [[params.social]]
-title = "facebook"
+title = "CV"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
 link = "#"
 
@@ -110,11 +110,6 @@ link = "#"
 [[params.social]]
 title = "instagram"
 icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
 link = "#"
 
 [[params.social]]
