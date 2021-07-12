@@ -27,7 +27,7 @@ education:
   education_item:
     # education item loop
     - name : "MSc in Research Methodology"
-      duration : "September 2000 - May 2004"
+      duration : "Mar 2015 – Feb 2019"
       academy : "University Of California"
 
     # education item loop
@@ -37,11 +37,6 @@ education:
 
     # education item loop
     - name : "BEng Electronic Engineering"
-      duration : "September 2000 - May 2004"
-      academy : "University Of California"
-
-    # education item loop
-    - name : "MSc in Research Methodology"
       duration : "September 2000 - May 2004"
       academy : "University Of California"
 
