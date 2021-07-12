@@ -2,13 +2,13 @@
 
 <!-- banner -->
 {{ if $data.homepage.banner.enable }}
-<section class="section pb-0" id="home">
+<section class="section-home pb-0" id="home">
     <div class="container">
         {{ with $data.homepage.banner }}
         <div class="banner-title-bold">{{ .title | markdownify }}</div>
         {{ end }}
         <div class="row">
-            <div class="col-5">
+            <div class="col-6">
                 {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
                 <div>
                     {{with .title}} {{ end }}
@@ -23,19 +23,31 @@
                         <div class="col-1 linear-news-icon ">
                             <i class={{.Params.icon}}></i>
                         </div>
-                        <div class="col-10">
+                        <div class="col-9 ">
                             [{{ .PublishDate.Format "2006-01-06" }}] <strong><a href= "{{ .Permalink}}">{{ .Params.description }}</a></strong>
                         </div>
                     </div>
                     {{ end }} {{ end }}
+
+                </div>
+                <div>
+                    <div class="row linear-news-bottom ">
+                        <div class="col-1 linear-news-icon ">
+                            <i class={{.Params.icon}}></i>
+                        </div>
+                        <div class="col-9 ">
+                            <div class="social-icon-list-bold"><a href="www.google.com"> More News </a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-2 padding0 margin-left-20 padding-top-20 ">
                 {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
-                <img src="{{ .image | absURL }}" class="img-left" alt="" style="width:90%" /> {{ end }} {{ end }}
+                <img src="{{ .image | absURL }}" class="img-left" alt="" style="width:100%" /> {{ end }} {{ end }}
                 <div class="social-icon-list">bokung.lee@autodesk.com </div>
                 <div class="social-icon-list-bold"><a href="www.google.com"> CV </a> / <a href="www.google.com"> linked In </a> / <a href=""> vimeo </a>
                 </div>
+
             </div>
         </div>
     </div>
@@ -45,59 +57,63 @@
 {{ end }}
 <!-- /banner -->
 
+<hr>
 
 <!-- education -->
 {{ if $data.homepage.education.enable }} {{ with $data.homepage.education }}
 <section class="section pb-0" id="education">
     <div class="container cv-section-padding">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-2">
                 <div class="cv-title">{{ .title | markdownify }}</div>
             </div>
-            <div class="col-lg-9"></div>
-        </div>
-        {{ range .education_item }}
-        <div class="row cv-lineBox">
-            <div class="col-lg-2">
-                <div></div>
+            <div class="col-lg-10">
+                {{ range .education_item }}
+                <div class="row cv-lineBox">
+                    <div class="col-lg-9">
+                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text">{{ .academy }}</div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cv-text ">{{ .duration }}</div>
+                    </div>
+                </div>
+                {{ end }}
             </div>
+        </div>
 
-            <div class="col-lg-7">
-                <div class="cv-text-bold">{{ .name }}</div>
-                <div class="cv-text">{{ .academy }}</div>
-            </div>
-            <div class="col-lg-2">
-                <div class="cv-text">{{ .duration }}</div>
-            </div>
-        </div>
-        {{ end }}
     </div>
 </section>
 {{ end }} {{ end }}
 <!-- /education -->
 
 <!-- Expertise -->
+
 {{ if $data.homepage.expertise.enable }} {{ with $data.homepage.expertise }}
 <section class="section pb-0" id="expertise">
-    <div class="container">
+    <div class="container cv-section-padding">
         <div class="row">
-            <div class="col-lg-4">
-                <h2>{{ .title | markdownify }}</h2>
+            <div class="col-lg-2">
+                <div class="cv-title">{{ .title | markdownify }}</div>
             </div>
-            <div class="col-lg-8">
-                <div class="row justify-content-around">
-                    {{ range .expertise_item }}
-                    <div class="col-lg-5 col-sm-6 mb-4">
-                        <h4 class="title-border">{{ .name }}</h4>
-                        <p>{{ .content | markdownify }}</p>
+            <div class="col-lg-10">
+                {{ range .expertise_item }}
+                <div class="row cv-lineBox">
+                    <div class="col-lg-9">
+                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text">{{ .content | markdownify }}</div>
                     </div>
-                    {{ end }}
+                    <div class="col-lg-3">
+                        <div class="cv-text">dursssss</div>
+                    </div>
                 </div>
+                {{ end }}
             </div>
         </div>
     </div>
 </section>
 {{ end }} {{ end }}
+
 <!-- /Expertise -->
 
 <!-- publications -->

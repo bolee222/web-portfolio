@@ -291,10 +291,8 @@ textarea.form-control {
     }
 }
 
-.cv-contentBox {}
-
 .cv-lineBox {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .cv-section-padding {
@@ -302,9 +300,17 @@ textarea.form-control {
 }
 
 .section-padding-right {
-    padding-right: 0 10px !important;
+    padding-right: 0px !important;
 }
 
 .padding0 {
     padding: 0;
+}
+
+.margin-left-20 {
+    margin: -20px;
+}
+
+.padding-top-20 {
+    padding-top: 20px;
 }
