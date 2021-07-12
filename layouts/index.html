@@ -33,8 +33,8 @@
             <div class="col-2">
                 {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
                 <img src="{{ .image | absURL }}" class="img-left" alt="" style="width:120%" /> {{ end }} {{ end }}
-                <div class="social-icon-list">bokung.lee@autodesk.com </div> {{ if $data.homepage.banner.social }} {{ range .Site.Params.social }}
-                <div class="social-icon-list"><a href="{{ .link }}"> {{ .title }} </a> {{ end }} {{ end }}</a>
+                <div class="social-icon-list">bokung.lee@autodesk.com </div>
+                <div class="social-icon-list-bold"><a href="www.google.com"> CV </a> / <a href="www.google.com"> linked In </a> / <a href=""> vimeo </a>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
                 <div></div>
             </div>
 
-            <div class="col-lg-7">
+            <div class="col-lg-8">
                 <div class="cv-text-bold">{{ .name }}</div>
                 <div class="cv-text">{{ .academy }}</div>
             </div>
