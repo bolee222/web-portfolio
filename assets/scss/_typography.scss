@@ -128,7 +128,7 @@ h6,
     font-family: $primary-font;
     line-height: 1.5;
     margin-bottom: 20px;
-    padding-right: 40px;
+    padding-right: 15px;
 }
 
 .linear-news {
@@ -138,13 +138,28 @@ h6,
     font-family: $primary-font;
     line-height: 1.3;
     padding-right: 10px;
-    margin-bottom: 13px !important;
+    padding-left: 25px;
+    margin-bottom: 20px !important;
+}
+
+.linear-news strong {}
+
+.linear-news-icon {
+    font-size: 14px;
+    font-weight: 400;
+    color: $text-color;
+    font-family: $primary-font;
+    line-height: 1.3;
+}
+
+.linear-news-bottom {
+    margin-bottom: 10px;
 }
 
 .social-icon-list {
     margin-top: 5px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     color: $text-color;
     font-family: $hightlight-font;
 }

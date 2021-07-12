@@ -5,8 +5,8 @@ date: 2020-03-14T15:40:24+06:00
 image: "images/blogs/blog1.jpg"
 draft: false
 # description
-description: "This is meta description"
-icon: "ti-facebook"
+description: DIS 2021 Honorable Mention Award received.
+icon: "ti-cup"
 ---
 
 #### Heading example

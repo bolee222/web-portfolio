@@ -6,7 +6,7 @@ image: "images/blogs/blog3.jpg"
 draft: false
 # description
 description: "This is meta description"
-icon: "ti-facebook"
+icon: "ti-comment"
 ---
 
 #### Heading example

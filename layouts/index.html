@@ -16,34 +16,30 @@
                 </div>
                 {{ end }} {{ end }}
             </div>
-            <div class="col-4 banner-text">
+            <div class="col-4 linear-news">
                 <div>
-                    {{ if $data.homepage.blog.enable }}
-                    <div class="container">
-                        <div class="row">
-                            {{ range first 4 (where .Site.RegularPages "Section" "==" "blogs") }}
-                            <div class="linear-news"> <i class={{.Params.icon}}></i>[ {{ .PublishDate.Format "2006-01-06" }} ] {{ .Params.description }}</div>
-                            {{ end }}
-                            <div class="col-12 text-left">
-                                <a href="{{`blogs` | absLangURL }}" class="btn btn-primary btn-style">{{ i18n "all_blog"}}</a
-                                    >
-                                </div>
-                              </div>
-                          </div>
-                          {{ end }}
+                    {{ if $data.homepage.blog.enable }} {{ range first 8 (where .Site.RegularPages "Section" "==" "blogs") }}
+                    <div class="row linear-news-bottom ">
+                        <div class="col-1 linear-news-icon ">
+                            <i class={{.Params.icon}}></i>
+                        </div>
+                        <div class="col-10">
+                            [{{ .PublishDate.Format "2006-01-06" }}] <strong><a href= "{{ .Permalink}}">{{ .Params.description }}</a></strong>
+                        </div>
+                    </div>
+                    {{ end }} {{ end }}
                 </div>
             </div>
             <div class="col-2">
                 {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
-                <img src="{{ .image | absURL }}" class="img-left" alt="" style="width:120%"/>
-                {{ end }} {{ end }} {{ if $data.homepage.banner.social }}
-                {{ range .Site.Params.social }}
-                  <div class="social-icon-list"><a href ="{{ .link }}"> / <i class={{ .icon }}></i> _ {{ .title }} / </a> {{ end }} {{ end }}</a>
-                            </div>
-                        </div>
-                    </div>
+                <img src="{{ .image | absURL }}" class="img-left" alt="" style="width:120%" /> {{ end }} {{ end }}
+                <div class="social-icon-list">bokung.lee@autodesk.com </div> {{ if $data.homepage.banner.social }} {{ range .Site.Params.social }}
+                <div class="social-icon-list"><a href="{{ .link }}"> {{ .title }} </a> {{ end }} {{ end }}</a>
                 </div>
             </div>
+        </div>
+    </div>
+    </div>
 
 </section>
 {{ end }}
@@ -66,7 +62,7 @@
                 <div></div>
             </div>
 
-            <div class="col-lg-8">
+            <div class="col-lg-7">
                 <div class="cv-text-bold">{{ .name }}</div>
                 <div class="cv-text">{{ .academy }}</div>
             </div>
