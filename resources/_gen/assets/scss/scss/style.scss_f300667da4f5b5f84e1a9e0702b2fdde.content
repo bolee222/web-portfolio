@@ -366,6 +366,8 @@ p:empty {
   z-index: -1; }
 
 .nav-item {
+  font-weight: 500;
+  font-size: 17px;
   margin: 0; }
   .nav-item .nav-link {
     text-transform: capitalize; }
@@ -655,3 +657,6 @@ textarea.form-control {
 
 .padding-top-20 {
   padding-top: 20px; }
+
+.img-fluid {
+  height: 50px; }

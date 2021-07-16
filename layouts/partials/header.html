@@ -9,8 +9,8 @@
         <i class="ti-menu text-white"></i>
       </button>
 
-      <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
+      <div class="collapse navbar-collapse justify-content-end text-center" id="navigation">
+        <ul class="navbar-nav navbar-right">
           {{ if .IsHome }}
           {{ range .Site.Menus.main }}
           <li class="nav-item"><a class="nav-link" href="#{{ .URL }}">{{ .Name }}</a></li>
