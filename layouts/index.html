@@ -88,17 +88,17 @@
 {{ end }} {{ end }}
 <!-- /education -->
 
-<!-- Expertise -->
+<!-- Work -->
 
-{{ if $data.homepage.expertise.enable }} {{ with $data.homepage.expertise }}
-<section class="section pb-0" id="expertise">
+{{ if $data.homepage.work.enable }} {{ with $data.homepage.work }}
+<section class="section pb-0" id="work">
     <div class="container cv-section-padding">
         <div class="row">
             <div class="col-lg-2">
                 <div class="cv-title">{{ .title | markdownify }}</div>
             </div>
             <div class="col-lg-10">
-                {{ range .expertise_item }}
+                {{ range .work_item }}
                 <div class="row cv-lineBox">
                     <div class="col-lg-9">
                         <div class="cv-text-bold">{{ .name }}</div>

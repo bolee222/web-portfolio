@@ -13,10 +13,10 @@ about:
   title : ""
   image : "images/bokyungLee.jpg"
   content : "Hi. I am an **HCI** / **Interaction Design** researcher. I hold a Ph.D. in Industrial Design at KAIST (Korea Advanced Institute of Science and Technology). I am currently working as a Post-Doctoral Fellow at Autodesk Research, Toronto.
-  
 
-  
-  My research lies at the intersection of Human-Computer Interaction and Interactive System Designs. I envision the potential interactions for future technologies (VR/AR/AI) with a goal of enhancing our experiences. During my Ph.D., I explored embodied interactions for VR/AR digital design tools. I enjoy creating and applying new user-centered design methods, as well as prototyping interactive systems. To read my entire research vision, please visit here. 
+
+
+  My research lies at the intersection of Human-Computer Interaction and Interactive System Designs. I envision the potential interactions for future technologies (VR/AR/AI) with a goal of enhancing our experiences. During my Ph.D., I explored embodied interactions for VR/AR digital design tools. I enjoy creating and applying new user-centered design methods, as well as prototyping interactive systems. To read my entire research vision, please visit here.
   "
 
 
@@ -41,6 +41,20 @@ education:
       duration : "September 2000 - May 2004"
       academy : "University Of California"
 
+
+
+####################### Work Experience ###########################
+work:
+  enable : true
+  title : "WORK <br> EXPERIENCE"
+  work_item:
+    # expertise item loop
+    - name : "Data Analysis and Visualization"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+    # expertise item loop
+    - name : "Statical Meathod Learning"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
 
 
 
