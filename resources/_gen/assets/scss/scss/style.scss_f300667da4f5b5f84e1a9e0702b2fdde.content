@@ -100,6 +100,12 @@ h6,
   color: #2f2f2f;
   font-family: "Roboto", sans-serif; }
 
+.cv-title-large {
+  font-size: 20px;
+  font-weight: 800;
+  color: #2f2f2f;
+  font-family: "Roboto", sans-serif; }
+
 .cv-text {
   font-size: 16px;
   font-weight: 300;
@@ -181,10 +187,12 @@ h6,
 
 /* Button style */
 .btn {
-  font-size: 16px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
+  font-weight: 600;
   text-transform: capitalize;
-  padding: 10px 25px;
+  text-align: center;
+  padding: 8px 25px;
   border-radius: 5px;
   border: 1px solid;
   position: relative;
@@ -196,22 +204,6 @@ h6,
 
 .btn-style {
   position: relative; }
-  .btn-style::before {
-    position: absolute;
-    content: "";
-    left: -30px;
-    top: 25%;
-    height: 50%;
-    width: 1px;
-    background: #1e7cfe; }
-  .btn-style::after {
-    position: absolute;
-    content: "";
-    right: -30px;
-    top: 25%;
-    height: 50%;
-    width: 1px;
-    background: #1e7cfe; }
 
 .btn-link {
   padding: 0;
@@ -228,7 +220,7 @@ h6,
   text-decoration: underline; }
 
 .btn-primary {
-  background: #1e7cfe;
+  background: #2f2f2f;
   color: #fff;
   border-color: #1e7cfe; }
   .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
@@ -689,3 +681,7 @@ textarea.form-control {
 
 .img-logo {
   height: 45px !important; }
+
+.vertical-center {
+  display: flex;
+  align-items: center; }
