@@ -5,4 +5,7 @@ draft: false
 journal:
 # description
 description: "This is meta description"
+
+taxonomies:
+  tags:
 ---

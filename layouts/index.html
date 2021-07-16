@@ -3,7 +3,7 @@
 <!-- banner -->
 {{ if $data.homepage.banner.enable }}
 <section class="section-home pb-0" id="home">
-    <div class="container">
+    <div class="container padding-side-0">
         {{ with $data.homepage.banner }}
         <div class="banner-title-bold">{{ .title | markdownify }}</div>
         {{ end }}
