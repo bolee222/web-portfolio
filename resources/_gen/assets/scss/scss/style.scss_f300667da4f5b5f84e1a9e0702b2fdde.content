@@ -655,8 +655,15 @@ textarea.form-control {
 .margin-left-20 {
   margin: -20px; }
 
+.margin-top-20 {
+  margin-top: 20px; }
+
+.padding-side-0 {
+  padding-left: 0px;
+  padding-right: 0px; }
+
 .padding-top-20 {
   padding-top: 20px; }
 
 .img-fluid {
-  height: 50px; }
+  height: 45px; }
