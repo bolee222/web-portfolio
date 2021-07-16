@@ -175,7 +175,7 @@ publication:
 
 ########################### Talk ##############################
 talk:
-  enable : true
+  enable : false
   title : "Recent & Upcoming Talks"
   # talk item comes from `content/**/talks/` folder.
 

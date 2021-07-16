@@ -1,6 +1,6 @@
 - id: read_more
   translation: Read More
-  
+
 - id: all_publications
   translation: All Publications
 
@@ -8,7 +8,7 @@
   translation: All Talks
 
 - id: all_projects
-  translation: All Projects
+  translation: More Projects
 
 - id: all_blog
   translation: All blog
