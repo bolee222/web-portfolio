@@ -58,11 +58,11 @@ work:
 
 
 
-####################### Expertise ###########################
-expertise:
+####################### Awards ###########################
+award:
   enable : true
-  title : "Expertise"
-  expertise_item:
+  title : " HONORS &<br> AWARDS"
+  award_item:
     # expertise item loop
     - name : "Data Analysis and Visualization"
       content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
@@ -70,6 +70,100 @@ expertise:
     # expertise item loop
     - name : "Statical Meathod Learning"
       content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+####################### Patents ###########################
+patent:
+  enable : true
+  title : " PATENT "
+  patent_item:
+    # expertise item loop
+    - name : "Data Analysis and Visualization"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+####################### Project Experience ###########################
+projectExperience:
+  enable : true
+  title : " PROJECT <br> EXPERIENCE"
+  projectExperience_item:
+    # expertise item loop
+    - name : "Data Analysis and Visualization"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+    # expertise item loop
+    - name : "Statical Meathod Learning"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+####################### Academic Service ###########################
+academicService:
+  enable : true
+  title : " ACADEMIC <br> SERVICE"
+  academicService_item:
+    # expertise item loop
+    - name : "Data Analysis and Visualization"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+    # expertise item loop
+    - name : "Statical Meathod Learning"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+####################### Invited TAlk ###########################
+invitedTalk:
+  enable : true
+  title : " INVITED <br> TALKS"
+  invitedTalk_item:
+    # expertise item loop
+    - name : "Data Analysis and Visualization"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+    # expertise item loop
+    - name : "Statical Meathod Learning"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+####################### Teaching Experience ###########################
+teachingExperience:
+  enable : true
+  title : " TEACHING <br> EXPERIENCE"
+  teachingExperience_item:
+    # expertise item loop
+    - name : "Data Analysis and Visualization"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+    # expertise item loop
+    - name : "Statical Meathod Learning"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+
+####################### Leadership Activities ###########################
+leadership:
+  enable : true
+  title : " LEADERSHIP <br> ACTIVITY"
+  leadership_item:
+    # expertise item loop
+    - name : "Data Analysis and Visualization"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+    # expertise item loop
+    - name : "Statical Meathod Learning"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+
+####################### Publication List ###########################
+publicationList:
+  enable : true
+  title : " PUBLICATION <br> LIST"
+  publicationList_item:
+    # expertise item loop
+    - name : "Data Analysis and Visualization"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+    # expertise item loop
+    - name : "Statical Meathod Learning"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+    # expertise item loop
+    - name : "Statical Meathod Learning"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
 
 
 ####################### Publication ###########################

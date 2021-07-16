@@ -2,10 +2,10 @@
 
 <section>
   <div class="container">
-    <div class="row">
+    <div class="row no-gutters">
       {{ $paginator := .Paginate .Data.Pages }}
       {{ range $paginator.Pages }}
-      <div class="col-lg-4 col-sm-6 mb-4">
+      <div class="col-lg-4 col-sm-6 mb-4 ">
         {{ .Render "project" }}
       </div>
       {{ end }}

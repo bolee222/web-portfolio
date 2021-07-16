@@ -89,7 +89,6 @@
 <!-- /education -->
 
 <!-- Work -->
-
 {{ if $data.homepage.work.enable }} {{ with $data.homepage.work }}
 <section class="section pb-0" id="work">
     <div class="container cv-section-padding">
@@ -115,7 +114,218 @@
 </section>
 {{ end }} {{ end }}
 
-<!-- /Expertise -->
+
+<!-- AWARD -->
+{{ if $data.homepage.award.enable }} {{ with $data.homepage.award }}
+<section class="section pb-0" id="work">
+    <div class="container cv-section-padding">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="cv-title">{{ .title | markdownify }}</div>
+            </div>
+            <div class="col-lg-10">
+                {{ range .award_item }}
+                <div class="row cv-lineBox">
+                    <div class="col-lg-9">
+                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text">{{ .content | markdownify }}</div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cv-text">dursssss</div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+<!-- PATENT -->
+{{ if $data.homepage.patent.enable }} {{ with $data.homepage.patent }}
+<section class="section pb-0" id="patent">
+    <div class="container cv-section-padding">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="cv-title">{{ .title | markdownify }}</div>
+            </div>
+            <div class="col-lg-10">
+                {{ range .patent_item }}
+                <div class="row cv-lineBox">
+                    <div class="col-lg-9">
+                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text">{{ .content | markdownify }}</div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cv-text">dursssss</div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+<!-- PATENT -->
+{{ if $data.homepage.projectExperience.enable }} {{ with $data.homepage.projectExperience }}
+<section class="section pb-0" id="project">
+    <div class="container cv-section-padding">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="cv-title">{{ .title | markdownify }}</div>
+            </div>
+            <div class="col-lg-10">
+                {{ range .projectExperience_item }}
+                <div class="row cv-lineBox">
+                    <div class="col-lg-9">
+                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text">{{ .content | markdownify }}</div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cv-text">dursssss</div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+<!-- ACADEMIC SERVICE -->
+{{ if $data.homepage.academicService.enable }} {{ with $data.homepage.academicService }}
+<section class="section pb-0" id="project">
+    <div class="container cv-section-padding">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="cv-title">{{ .title | markdownify }}</div>
+            </div>
+            <div class="col-lg-10">
+                {{ range .academicService_item }}
+                <div class="row cv-lineBox">
+                    <div class="col-lg-9">
+                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text">{{ .content | markdownify }}</div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cv-text">dursssss</div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+
+<!-- Invited Talk -->
+{{ if $data.homepage.invitedTalk.enable }} {{ with $data.homepage.invitedTalk }}
+<section class="section pb-0" id="project">
+    <div class="container cv-section-padding">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="cv-title">{{ .title | markdownify }}</div>
+            </div>
+            <div class="col-lg-10">
+                {{ range .invitedTalk_item }}
+                <div class="row cv-lineBox">
+                    <div class="col-lg-9">
+                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text">{{ .content | markdownify }}</div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cv-text">dursssss</div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+
+<!-- Teaching Experience -->
+{{ if $data.homepage.teachingExperience.enable }} {{ with $data.homepage.teachingExperience }}
+<section class="section pb-0" id="project">
+    <div class="container cv-section-padding">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="cv-title">{{ .title | markdownify }}</div>
+            </div>
+            <div class="col-lg-10">
+                {{ range .teachingExperience_item }}
+                <div class="row cv-lineBox">
+                    <div class="col-lg-9">
+                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text">{{ .content | markdownify }}</div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cv-text">dursssss</div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+
+<!-- Leadership Activities -->
+{{ if $data.homepage.leadership.enable }} {{ with $data.homepage.leadership }}
+<section class="section pb-0" id="project">
+    <div class="container cv-section-padding">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="cv-title">{{ .title | markdownify }}</div>
+            </div>
+            <div class="col-lg-10">
+                {{ range .leadership_item }}
+                <div class="row cv-lineBox">
+                    <div class="col-lg-9">
+                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text">{{ .content | markdownify }}</div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cv-text">dursssss</div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
+<!-- Publication List -->
+{{ if $data.homepage.publicationList.enable }} {{ with $data.homepage.publicationList }}
+<section class="section pb-0" id="project">
+    <div class="container cv-section-padding">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="cv-title">{{ .title | markdownify }}</div>
+            </div>
+            <div class="col-lg-10">
+                {{ range .publicationList_item }}
+                <div class="row cv-lineBox">
+                    <div class="col-lg-9">
+                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text">{{ .content | markdownify }}</div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cv-text">dursssss</div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }} {{ end }}
+
 
 <!-- publications -->
 {{ if $data.homepage.publication.enable }}
