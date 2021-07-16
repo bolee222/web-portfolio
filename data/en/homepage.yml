@@ -184,7 +184,7 @@ talk:
 project:
   enable : true
   title : "My Projects"
-  # projects item comes from `content/**/projects/` folder.
+  # projects item comes from `content/**/project/` folder.
 
 
 ########################### Blog ##############################
