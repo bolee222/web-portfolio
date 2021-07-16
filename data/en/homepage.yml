@@ -189,7 +189,7 @@ project:
 
 ########################### Blog ##############################
 blog:
-  enable : true
+  enable : false
   title : "News"
   # blog item comes from `content/**/blogs/` folder.
 
