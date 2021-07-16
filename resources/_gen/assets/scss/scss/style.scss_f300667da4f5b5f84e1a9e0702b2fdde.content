@@ -162,6 +162,7 @@ h6,
   margin-top: 5px;
   font-size: 16px;
   font-weight: 700;
+  word-wrap: break-word;
   color: #2f2f2f;
   font-family: "Lato", sans-serif; }
 
@@ -377,9 +378,11 @@ hr {
 .nav-item {
   font-weight: 700;
   font-size: 17px;
+  color: black;
   margin: 0; }
   .nav-item .nav-link {
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    color: #1e7cfe; }
 
 .nav-lang {
   margin: 21px 0 15px 10px;
