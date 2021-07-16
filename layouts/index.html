@@ -326,6 +326,25 @@
 </section>
 {{ end }} {{ end }}
 
+<!-- Publication Tweak -->
+{{ if $data.homepage.publication.enable }}
+<section class="section pb-0" id="publication">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-5">
+                <h2>{{ $data.homepage.publication.title | markdownify }}</h2>
+            </div>
+            {{ range first 3 (where .Site.RegularPages "Section" "==" "publications" )}}
+            <div class="col-md-12 col-sm-6 mb-4">{{ .Render "publication" }}</div>
+            {{ end }}
+            <div class="col-12 text-center mt-5">
+                <a href="{{ `publications` | absLangURL }}" class="btn btn-primary btn-style">{{ i18n "all_publications"}}</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+
 
 <!-- publications -->
 {{ if $data.homepage.publication.enable }}
@@ -339,29 +358,29 @@
             <div class="col-md-12 col-sm-6 mb-4">{{ .Render "publication" }}</div>
             {{ end }}
             <div class="col-12 text-center mt-5">
-                <a href="{{ `publications` | absLangURL }}" class="btn btn-primary btn-style">{{ i18n "all_publications"}}</a
-        >
-      </div>
+                <a href="{{ `publications` | absLangURL }}" class="btn btn-primary btn-style">{{ i18n "all_publications"}}</a>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 {{ end }}
-<!-- /publications -->
+
+
+
 
 <!-- talks -->
 {{ if $data.homepage.talk.enable }}
 <section class="section pb-0" id="talk">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 mb-5">
-        <h2>{{ $data.homepage.talk.title | markdownify }}</h2>
-      </div>
-      {{ range first 4 (where .Site.RegularPages "Section" "==" "talks") }}
-      <div class="col-sm-6 mb-4">{{ .Render "talk" }}</div>
-      {{ end }}
-      <div class="col-12 text-center mt-5">
-        <a href="{{ `talks` | absLangURL }}" class="btn btn-primary btn-style"
-          >{{ i18n "all_talks" }}</a
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-5">
+                <h2>{{ $data.homepage.talk.title | markdownify }}</h2>
+            </div>
+            {{ range first 4 (where .Site.RegularPages "Section" "==" "talks") }}
+            <div class="col-sm-6 mb-4">{{ .Render "talk" }}</div>
+            {{ end }}
+            <div class="col-12 text-center mt-5">
+                <a href="{{ `talks` | absLangURL }}" class="btn btn-primary btn-style">{{ i18n "all_talks" }}</a
         >
       </div>
     </div>
