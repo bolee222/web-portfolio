@@ -185,6 +185,16 @@ h6,
 .social-icon-list-bold :hover {
   color: #09bec8; }
 
+.project-title {
+  font-size: 18px;
+  color: #2f2f2f;
+  font-weight: 600; }
+
+.project-meta {
+  font-size: 16px;
+  color: #2f2f2f;
+  font-weight: 300; }
+
 /* Button style */
 .btn {
   font-size: 15px;

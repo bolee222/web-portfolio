@@ -1,7 +1,10 @@
 <article class="card rounded-0 border-0">
-  {{ with .Params.Image }} <img src="{{ . | absURL }}" alt="" class="card-img-top mb-4 rounded-0"> {{ end }}
-  <div class="card-body padding0">
-    <h4 class="mb-3"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h4>
-    <p>{{ .Summary }}</p>
-  </div>
+    {{ with .Params.Image }}
+    <img src="{{ . | absURL }}" alt="" class="card-img-top mb-4 rounded-0" /> {{ end }}
+    <div class="card-body padding0">
+        <div class="mb-3 project-title">
+            <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+        </div>
+        <div class="project-meta">{{ .Summary }}</div>
+    </div>
 </article>

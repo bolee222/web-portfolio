@@ -200,3 +200,15 @@
     .social-icon-list-bold :hover {
         color: $hyperlink-color;
     }
+    
+    .project-title {
+        font-size: 18px;
+        color: $text-color;
+        font-weight: 600;
+    }
+    
+    .project-meta {
+        font-size: 16px;
+        color: $text-color;
+        font-weight: 300;
+    }

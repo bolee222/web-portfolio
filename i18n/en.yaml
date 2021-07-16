@@ -8,6 +8,9 @@
   translation: All Talks
 
 - id: all_projects
+  translation: All Projects
+
+- id: more_projects
   translation: More Projects
 
 - id: all_blog
