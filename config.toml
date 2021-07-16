@@ -3,7 +3,7 @@ baseURL = "/"
 title = "Bokyung | Personal Website"
 theme = "gofolium"
 # post pagination
-paginate = "4"
+paginate = "100"
 # post excerpt
 summaryLength = "10"
 # disable language
@@ -39,24 +39,24 @@ link = "plugins/reading-time/readingTime.min.js"
 # main menu
 [[menu.main]]
 name = "home"
-URL = "home"
+URL =""
 weight = 1
 
 [[menu.main]]
 name = "about"
-URL = "about"
+URL = ""
 weight = 2
 
 [[menu.main]]
 name = "project"
-URL = "project"
+URL = "/projects"
 weight = 3
 
 [[menu.main]]
 name = "publication"
-URL = "publication"
+URL = "/publications"
 weight = 4
-  
+
 [[menu.main]]
 name = "talk"
 URL = "talk"
@@ -64,9 +64,9 @@ weight = 5
 
 [[menu.main]]
 name = "blog"
-URL = "blog"
+URL = "/blogs"
 weight = 6
-  
+
 [[menu.main]]
 name = "contact"
 URL = "contact"
@@ -95,7 +95,7 @@ preloader = "" # use jpg, png, svg or gif format.
 enable = false
 label = "contact"
 link = "contact"
-  
+
 ############################# social site ########################
 [[params.social]]
 title = "CV"
