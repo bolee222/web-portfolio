@@ -57,7 +57,7 @@ a:hover {
 }
 
 .section-home {
-    padding-top: 120px;
+    padding-top: 100px;
     padding-bottom: 40px;
     margin-bottom: 50px;
     @include desktop {
@@ -148,4 +148,15 @@ p:empty {
     height: 100vh;
     background-color: $bg;
     z-index: -1;
+}
+
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
 }

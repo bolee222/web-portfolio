@@ -95,13 +95,13 @@ h6,
     font-size: 3.5rem; } }
 
 .cv-title {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 800;
   color: #2f2f2f;
   font-family: "Roboto", sans-serif; }
 
 .cv-text {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
   color: #2f2f2f;
   font-family: "Roboto", sans-serif;
@@ -111,7 +111,7 @@ h6,
   padding-left: 30px; }
 
 .cv-text-bold {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 800;
   color: #2f2f2f;
   font-family: "Roboto", sans-serif;
@@ -292,7 +292,7 @@ a:hover {
   outline: 0; }
 
 .section-home {
-  padding-top: 120px;
+  padding-top: 100px;
   padding-bottom: 40px;
   margin-bottom: 50px; }
   @media (max-width: 991px) {
@@ -365,8 +365,17 @@ p:empty {
   background-color: white;
   z-index: -1; }
 
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px; }
+
 .nav-item {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 17px;
   margin: 0; }
   .nav-item .nav-link {
@@ -392,6 +401,12 @@ p:empty {
 .navbar-pad {
   padding: 0.5rem 0.5rem !important; }
 
+/*
+.navbar{
+    border-bottom:2px
+    solid #2f2f2f;
+}
+*/
 .social-icons a {
   display: block;
   font-size: 18px;
@@ -665,5 +680,5 @@ textarea.form-control {
 .padding-top-20 {
   padding-top: 20px; }
 
-.img-fluid {
-  height: 45px; }
+.img-logo {
+  height: 45px !important; }
