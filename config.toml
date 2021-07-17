@@ -37,10 +37,6 @@ link = "plugins/reading-time/readingTime.min.js"
 ############################## navigation ###############################
 
 # main menu
-[[menu.main]]
-name = "home"
-URL =""
-weight = 1
 
 [[menu.main]]
 name = "about"

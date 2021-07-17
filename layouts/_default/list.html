@@ -4,11 +4,10 @@
   <div class="container">
 
 <div class="row">
-
     <div class="row">
       {{ $paginator := .Paginate .Data.Pages }}
       {{ range $paginator.Pages }}
-      <div class="col-sm-4 mb-4 padding-side-3">
+      <div class="col-sm-4 padding-right-3">
         {{ .Render "blog" }}
       </div>
       {{ end }}
