@@ -15,7 +15,7 @@
   </ul> -->
 
     <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
-       <label class="btn btn-sm btn-primary active">
+       <label class="btn btn-sm btn-primary active padding-right-15">
          <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
        </label>
        {{ $tags := slice }}
@@ -23,17 +23,16 @@
        {{ $tags = $tags | append .category }}
        {{ end }}
        {{ range ( $tags | uniq ) }}
-       <label class="btn btn-sm btn-primary">
+       <label class="btn btn-sm btn-primary padding-right-15">
          <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
        </label>
        {{ end }}
-     </div>
-
+    </div>
 
     <div class="row">
       {{ $paginator := .Paginate .Data.Pages }}
       {{ range $paginator.Pages }}
-      <div class="col-sm-4 padding-right-3">
+      <div class="col-sm-4 padding-right-3 margin-top-20 ">
         {{ .Render "blog" }}
       </div>
       {{ end }}
