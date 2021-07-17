@@ -5,6 +5,7 @@
         <div class="mb-3 blog-title">
             <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
         </div>
+
         <ul class="list-inline">
             <li class="list-inline-item">
                 <i class="text-primary ti-calendar mr-2"></i>{{ .PublishDate.Format "06 Jan, 2006" }}
@@ -13,8 +14,9 @@
                 <i class="text-primary ti-calendar mr-2"></i>{{ .Params.journal }}
             </li>
             <li class="list-inline-item">
-                <i class="project-meta ti-time mr-2"></i><span class="eta"></span> read
+                <i class="text-primary ti-calendar mr-2"></i>{{ .Params.tags }}
             </li>
+
         </ul>
         <p>{{ .Summary }}</p>
         <a href="{{ .Permalink }}" class="btn btn-link">{{ i18n "read_more" }}</a>

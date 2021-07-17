@@ -58,11 +58,6 @@ URL = "/publications"
 weight = 4
 
 [[menu.main]]
-name = "talk"
-URL = "talk"
-weight = 5
-
-[[menu.main]]
 name = "blog"
 URL = "/blogs"
 weight = 6
@@ -71,6 +66,11 @@ weight = 6
 name = "contact"
 URL = "contact"
 weight = 7
+
+#################### taxonomies ########################################
+[taxonomies]
+tag="tags"
+category = "categories"
 
 
 #################### default parameters ################################
