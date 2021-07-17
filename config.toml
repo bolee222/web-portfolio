@@ -54,7 +54,7 @@ URL = "/publications"
 weight = 4
 
 [[menu.main]]
-name = "blog"
+name = "News"
 URL = "/blogs"
 weight = 6
 

@@ -4,6 +4,7 @@
     <div class="container">
         <div class="row">
             <article class="" data-file="{{.Permalink}}" data-target="article">
+              {{ partial "tags.html" .}}
                 <div class="text-center">
                     {{ with .Params.Image }}
                     <img src="{{ . | absURL }}" alt="" class="img-fluid mb-4" /> {{ end }}

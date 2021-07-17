@@ -24,8 +24,7 @@ p,
   color: #2f2f2f;
   font-size: 17px;
   line-height: 1.3em;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 20px; }
+  font-family: "Roboto", sans-serif; }
 
 p strong {
   font-weight: 600; }
@@ -697,12 +696,19 @@ textarea.form-control {
 .margin-left-20 {
   margin: -20px; }
 
+.margin-bottom-20 {
+  margin-bottom: 20px; }
+
 .margin-top-20 {
   margin-top: 20px; }
 
 .padding-side-0 {
   padding-left: 0px;
   padding-right: 0px; }
+
+.margin-updown-1 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important; }
 
 .padding-top-20 {
   padding-top: 20px; }

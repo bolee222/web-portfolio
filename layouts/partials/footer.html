@@ -2,13 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <ul class="list-inline social-icons mb-5">
+        <!-- <ul class="list-inline social-icons mb-5">
           {{ range .Site.Params.social }}
           <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{.icon}}"></i></a></li>
           {{ end }}
-        </ul>
-        <hr class="mx-auto border-default" style="width: 90px;">
-        <p class="mt-5">{{ .Site.Params.copyright | markdownify }}</p>
+        </ul> -->
+        <hr class="mx-auto border-default">
+        <p class=" mt-5">{{ .Site.Params.copyright | markdownify }}</p>
       </div>
     </div>
   </div>
