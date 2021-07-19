@@ -1,5 +1,5 @@
 .nav-item {
-  font-weight: 700;
+  font-weight: 700 !important;
   font-size: 17px;
   text-transform: uppercase !important;
   color: black;
@@ -9,8 +9,6 @@
         color: $primary-color;
     }
 }
-
-
 
 .nav-lang {
     margin: 21px 0 15px 10px;

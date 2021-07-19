@@ -46,9 +46,20 @@ education:
       academy : "M.S. Exchange Program – DFI (Design for Interactions)"
 
     # education item loop
-    - name : "BEng Electronic Engineering"
-      duration : "September 2000 - May 2004"
-      academy : "University Of California"
+    - name : "Korea Advanced Institute of Science and Technology (KAIST)"
+      duration : "Mar 2014 – Aug 2014"
+      academy : "M.S. Program – Industrial Design"
+
+    # education item loop
+    - name : "Aalto University, Helsinki, Finland"
+      duration : "Jan 2012 – Jul 2012"
+      academy : "B.S. Exchange Program – School of Science"
+
+    # education item loop
+    - name : "Korea Advanced Institute of Science and Technology (KAIST)"
+      duration : "Feb 2009 – Feb 2014"
+      academy : "Bachelor of Engineering in Industrial Design & Technology Management"
+
 
 
 
@@ -58,12 +69,14 @@ work:
   title : "WORK <br> EXPERIENCE"
   work_item:
     # expertise item loop
-    - name : "Data Analysis and Visualization"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    - name : "Autodesk Research – Canada"
+      content : "Postdoctoral Research Fellow (Simulation, Optimization, Systems Group)"
+      duration: "Mar 2020 – current"
 
     # expertise item loop
-    - name : "Statical Meathod Learning"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    - name : "Autodesk Research – Canada"
+      content : "Research Intern | Systems Group / Collaborator: Azam Khan, Alex Tessier, and Mike Lee"
+      duration: "Oct 2018 – Aug 2019"
 
 
 
@@ -72,13 +85,37 @@ award:
   enable : true
   title : " HONORS &<br> AWARDS"
   award_item:
-    # expertise item loop
-    - name : "Data Analysis and Visualization"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    # award item loop
+    - name : "DIS 2021 – Honorable Mention Paper Award (Top 5%)"
+      content : "ACM Designing Interactive Systems"
+      duration : "2020"
 
-    # expertise item loop
-    - name : "Statical Meathod Learning"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    # award item loop
+    - name : "CSCW 2020 Best Paper Awar (Top 1%)"
+      content : "ACM Computer Supported Cooperative Work and Social Computing"
+      duration : ""
+
+    # award item loop
+    - name : "CSCW 2019 Honorable Mention Award (Top 5%)"
+      content : "ACM Computer Supported Cooperative Work and Social Computing"
+      duration : "2019"
+
+    # award item loop
+    - name : "Gender Equality Pictogram Contest – Bronze Prize"
+      content : "hosted by Choongchung City"
+      duration : "2014"
+
+    # award item loop
+    - name : "LSB (Location-Based Service) App & Web Contest – Bronze Prize"
+      content : "Korea Communication and Commissions (KCC) / Korea Internet Security Agency (KISA)"
+      duration : "2013"
+
+    # award item loop
+    - name : "Innopolis Idea Contest – Grand Prize"
+      content : "Ministry of Knowledge Economy of Korea / Innopolis Foundation"
+      duration : "2013"
+
+
 
 ####################### Patents ###########################
 patent:

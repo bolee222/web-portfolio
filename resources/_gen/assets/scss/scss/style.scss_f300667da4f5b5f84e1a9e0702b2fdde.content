@@ -29,6 +29,9 @@ p,
 p strong {
   font-weight: 600; }
 
+p a {
+  color: #09bec8; }
+
 h1,
 h2,
 h3,
@@ -397,7 +400,7 @@ hr {
   border-width: 1px; }
 
 .nav-item {
-  font-weight: 700;
+  font-weight: 700 !important;
   font-size: 17px;
   text-transform: uppercase !important;
   color: black;
@@ -724,7 +727,7 @@ textarea.form-control {
   padding-top: 20px; }
 
 .img-logo {
-  height: 20gpx !important; }
+  height: 20px !important; }
 
 .vertical-center {
   display: flex;
