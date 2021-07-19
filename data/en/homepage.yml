@@ -91,7 +91,7 @@ award:
       duration : "2020"
 
     # award item loop
-    - name : "CSCW 2020 Best Paper Awar (Top 1%)"
+    - name : "CSCW 2020 Best Paper Award (Top 1%)"
       content : "ACM Computer Supported Cooperative Work and Social Computing"
       duration : ""
 
@@ -122,35 +122,72 @@ patent:
   enable : true
   title : " PATENT "
   patent_item:
-    # expertise item loop
-    - name : "Data Analysis and Visualization"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    # patent item loop
+    - name : "Furniture Design Apparatus Displaying Personalized Guide Information"
+      content : "Invention field: ICT/SW, KR-10-2018-0002957"
+      duration : "Jan 2018"
 
 ####################### Project Experience ###########################
 projectExperience:
   enable : true
   title : " PROJECT <br> EXPERIENCE"
   projectExperience_item:
-    # expertise item loop
-    - name : "Data Analysis and Visualization"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    # project item loop
+    - content : "Living Lab & Digital Twins"
+      duration: "2020 – current"
 
-    # expertise item loop
-    - name : "Statical Meathod Learning"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    # project item loop
+    - content : "Designing and Simulating Digital Humans in the Virtual Space for Space/Product Design Evaluation"
+      duration : "2020 – current"
+
+    # project item loop
+    - content : "Vision-based Social Interaction Analysis for Human-Centered Architecture"
+      duration : "2019 – current"
+
+    # project item loop
+    - content : "Design Toolkits for Everybody with VR/AR Technology"
+      duration : "2015 – 2018"
+
+    # project item loop
+    - content : "AI/AR Personal Health Recommendations for Mobile Computing at Home"
+      duration : "2018"
+
+    # project item loop
+    - content : "Gesture-based Trafficator to Enhance Human-Automobile Interaction"
+      duration : "2017"
+
+    # project item loop
+    - content : "Augmented Reality Interface for the Internet of Things"
+      duration : "2016 – 2018"
+
+    # project item loop
+    - content : "An Interactive Tabletop to Support Surveillance Scenarios with UAVs"
+      duration : "2015"
+
+    # project item loop
+    - content : "Design for the Next Generation UX-Oriented Mobile Software Platform"
+      duration : "2013"
 
 ####################### Academic Service ###########################
 academicService:
   enable : true
   title : " ACADEMIC <br> SERVICE"
   academicService_item:
-    # expertise item loop
-    - name : "Data Analysis and Visualization"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    # academic item loop
+    - content : ACM CHI paper review, ACM Siggraph e-vtech review, ACM DIS paper review, pictorial review, ACM IDC paper review
+      duration: "2020"
 
-    # expertise item loop
-    - name : "Statical Meathod Learning"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    # academic item loop
+    - content : "ACM CHI paper review, ACM Siggraph Asia paper review"
+      duration : "2019"
+
+    # academic item loop
+    - content : "ACM DIS paper review, ACM DIS paper review, ACM C&C paper review"
+      duration : "2018"
+
+    # academic item loop
+    - content : "ACM CHI paper review, poster review, ACM CHI Play poster review, ACM CSCW poster review, ACM DIS paper review, poster review, ACM TEI paper review, ACM UIST paper review"
+      duration : "2017"
 
 ####################### Invited TAlk ###########################
 invitedTalk:
