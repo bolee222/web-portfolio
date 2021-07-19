@@ -226,3 +226,11 @@
         color: $text-color;
         font-weight: 600;
     }
+
+    li{
+      font-weight: 300 !important;
+      color: $text-color;
+      font-size: 17px !important;
+      line-height: 1.3em !important;
+      font-family: $primary-font;
+    }
