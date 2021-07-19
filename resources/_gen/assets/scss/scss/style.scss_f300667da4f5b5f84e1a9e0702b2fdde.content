@@ -717,7 +717,7 @@ textarea.form-control {
   padding-top: 20px; }
 
 .img-logo {
-  height: 45px !important; }
+  height: 20px !important; }
 
 .vertical-center {
   display: flex;
