@@ -133,39 +133,39 @@ projectExperience:
   title : " PROJECT <br> EXPERIENCE"
   projectExperience_item:
     # project item loop
-    - content : "Living Lab & Digital Twins"
+    - name : "• Living Lab & Digital Twins"
       duration: "2020 – current"
 
     # project item loop
-    - content : "Designing and Simulating Digital Humans in the Virtual Space for Space/Product Design Evaluation"
+    - name : "• Designing and Simulating Digital Humans in the Virtual Space for Space/Product Design Evaluation"
       duration : "2020 – current"
 
     # project item loop
-    - content : "Vision-based Social Interaction Analysis for Human-Centered Architecture"
+    - name : "• Vision-based Social Interaction Analysis for Human-Centered Architecture"
       duration : "2019 – current"
 
     # project item loop
-    - content : "Design Toolkits for Everybody with VR/AR Technology"
+    - name : "• Design Toolkits for Everybody with VR/AR Technology"
       duration : "2015 – 2018"
 
     # project item loop
-    - content : "AI/AR Personal Health Recommendations for Mobile Computing at Home"
+    - name : "• AI/AR Personal Health Recommendations for Mobile Computing at Home"
       duration : "2018"
 
     # project item loop
-    - content : "Gesture-based Trafficator to Enhance Human-Automobile Interaction"
+    - name : "• Gesture-based Trafficator to Enhance Human-Automobile Interaction"
       duration : "2017"
 
     # project item loop
-    - content : "Augmented Reality Interface for the Internet of Things"
+    - name : "• Augmented Reality Interface for the Internet of Things"
       duration : "2016 – 2018"
 
     # project item loop
-    - content : "An Interactive Tabletop to Support Surveillance Scenarios with UAVs"
+    - name : "• An Interactive Tabletop to Support Surveillance Scenarios with UAVs"
       duration : "2015"
 
     # project item loop
-    - content : "Design for the Next Generation UX-Oriented Mobile Software Platform"
+    - name : "• Design for the Next Generation UX-Oriented Mobile Software Platform"
       duration : "2013"
 
 ####################### Academic Service ###########################
@@ -194,26 +194,70 @@ invitedTalk:
   enable : true
   title : " INVITED <br> TALKS"
   invitedTalk_item:
-    # expertise item loop
-    - name : "Data Analysis and Visualization"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    # talk item loop
+    - name : "• University of Toronto – Dynamics Graphics Project (DGP) Lab"
+      duration: "Mar 2021"
 
-    # expertise item loop
-    - name : "Statical Meathod Learning"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    # talk item loop
+    - name : "• HCI Korea Conference – Panel Talk (Future of Digital Fabrication)"
+      duration : "Jul 2021"
+
+    # talk item loop
+    - name : "• ID KAIST Ph.D. Colloquium – Daejeon, Korea"
+      duration : "Jul 2020"
+
+    # talk item loop
+    - name : "• Autodesk Research – Toronto, Canada"
+      duration : "Nov 2018"
+
+    # talk item loop
+    - name : "• CS374: Introduction to HCI Research Talk – Daejeon, Korea"
+      duration : "Jun 2018"
+
+    # talk item loop
+    - name : "• HCI KAIST Research Talk – Daejeon, Korea"
+      duration : "Apr 2017"
 
 ####################### Teaching Experience ###########################
 teachingExperience:
   enable : true
   title : " TEACHING <br> EXPERIENCE"
   teachingExperience_item:
-    # expertise item loop
-    - name : "Data Analysis and Visualization"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    # teaching item loop
+    - name : "• Yonsei University | Introduction to CDM"
+      duration : "Spring 2021"
 
-    # expertise item loop
-    - name : "Statical Meathod Learning"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    # teaching item loop
+    - name : "• Yonsei University | Research Paper Writing"
+      duration : "Spring 2021"
+
+    # teaching item loop
+    - name : "• Digital Design Fabrication "
+      duration : "Fall 2017"
+
+    # teaching item loop
+    - name : "• ID KAIST Academic Counselor "
+      duration : "Spring 2017"
+
+    # teaching item loop
+    - name : "• Digital Design Fabrication (2016 fall)"
+      duration : "Fall 2016"
+
+    # teaching item loop
+    - name : "• Integrated Design – Undergraduate graduation project "
+      duration : "Spring 2016"
+
+    # teaching item loop
+    - name : "• Digital Design Fabrication"
+      duration : "Fall 2015"
+
+    # teaching item loop
+    - name : "• Space Design"
+      duration : "Spring 2015"
+
+    # teaching item loop
+    - name : "• Introduction to Industrial Design"
+      duration : "Spring 2014"
 
 
 ####################### Leadership Activities ###########################
@@ -222,13 +266,24 @@ leadership:
   title : " LEADERSHIP <br> ACTIVITY"
   leadership_item:
     # expertise item loop
-    - name : "Data Analysis and Visualization"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    - name : "• My Design Lab – Student Lead"
+      duration : "Mar 2014 – Dec 2017 "
 
     # expertise item loop
-    - name : "Statical Meathod Learning"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    - name : "• Ph.D. student representative. Industrial Design department, KAIST"
+      duration : "Sep 2016 – Aug 2017"
 
+    # expertise item loop
+    - name : "• Student organizing lead, Design 3.0 Forum"
+      duration : "Aug 2017"
+
+    # expertise item loop
+    - name : "• Student organizing lead, ID KAIST 30th anniversary event"
+      duration : "Aug 2017"
+
+    # expertise item loop
+    - name : "• K2 KAIST-Kyushu University Workshop"
+      duration : "Feb 2017"
 
 ####################### Publication List ###########################
 publicationList:
