@@ -19,7 +19,7 @@
   </ul> -->
 
     <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
-       <label class="btn btn-sm btn-primary active padding-right-15">
+       <label class="btn btn-sm btn-outline-primary active padding-right-15">
          <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
        </label>
        {{ $tags := slice }}
@@ -27,7 +27,7 @@
        {{ $tags = $tags | append .category }}
        {{ end }}
        {{ range ( $tags | uniq ) }}
-       <label class="btn btn-sm btn-primary padding-right-15">
+       <label class="btn btn-sm btn-outline-primary padding-right-15">
          <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
        </label>
        {{ end }}
