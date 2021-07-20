@@ -4,6 +4,7 @@ date: 2020-03-14T15:40:24+06:00
 # Project thumb
 image : "images/projects/project1.jpg"
 layout: projectSingle
+titleMode: false
 
 draft: false
 journal: AA
