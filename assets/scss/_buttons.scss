@@ -87,3 +87,30 @@
         color: $white;
     }
 }
+
+.project-btn {
+    font-size: 13px;
+    font-family: $primary-font;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    background: transparent;
+    padding: 5px 15px;
+    margin-right: 10px;
+    border-radius: 0px;
+    border: 1px solid;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+    margin-bottom: 50px;
+    &:hover,
+    &:active,
+    &:focus {
+        outline: 0;
+        box-shadow: none !important;
+    }
+}
+
+a.button :hover{
+  background: $text-color !important;
+}

@@ -7,10 +7,38 @@
           {{ with .Params.Image }}
             <img src="{{ . | absURL }}" alt="" class="img-fluid mb-4 project-teaser-image"  /> {{ end }}
             <div class="project-page-title">{{.Title}}</div>
-            <article class="col-lg-8 col-md-10 mx-auto" data-file="{{.Permalink}}" data-target="article">
+            <div class="project-conference-title">{{.Params.conference}}</div>
+
+        </div>
+
+        <div>
+          <div class="row">
+            <a href="https://google.com"><button class="project-btn">Paper</button></a>
+            <a href="https://google.com"><button class="project-btn">Presentation</button></a>
+            <a href="https://google.com"><button class="project-btn">DOI</button></a>
+          </div>
+        </div>
+
+        <div>
+          <div class="row">
+            <div class="col-7 padding-side-0 project-subtitle">
+              <div class="project-subtitle">Summary</div>
+              <div class="project-meta">{{ .Params.summary}}</div>
+            </div>
+            <div class="col-5 padding-side-0">
+              <div class="project-subtitle">Researcher</div>
+              <div class="project-meta">{{ .Params.researcher}}</div>
+              <div class="project-subtitle">Keywords</div>
+              <div class="project-meta">{{ .Params.keywords}}</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div>
+            <article class="col-lg-12 col-md-10 mx-auto" data-file="{{.Permalink}}" data-target="article">
                 <div class="text-center">
-                    {{ with .Params.Image }}
-                    <img src="{{ . | absURL }}" alt="" class="img-fluid mb-4" /> {{ end }}
+
                     <ul class="list-inline mb-3">
                         <li class="list-inline-item">
                             <i class="text-primary ti-calendar mr-2"></i>{{ .PublishDate.Format "06 Jan, 2006" }}

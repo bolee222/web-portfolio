@@ -221,11 +221,37 @@ li {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 30px !important;
+  letter-spacing: 1px;
   line-height: 1.2;
   color: #2f2f2f;
   margin-top: 10px;
-  margin-bottom: 40px;
-  width: 70%; }
+  margin-bottom: 20px;
+  width: 80%; }
+
+.project-conference-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 19px !important;
+  letter-spacing: 1px;
+  color: #2f2f2f;
+  width: 70%;
+  margin-bottom: 25px; }
+
+.project-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 18px !important;
+  color: #2f2f2f;
+  margin-bottom: 10px; }
+
+.project-meta {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px !important;
+  line-height: 1.5;
+  color: #2f2f2f;
+  margin-bottom: 30px;
+  padding-right: 80px; }
 
 /* Button style */
 .btn {
@@ -277,6 +303,28 @@ li {
     background: #1e7cfe !important;
     border-color: #1e7cfe !important;
     color: #fff; }
+
+.project-btn {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  background: transparent;
+  padding: 5px 15px;
+  margin-right: 10px;
+  border-radius: 0px;
+  border: 1px solid;
+  position: relative;
+  z-index: 1;
+  transition: .2s ease;
+  margin-bottom: 50px; }
+  .project-btn:hover, .project-btn:active, .project-btn:focus {
+    outline: 0;
+    box-shadow: none !important; }
+
+a.button :hover {
+  background: #2f2f2f !important; }
 
 body {
   background-color: white;
