@@ -2,13 +2,14 @@
 title: "Proj6"
 date: 2020-03-14T15:40:24+06:00
 # Project thumb
-image : "images/projects/project6.jpg"
+image: "images/projects/project6.jpg"
 draft: false
 journal: AA
 # description
 description: "This is meta description"
+meta-content: "we propose OccSim, a system that automatically generates occupancy behaviours in a 3D model of a building and helps users analyze the potential effect of virus transmission from a large-scale and longitudinal perspective."
 
-tags : ['tag1', 'tag2', 'tag3']
+tags: ["tag1", "tag2", "tag3"]
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor

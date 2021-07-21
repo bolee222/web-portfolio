@@ -67,7 +67,9 @@ h2,
       font-size: 32px; } }
 h3,
 .h3 {
-  font-size: 36px; }
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 600 !important; }
   @media (max-width: 991px) {
     h3,
     .h3 {
@@ -78,7 +80,9 @@ h3,
       font-size: 28px; } }
 h4,
 .h4 {
-  font-size: 24px; }
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 600 !important; }
 
 h5,
 .h5 {
@@ -251,7 +255,16 @@ li {
   line-height: 1.5;
   color: #2f2f2f;
   margin-bottom: 30px;
-  padding-right: 80px; }
+  padding-right: 10px; }
+
+.project-single-meta {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 17px !important;
+  line-height: 1.5;
+  color: #2f2f2f;
+  margin-bottom: 30px;
+  padding-right: 70px; }
 
 /* Button style */
 .btn {

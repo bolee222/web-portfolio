@@ -2,8 +2,6 @@
     {{ with .Params.Image }}
     <img src="{{ . | absURL }}" alt="" class="card-img-top mb-3 rounded-0" /> {{ end }}
     <div class="card-body padding0">
-
-
         <div class="mb-3 blog-title">
             <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
         </div>
@@ -18,9 +16,9 @@
             <li class="list-inline-item">
                 <i class="text-primary ti-calendar mr-2"></i>{{ .Params.tags }}
             </li>
-
         </ul>
-        <p class="margin-updown-1">{{ .Summary }}</p>
-        <a href="{{ .Permalink }}" class="btn btn-link margin-bottom-20">{{ i18n "read_more" }}</a>
-    </div>
+        <p class="margin-updown-1">{{ .Params.metacontent }}</p>
+        <a href="{{ .Permalink }}" class="btn btn-link margin-bottom-20">{{ i18n "read_more" }}</a
+    >
+  </div>
 </article>
