@@ -2,58 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blogs/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="/kr/blogs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/blogs/"
-                />
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="/kr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-  </url><url>
-    <loc>/projects/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="/kr/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/projects/"
-                />
-  </url><url>
-    <loc>/publications/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="/kr/publications/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/publications/"
-                />
-  </url><url>
     <loc>/blogs/blog-1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
@@ -131,6 +79,35 @@
                 hreflang="en"
                 href="/blogs/blog-6/"
                 />
+  </url><url>
+    <loc>/blogs/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="/kr/blogs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/blogs/"
+                />
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="/kr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url><url>
+    <loc>/contact/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
     <loc>/projects/project-1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
@@ -210,6 +187,32 @@
                 href="/projects/project-6/"
                 />
   </url><url>
+    <loc>/projects/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="/kr/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/projects/"
+                />
+  </url><url>
+    <loc>/publications/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="/kr/publications/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publications/"
+                />
+  </url><url>
     <loc>/talks/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
@@ -221,6 +224,31 @@
                 rel="alternate"
                 hreflang="en"
                 href="/talks/"
+                />
+  </url><url>
+    <loc>/research-vision/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
+  </url><url>
+    <loc>/tags/tag1/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
+  </url><url>
+    <loc>/tags/tag2/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
+  </url><url>
+    <loc>/tags/tag3/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="/kr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
                 />
   </url><url>
     <loc>/publications/publication-1/</loc>
@@ -348,18 +376,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/author/george-cushen/"
-                />
-  </url><url>
-    <loc>/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="/kr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
                 />
   </url>
 </urlset>

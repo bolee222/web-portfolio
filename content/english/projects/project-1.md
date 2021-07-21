@@ -31,11 +31,9 @@ Then, how can we provide decision-makers and designers with the ability to analy
 
 <--->
 
-#### Goal
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
-stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
-protulit, sed sed aere valvis inhaesuro Pallas animam: qui _quid_, ignes.
-Miseratus fonte Ditis conubia.
+#### Few
+![image](../../images/blogs/blog2.jpg)
+
 {{< /columns >}}
 
 
