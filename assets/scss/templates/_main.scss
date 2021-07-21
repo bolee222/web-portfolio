@@ -312,23 +312,23 @@ textarea.form-control {
     padding: 0 !important;
 }
 
-.padding-right-3{
-  padding-right: 3px;
+.padding-right-3 {
+    padding-right: 3px;
 }
 
 .margin-left-20 {
     margin: -20px;
 }
 
-.margin-bottom-20{
-  margin-bottom: 20px;
+.margin-bottom-20 {
+    margin-bottom: 20px;
 }
 
 .margin-top-20 {
     margin-top: 20px;
 }
 
-.padding-right-15{
+.padding-right-15 {
     margin-right: 10px !important;
 }
 
@@ -337,9 +337,9 @@ textarea.form-control {
     padding-right: 0px;
 }
 
-.margin-updown-1{
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+.margin-updown-1 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .padding-top-20 {
@@ -357,4 +357,14 @@ textarea.form-control {
 
 .margin-top-25 {
     margin-top: 30px;
+}
+
+.book-columns {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    >div {
+        margin: 1rem 0;
+        min-width: 20rem / 2;
+        padding: 0 1rem;
+    }
 }

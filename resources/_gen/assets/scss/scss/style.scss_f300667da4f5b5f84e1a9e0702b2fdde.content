@@ -23,7 +23,7 @@ p,
   font-weight: 300;
   color: #2f2f2f;
   font-size: 17px;
-  line-height: 1.3em;
+  line-height: 1.5em;
   font-family: "Roboto", sans-serif; }
 
 p strong {
@@ -81,8 +81,10 @@ h3,
 h4,
 .h4 {
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
-  font-weight: 600 !important; }
+  font-weight: 800 !important;
+  font-size: 18px !important;
+  color: #2f2f2f;
+  margin-bottom: 10px; }
 
 h5,
 .h5 {
@@ -197,9 +199,10 @@ h6,
   font-weight: 600; }
 
 .project-meta {
-  font-size: 16px;
+  font-size: 16px !important;
   color: #2f2f2f;
-  font-weight: 300; }
+  font-weight: 300 !important;
+  line-height: 1.2 !important; }
 
 .single-page-title {
   font-family: "Roboto", sans-serif;
@@ -811,3 +814,11 @@ textarea.form-control {
 
 .margin-top-25 {
   margin-top: 30px; }
+
+.book-columns {
+  margin-left: -1rem;
+  margin-right: -1rem; }
+  .book-columns > div {
+    margin: 1rem 0;
+    min-width: 20rem / 2;
+    padding: 0 1rem; }

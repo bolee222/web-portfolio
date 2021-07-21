@@ -22,13 +22,23 @@ description: "This is meta description"
 tags: ["tag1", "tag2", "tag3"]
 ---
 
-### Goal
 
-The COVID-19 pandemic added new dimensions to an already complex design problem. Designers and building facility managers now need to consider the risk of virus transmission via surfaces and air circulation within the built environment. Then, how can we provide decision-makers and designers with the ability to analyze their decisions within the context of relevant human-building interactions and their relationships to potential virus spread?
+{{< columns >}}
+#### Goal
+The COVID-19 pandemic added new dimensions to an already complex design problem. Designers and building facility managers now need to consider the risk of virus transmission via surfaces and air circulation within the built environment.
 
-#### Heading example
+Then, how can we provide decision-makers and designers with the ability to analyze their decisions within the context of relevant human-building interactions and their relationships to potential virus spread?
 
-Here is example of hedings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.
+<--->
+
+#### Goal
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui _quid_, ignes.
+Miseratus fonte Ditis conubia.
+{{< /columns >}}
+
+
 
 # Heading 1
 
@@ -226,3 +236,43 @@ raw Markdown line up prettily. You can also use inline Markdown.
 ##### Youtube video
 
 {{< youtube C0DPdy98e4c >}}
+
+# Columns
+
+Columns help organize shorter pieces of content horizontally for readability.
+
+```html
+{{</* columns */>}} <!-- begin columns block -->
+# Left Content
+Lorem markdownum insigne...
+
+<---> <!-- magic separator, between columns -->
+
+# Mid Content
+Lorem markdownum insigne...
+
+<---> <!-- magic separator, between columns -->
+
+# Right Content
+Lorem markdownum insigne...
+{{</* /columns */>}}
+```
+
+
+
+{{< columns >}}
+## Left Content
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui _quid_, ignes.
+Miseratus fonte Ditis conubia.
+
+<--->
+
+
+## Right Content
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui _quid_, ignes.
+Miseratus fonte Ditis conubia.
+{{< /columns >}}
