@@ -238,11 +238,16 @@
         font-weight: 600;
     }
 
+    ul{
+      list-style-type: none;
+    }
+
+
     li {
         font-weight: 300 !important;
         color: $text-color;
         font-size: 17px !important;
-        line-height: 1.3em !important;
+        line-height: 1.5em !important;
         font-family: $primary-font;
     }
 

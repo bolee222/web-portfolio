@@ -1,0 +1,13 @@
+{{ if .IsNamedParams }}
+  {{ $.Scratch.Set "initial_col" (.Get "col") }}
+  <!-- use: {{ with $.Scratch.Get "initial_col" }}{{ . }}{{ end }} -->
+{{ else }}
+  <!-- for the positional version if any -->
+{{ end }}
+
+<div class="row book-columns flex flex-wrap">
+    {{ range split .Inner "<--->" }}
+
+    <div class="col-6 flex-even markdown-inner padding-right-10 margin-right-30">{{ . | markdownify }}</div>
+    {{ end }}
+</div>
