@@ -1,0 +1,42 @@
+{{ define "main" }}
+<section>
+  <div class="container">
+    <div class="row">
+    <div class="single-page-title padding-side-0">{{.Title}}</div>
+    </div>
+
+    <div class="row">
+
+
+
+        <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
+           <label class="btn btn-sm btn-outline-primary active padding-right-15">
+             <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+           </label>
+           {{ $tags := slice }}
+           {{ range .Site.Data.project.item }}
+           {{ $tags = $tags | append .category }}
+           {{ end }}
+           {{ range ( $tags | uniq ) }}
+           <label class="btn btn-sm btn-outline-primary padding-right-15">
+             <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
+           </label>
+           {{ end }}
+        </div>
+
+        <div class="row">
+          {{ $paginator := .Paginate .Data.Pages }}
+          {{ range $paginator.Pages }}
+          <div class="col-sm-4 padding-right-3 margin-top-20 ">
+            {{ .Render "blog" }}
+          </div>
+          {{ end }}
+          <div class="col-12 mt-5">
+            {{ template "_internal/pagination.html" . }}
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+{{ end }}

@@ -8,7 +8,7 @@ description: "This is meta description"
 
 menu:
   main:
-      name: "Research Vision"
+      name: "vision"
       weight: 2
 
 tags : ['tag1', 'tag2', 'tag3']

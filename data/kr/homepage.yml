@@ -40,17 +40,17 @@ education:
       academy : "Ph.D. in Industrial Design (Human-Computer Interaction)"
 
     # education item loop
-    - name : "TU Delft, Netherlands"
+    - name : "TU Delft, 네덜란드"
       duration : "Sep 2014 – Feb 2015"
       academy : "M.S. Exchange Program – DFI (Design for Interactions)"
 
     # education item loop
-    - name : "Korea Advanced Institute of Science and Technology (KAIST)"
+    - name : "한국과힉기술원 (KAIST)"
       duration : "Mar 2014 – Aug 2014"
       academy : "M.S. Program – Industrial Design"
 
     # education item loop
-    - name : "Aalto University, Helsinki, Finland"
+    - name : "Aalto University, 헬싱키, 핀란드"
       duration : "Jan 2012 – Jul 2012"
       academy : "B.S. Exchange Program – School of Science"
 

@@ -6,7 +6,7 @@ journal:
 # description
 description: "This is meta description"
 
-tags : ['tag1', 'tag2', 'tag3']
+tags :
 
 
 ---
