@@ -15,7 +15,7 @@
     .paragraph {
         font-weight: 300;
         color: $text-color;
-        font-size: 17px;
+        font-size: 16px;
         line-height: 1.5em;
         font-family: $primary-font;
     }
@@ -25,7 +25,11 @@
     }
 
     p a {
-        color: $hyperlink-color
+        color: $primary-color;
+    }
+
+    p a:hover{
+      background-color: $highlight-bgcolor;
     }
 
     h1,
@@ -143,7 +147,7 @@
         color: $text-color;
         font-family: $hightlight-font;
         line-height: 1.5;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 
     .banner-text {

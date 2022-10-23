@@ -1,7 +1,7 @@
 ######################### Banner ###########################
 banner:
   enable : true
-  title :  "Bokyung Lee, Ph.D."
+  title :  "Bokyung Lee"
   subtitle : "HCI Researcher & Interaction Scientist"
   social : true
   # social icons comes from `config.toml` file.
@@ -12,8 +12,7 @@ about:
   enable : true
   title : ""
   image : "images/bokyungLee.jpg"
-  content : "Hi. I am an **HCI** / **Interaction Design** researcher. I hold a Ph.D. in Industrial Design at [**KAIST (Korea Advanced Institute of Science and Technology)**](https://id.kaist.ac.kr/). I am currently working as a Post-Doctoral Fellow at [**Autodesk Research**](https://autodeskresearch.com/), Toronto.
-
+  content : "Hi. I am an **Interaction Design / HCI** researcher. I hold a Ph.D. in Industrial Design at [**KAIST**](https://id.kaist.ac.kr/) (Korea Advanced Institute of Science and Technology). I am currently working as a Post-Doctoral Fellow at [**Autodesk Research**](https://autodeskresearch.com/), Toronto.
 
 
   My research lies at the intersection of **Human-Computer Interaction** and **Interactive System Designs**. I envision the potential **interactions for future technologies (VR/AR/AI)** with a goal of enhancing our experiences. During my Ph.D., I explored embodied interactions for VR/AR digital design tools. I enjoy creating and applying new user-centered design methods, as well as prototyping interactive systems. To read my entire research vision, please visit here.

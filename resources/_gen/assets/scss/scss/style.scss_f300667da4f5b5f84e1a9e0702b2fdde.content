@@ -22,7 +22,7 @@ p,
 .paragraph {
   font-weight: 300;
   color: #2f2f2f;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.5em;
   font-family: "Roboto", sans-serif; }
 
@@ -30,7 +30,10 @@ p strong {
   font-weight: 600; }
 
 p a {
-  color: #09bec8; }
+  color: #1e7cfe; }
+
+p a:hover {
+  background-color: #fcf76a; }
 
 h1,
 h2,
@@ -137,7 +140,7 @@ h6,
   color: #2f2f2f;
   font-family: "Lato", sans-serif;
   line-height: 1.5;
-  margin-bottom: 15px; }
+  margin-bottom: 25px; }
 
 .banner-text {
   font-size: 15px;
@@ -149,7 +152,7 @@ h6,
   padding-right: 15px; }
 
 .banner-text a {
-  color: #09bec8; }
+  color: #006dc6; }
 
 .linear-news {
   font-size: 15px;
@@ -191,7 +194,7 @@ h6,
   color: #1e7cfe; }
 
 .social-icon-list-bold :hover {
-  color: #09bec8; }
+  color: #006dc6; }
 
 .project-title {
   font-size: 18px;
@@ -308,8 +311,7 @@ li {
 
 .btn-primary {
   background: #2f2f2f;
-  color: #fff;
-  border-color: #1e7cfe; }
+  color: #fff; }
   .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
     background: #1e7cfe !important;
     border-color: #1e7cfe !important; }
