@@ -1,11 +1,15 @@
 ---
-title: "“The biggest change to News Feed since 2013”: Facebook is making it easy to bypass its algorithm Feed since biggest"
+title: "Journal_int: The biggest change to News Feed since 2013”: Facebook is making it easy to bypass its algorithm Feed since biggest"
 date: 2020-03-14T15:40:24+06:00
+
 # publication thumb
 image : "images/publications/pub1.jpg"
 # author
-author : "George Cushen"
+author : "Bo Lee"
 draft: false
+publicationDate: Jan 14
+#Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, conference_dom
+type: "Journal_int"
 # description
 description: "This is meta description"
 
