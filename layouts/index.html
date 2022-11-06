@@ -18,7 +18,7 @@
             </div>
             <div class="col-4 linear-news">
                 <div>
-                    {{ range first 8 (where .Site.RegularPages "Section" "==" "blogs") }}
+                    {{ range first 8 (where .Site.RegularPages "Section" "==" "news") }}
                     <div class="row linear-news-bottom ">
                         <div class="col-1 linear-news-icon ">
                             <i class={{.Params.icon}}></i>
