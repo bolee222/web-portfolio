@@ -5,7 +5,7 @@ draft: false
 journal:
 # description
 description: "This is meta description"
-URL: /projects
+url: /projects
 
 tags :
 
