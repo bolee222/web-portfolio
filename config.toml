@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "https://boleehci.com/"
 title = "Bokyung | Personal Website"
 theme = "gofolium"
 # post pagination
