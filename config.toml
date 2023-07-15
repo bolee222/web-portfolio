@@ -44,18 +44,18 @@ URL = ""
 weight = 2
 
 [[menu.main]]
-name = baseURL + "vision"
+name = "vision"
 URL = "/vision"
 weight = 3
 
 [[menu.main]]
 name = "project"
-URL = baseURL+ "/projects"
+URL = "/projects"
 weight = 4
 
 [[menu.main]]
 name = "publication"
-URL = baseURL + "/publications"
+URL = "/publications"
 weight = 5
 
 [[menu.main]]
