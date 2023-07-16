@@ -113,3 +113,14 @@
 a.button :hover{
   background: $text-color !important;
 }
+
+.btn-navbar {
+    background: #CFCFCF;
+    color: $white;
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+        background: $text-color !important;
+    }
+}

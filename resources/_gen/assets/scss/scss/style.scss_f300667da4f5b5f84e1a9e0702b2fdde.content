@@ -347,6 +347,12 @@ li {
 a.button :hover {
   background: #2f2f2f !important; }
 
+.btn-navbar {
+  background: #CFCFCF;
+  color: #fff; }
+  .btn-navbar:active, .btn-navbar:hover, .btn-navbar.focus, .btn-navbar.active {
+    background: #2f2f2f !important; }
+
 body {
   background-color: white;
   overflow-x: hidden; }
