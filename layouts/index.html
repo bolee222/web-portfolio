@@ -3,7 +3,7 @@
 <!-- banner -->
 {{ if $data.homepage.banner.enable }}
 <section class="section-home pb-0" id="home">
-    <div class="container padding-side-0">
+    <div class="container">
         {{ with $data.homepage.banner }}
         <div class="banner-title-bold">{{ .title | markdownify }}</div>
         {{ end }}
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-5 col-md-2 padding0  ">
+            <div class="col-sm-5 col-md-2 ">
                 {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
                 <img src="{{ .image | absURL }}" class="bokyung-img" alt="" style="width:100%" /> {{ end }} {{ end }}
                 <div class="social-icon-list">bokung.lee@autodesk.com </div>
@@ -62,7 +62,7 @@
 <!-- projects -->
 {{ if $data.homepage.project.enable }}
 <section class="section pb-0" id="project">
-    <div class="container padding-side-0">
+    <div class="container">
         <div class="row">
             <div class="col-6 mb-3 vertical-center">
                 <div class="cv-title-large">LATEST PROJECTS</div>
@@ -336,7 +336,7 @@
                 {{ range first 3 (where .Site.RegularPages "Section" "==" "publications" )}}
                 <div>{{ .Render "publication" }}</div>
                 {{ end }}
-                <div class="col-12 text-left padding-side-0">
+                <div class="col-12 text-left">
                     <a href="{{ `publications` | absLangURL }}" class="btn btn-primary">{{ i18n "all_publications"}}</a>
                 </div>
             </div>

@@ -823,8 +823,7 @@ textarea.form-control {
   padding-right: 0px; }
 
 .padding-publication_title {
-  padding-right: 80px !important;
-  padding-left: 0px; }
+  padding-right: 80px !important; }
 
 .margin-updown-1 {
   margin-top: 0 !important;
