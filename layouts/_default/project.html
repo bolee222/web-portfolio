@@ -3,7 +3,7 @@
     <img src="{{ . | absURL }}" alt="" class="card-img-top mb-4 rounded-0" /> {{ end }}
     <div class="card-body padding0">
         <div class="mb-3 project-title">
-            <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+            <a href="{{ .Permalink }}"><strong>{{ .Title | markdownify }}</strong></a>
         </div>
         <div class="project-meta">{{ .Params.metacontent }}</div>
     </div>

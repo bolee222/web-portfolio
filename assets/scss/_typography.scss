@@ -123,10 +123,11 @@
     }
 
     .cv-title-large {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 600;
         color: $text-color;
         font-family: $primary-font;
+        margin-bottom: 10px;
     }
 
     .cv-text {
@@ -215,12 +216,14 @@
       color: $text-color;
     }
 
+
     .banner-text {
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 400;
         color: $text-color;
         font-family: $primary-font;
         line-height: 1.5;
+        margin-top: 20px;
         margin-bottom: 20px;
         padding-right: 15px;
     }
@@ -270,8 +273,8 @@
     }
 
     .social-icon-list {
-        margin-top: 5px;
-        font-size: 16px;
+        margin-top: 0px;
+        font-size: 15px;
         font-weight: 700;
         word-wrap: break-word;
         color: $text-color;
@@ -296,17 +299,27 @@
     }
 
     .project-title {
-        font-size: 18px;
+        font-size: 17px;
         color: $text-color;
         font-weight: 600;
+        line-height: 1.2rem;
     }
 
-    .project-meta {
-        font-size: 16px !important;
-        color: $text-color;
-        font-weight: 300 !important;
-        line-height: 1.2 !important;
+    .project-title strong:hover {
+        background-color: $highlight-bgcolor-gray;
     }
+
+
+    .project-meta {
+        font-family: $primary-font;
+        font-size: 15px !important;
+        color: $text-color;
+        font-weight: 400 !important;
+        line-height: 1.2 !important;
+        margin-bottom: 30px;
+        padding-right: 20px;
+    }
+
 
     .single-page-title {
         font-family: $primary-font;
@@ -366,15 +379,7 @@
         margin-bottom: 10px;
     }
 
-    .project-meta {
-        font-family: $primary-font;
-        font-weight: 400;
-        font-size: 17px !important;
-        line-height: 1.5;
-        color: $text-color;
-        margin-bottom: 30px;
-        padding-right: 10px;
-    }
+
 
     .project-single-meta {
         font-family: $primary-font;

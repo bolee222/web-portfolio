@@ -4,7 +4,7 @@ date: 2020-03-14T15:40:24+06:00
 layout: projectSingle
 
 # Project thumb
-image: "images/projects/2021-DIS-OccSim/virus simulation.gif"
+image: "images/projects/2021-DIS-OccSim/virus-sim-resized.gif"
 teaser: "images/projects/2021-DIS-OccSim/_top.jpg"
 metacontent: "we propose OccSim, a system that automatically generates occupancy behaviours in a 3D model of a building and helps users analyze the potential effect of virus transmission from a large-scale and longitudinal perspective."
 
