@@ -31,6 +31,13 @@ about:
   "
 
 
+###################### About ##############################
+keyword:
+  enable : true
+  key1 : "• Embodied interaction in VR/AR/XR"  
+  key2 : "• Interactions for digital-physical convergence"  
+  key3 : "• Interactive digital-human in the virtual world"  
+  key3 : "• Generative design / data-driven design"  
 
 ####################### Education ###########################
 education:
