@@ -149,12 +149,20 @@ a:link-text-publications {
   color: #2f2f2f; }
 
 .banner-title-bold {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 800;
   color: #2f2f2f;
   font-family: "Lato", sans-serif;
   line-height: 1.5;
-  margin-bottom: 25px; }
+  margin-bottom: 10px; }
+
+.banner-subtitle {
+  font-size: 25px;
+  font-weight: 600;
+  color: #2f2f2f;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 60px; }
 
 .banner-text {
   font-size: 15px;

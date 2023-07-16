@@ -6,6 +6,7 @@
     <div class="container">
         {{ with $data.homepage.banner }}
         <div class="banner-title-bold">{{ .title | markdownify }}</div>
+        <div class="banner-subtitle">{{ .subtitle | markdownify }}</div>
         {{ end }}
         <div class="row justify-content-center">
             <div class="col-md-6">
