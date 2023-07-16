@@ -17,8 +17,11 @@
         </div>
 
         {{ end }}
+        <hr style="margin-bottom: 40px; width:100%; height:1px;border-width:0;color:rgb(179, 179, 179);background-color:rgb(179, 179, 179)">
+
         <div class="row justify-content-center">
             <div class="col-md-6">
+                <div class="banner-text"><b>Me.</b></div>
                 {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
                 <div>
                     {{with .title}} {{ end }}
@@ -27,15 +30,16 @@
                 </div>
                 {{ end }} {{ end }}
             </div>
-            <div class="col-md-4 linear-news">
+            <div class="col-md-3 linear-news">
+                <div class="banner-text"><b>News</b></div>
                 <div>
                     {{ range first 8 (where .Site.RegularPages "Section" "==" "news") }}
                     <div class="row linear-news-bottom ">
                         <div class="col-1 linear-news-icon ">
                             <i class={{.Params.icon}}></i>
                         </div>
-                        <div class="col-10 ">
-                            [{{ .PublishDate.Format "2006-01-06" }}] <strong><a href= "{{ .Permalink}}">{{ .Params.description }}</a></strong>
+                        <div class="col-10 linear-news-icon">
+                            [{{ .PublishDate.Format "2006-01-06" }}] <a href= "{{ .Permalink}}">{{ .Params.description }}</a>
                         </div>
                     </div>
                     {{ end }}
@@ -46,17 +50,23 @@
                         <div class="col-1 linear-news-icon ">
                             <i class={{.Params.icon}}></i>
                         </div>
-                        <div class="col-10 ">
+                        <div class="col-10 social-icon-list-bold">
                             <div class="social-icon-list-bold"><a href="www.google.com"> More News </a></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-5 col-md-2 ">
-                {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
-                <img src="{{ .image | absURL }}" class="bokyung-img" alt="" style="width:100%" /> {{ end }} {{ end }}
+            <div class="col-sm-5 col-md-3 ">
+                {{ if $data.homepage.keyword.enable }} {{ with $data.homepage.keyword }}
+                <div class="banner-text"><b>Research Area</b></div>
+                <div class="banner-text-keyword">{{.key1 | markdownify }}</div>
+                <div class="banner-text-keyword">{{.key2 | markdownify }}</div>
+                <div class="banner-text-keyword">{{.key3 | markdownify }}</div>
+                <div class="banner-text-keyword">{{.key4 | markdownify }}</div>
+                {{ end }} {{ end }}
 
             </div>
+            <hr style="margin-top: 40px; width:100%; height:1px;border-width:0;color:rgb(179, 179, 179);background-color:rgb(179, 179, 179)">
         </div>
     </div>
     </div>
@@ -67,13 +77,14 @@
 
 
 
+
 <!-- projects -->
 {{ if $data.homepage.project.enable }}
 <section class="section pb-0" id="project">
     <div class="container">
         <div class="row">
             <div class="col-6 mb-3 vertical-center">
-                <div class="cv-title-large">LATEST PROJECTS</div>
+                <div class="cv-title-large">Latest Projects.</div>
             </div>
             <div class="col-6 mb-3 float-right ">
                 <div class="cv-title float-right  ">
@@ -83,8 +94,10 @@
             {{ range first 3 (where .Site.RegularPages "Section" "==" "projects") }}
             <div class="col-lg-4 col-sm-6 mb-4">{{ .Render "project" }}</div>
             {{ end }}
+            <hr style="width:100%; height:1px;border-width:0;color:rgb(179, 179, 179);background-color:rgb(179, 179, 179)">
         </div>
     </div>
+    
 </section>
 {{ end }}
 <!-- /projects -->
@@ -374,6 +387,7 @@
   </div>
 </section>
 {{ end }}
+
 
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}
