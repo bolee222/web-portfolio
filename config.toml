@@ -47,22 +47,22 @@ weight = 2
 
 [[menu.main]]
 name = "vision"
-URL = "/vision"
+URL = "vision"
 weight = 3
 
 [[menu.main]]
 name = "project"
-URL = "/projects"
+URL = "projects"
 weight = 4
 
 [[menu.main]]
 name = "publication"
-URL = "/publications"
+URL = "publications"
 weight = 5
 
 [[menu.main]]
 name = "News"
-URL = "/news"
+URL = "news"
 weight = 6
 
 [[menu.main]]
