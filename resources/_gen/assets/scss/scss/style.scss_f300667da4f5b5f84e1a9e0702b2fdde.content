@@ -149,20 +149,49 @@ a:link-text-publications {
   color: #2f2f2f; }
 
 .banner-title-bold {
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 800;
   color: #2f2f2f;
   font-family: "Lato", sans-serif;
-  line-height: 1.5;
-  margin-bottom: 10px; }
+  line-height: 1.0;
+  margin-bottom: 15px; }
 
 .banner-subtitle {
   font-size: 25px;
   font-weight: 600;
   color: #2f2f2f;
   font-family: "Lato", sans-serif;
-  line-height: 1.5;
+  line-height: 1.0;
+  margin-bottom: 15px; }
+
+.banner-subtitle-email {
+  font-size: 18px;
+  font-weight: 500;
+  word-wrap: break-word;
+  color: #2f2f2f;
+  font-family: "Lato", sans-serif;
+  line-height: 1.0;
+  margin-bottom: 10px;
+  text-decoration: underline; }
+
+.banner-subtitle-social {
+  font-size: 16px;
+  font-weight: 700;
+  word-wrap: break-word;
+  color: #2f2f2f;
+  font-family: "Lato", sans-serif;
+  line-height: 1.0;
   margin-bottom: 60px; }
+
+.banner-subtitle-social strong {
+  font-weight: 600; }
+
+.banner-subtitle-social a {
+  color: #666666; }
+
+.banner-subtitle-social a:hover {
+  background-color: #E5E5E5;
+  color: #2f2f2f; }
 
 .banner-text {
   font-size: 15px;
@@ -421,7 +450,8 @@ img {
 
 .bokyung-img {
   display: grid;
-  place-items: center; }
+  place-items: center;
+  margin-bottom: 20px; }
 
 a {
   color: inherit; }
@@ -827,6 +857,10 @@ textarea.form-control {
 
 .margin0 {
   margin: 0; }
+
+.padding-side-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
 
 .padding0 {
   padding: 0 !important; }
