@@ -13,6 +13,7 @@
                 <div>
                     {{with .title}} {{ end }}
                     <div class="banner-text">{{.content | markdownify }}</div>
+                    <div class="banner-text-keyword">{{.keyword | markdownify }}</div>
                 </div>
                 {{ end }} {{ end }}
             </div>
@@ -23,7 +24,7 @@
                         <div class="col-1 linear-news-icon ">
                             <i class={{.Params.icon}}></i>
                         </div>
-                        <div class="col-9 ">
+                        <div class="col-10 ">
                             [{{ .PublishDate.Format "2006-01-06" }}] <strong><a href= "{{ .Permalink}}">{{ .Params.description }}</a></strong>
                         </div>
                     </div>
@@ -35,7 +36,7 @@
                         <div class="col-1 linear-news-icon ">
                             <i class={{.Params.icon}}></i>
                         </div>
-                        <div class="col-9 ">
+                        <div class="col-10 ">
                             <div class="social-icon-list-bold"><a href="www.google.com"> More News </a></div>
                         </div>
                     </div>
@@ -44,7 +45,7 @@
             <div class="col-sm-5 col-md-2 ">
                 {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
                 <img src="{{ .image | absURL }}" class="bokyung-img" alt="" style="width:100%" /> {{ end }} {{ end }}
-                <div class="social-icon-list">bokung.lee@autodesk.com </div>
+                <div class="social-icon-list">bokung.lee.lydia@gmail.com </div>
                 <div class="social-icon-list-bold"><a href="https://github.com/bolee222/Bokyung-Lee-CV/blob/main/Bokyung_Lee_CV.pdf"> CV </a> / <a href="https://www.linkedin.com/in/bokyung-lee-83156257/"> linked In </a> / <a href="https://vimeo.com/lydiabklee"> vimeo </a>
                 </div>
 
@@ -336,8 +337,8 @@
                 {{ range first 3 (where .Site.RegularPages "Section" "==" "publications" )}}
                 <div>{{ .Render "publication" }}</div>
                 {{ end }}
-                <div class="col-12 text-left">
-                    <a href="{{ `publications` | absLangURL }}" class="btn btn-primary">{{ i18n "all_publications"}}</a>
+                <div class="text-left">
+                    <a href="{{ `publications` | absLangURL }}" class="btn btn-primary-allPublications ">{{ i18n "all_publications"}}</a>
                 </div>
             </div>
         </div>

@@ -73,6 +73,19 @@
     }
 }
 
+.btn-primary-allPublications {
+    background: $text-color;
+    color: $white;
+    margin-top: 10px;
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+        background: $primary-color !important;
+        border-color: $primary-color !important;
+    }
+}
+
 .btn-outline-primary {
     background: transparent;
     color: $text-color;

@@ -26,6 +26,9 @@ p,
   line-height: 1.5em;
   font-family: "Roboto", sans-serif; }
 
+p.small {
+  line-height: 1.0; }
+
 p strong {
   font-weight: 600; }
 
@@ -134,6 +137,17 @@ h6,
   font-family: "Roboto", sans-serif;
   line-height: 1.4; }
 
+.link-text-publications {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #2f2f2f;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4; }
+
+a:link-text-publications {
+  font-weight: 600 !important;
+  color: #2f2f2f; }
+
 .banner-title-bold {
   font-size: 40px;
   font-weight: 800;
@@ -150,6 +164,13 @@ h6,
   line-height: 1.5;
   margin-bottom: 20px;
   padding-right: 15px; }
+
+.banner-text-keyword {
+  font-size: 16px;
+  font-weight: 300;
+  color: #2f2f2f;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em !important; }
 
 .banner-text a {
   color: #006dc6; }
@@ -313,6 +334,14 @@ li {
   background: #2f2f2f;
   color: #fff; }
   .btn-primary:active, .btn-primary:hover, .btn-primary.focus, .btn-primary.active {
+    background: #1e7cfe !important;
+    border-color: #1e7cfe !important; }
+
+.btn-primary-allPublications {
+  background: #2f2f2f;
+  color: #fff;
+  margin-top: 10px; }
+  .btn-primary-allPublications:active, .btn-primary-allPublications:hover, .btn-primary-allPublications.focus, .btn-primary-allPublications.active {
     background: #1e7cfe !important;
     border-color: #1e7cfe !important; }
 

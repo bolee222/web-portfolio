@@ -20,6 +20,10 @@
         font-family: $primary-font;
     }
 
+    p.small{
+        line-height: 1.0;
+    }
+
     p strong {
         font-weight: 600;
     }
@@ -141,6 +145,19 @@
         line-height: 1.4;
     }
 
+    .link-text-publications {
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        color: $text-color;
+        font-family: $primary-font;
+        line-height: 1.4;
+    }
+
+    a:link-text-publications {
+        font-weight: 600 !important;
+        color: $text-color;
+    }
+
     .banner-title-bold {
         font-size: 40px;
         font-weight: 800;
@@ -160,9 +177,20 @@
         padding-right: 15px;
     }
 
+    .banner-text-keyword {
+        font-size: 16px;
+        font-weight: 300;
+        color: $text-color;
+        font-family: $primary-font;
+        line-height: 1.5em !important;
+    }
+
+
+
     .banner-text a {
         color: $hyperlink-color
     }
+
 
     .linear-news {
         font-size: 15px;
