@@ -978,3 +978,7 @@ textarea.form-control {
     margin: 1rem 0;
     min-width: 20rem / 2;
     padding: 0 1rem; }
+
+.row-fix {
+  margin-right: 0 !important;
+  margin-left: 0 !important; }
