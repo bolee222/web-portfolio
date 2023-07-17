@@ -275,6 +275,15 @@ a:link-text-publications {
   color: #2f2f2f;
   font-weight: 400 !important;
   line-height: 1.2rem !important;
+  margin-bottom: 15px;
+  padding-right: 20px; }
+
+.project-journal {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px !important;
+  color: #2f2f2f;
+  font-weight: 800 !important;
+  line-height: 1.2rem !important;
   margin-bottom: 20px;
   padding-right: 20px; }
 
@@ -295,11 +304,12 @@ ul {
   list-style-type: none; }
 
 li {
-  font-weight: 300 !important;
+  font-weight: 600 !important;
   color: #2f2f2f;
-  font-size: 17px !important;
-  line-height: 1.5em !important;
-  font-family: "Roboto", sans-serif; }
+  font-size: 15px !important;
+  line-height: 1.0em !important;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 10px; }
 
 .project-page-title {
   font-family: "Roboto", sans-serif;
@@ -327,6 +337,11 @@ li {
   font-size: 18px !important;
   color: #2f2f2f;
   margin-bottom: 10px; }
+
+.project-key-journal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #2f2f2f; }
 
 .project-single-meta {
   font-family: "Roboto", sans-serif;

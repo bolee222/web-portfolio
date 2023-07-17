@@ -6,9 +6,6 @@
     </div>
 
     <div class="row">
-
-
-
         <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
            <label class="btn btn-sm btn-outline-primary active padding-right-15">
              <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
@@ -23,10 +20,11 @@
            </label>
            {{ end }}
         </div>
-
+      
+        
         <div class="row">
           {{ $paginator := .Paginate .Data.Pages }}
-          {{ range $paginator.Pages }}
+          {{ range $paginator.Pages.ByDate  }}
           <div class="col-sm-4 padding-right-3 margin-top-20 ">
             {{ .Render "blog" }}
           </div>

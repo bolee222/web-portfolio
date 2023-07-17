@@ -241,9 +241,6 @@
     }
 
 
-    .banner-text a {
-        //color: $hyperlink-color
-    }
 
 
     .linear-news {
@@ -309,18 +306,29 @@
         background-color: $highlight-bgcolor-gray;
     }
 
-
+    //홈 화면에서 보여지는 프로젝트 요약페이지의 "요약글" 폰트
     .project-meta {
         font-family: $primary-font;
         font-size: 15px !important;
         color: $text-color;
         font-weight: 400 !important;
         line-height: 1.2rem !important;
+        margin-bottom: 15px;
+        padding-right: 20px;
+    }
+
+    //홈 화면에서 보여지는 프로젝트 요약페이지의 "학회명" 폰트
+    .project-journal {
+        font-family: $primary-font;
+        font-size: 15px !important;
+        color: $text-color;
+        font-weight: 800 !important;
+        line-height: 1.2rem !important;
         margin-bottom: 20px;
         padding-right: 20px;
     }
 
-
+    
     .single-page-title {
         font-family: $primary-font;
         font-weight: 800;
@@ -342,11 +350,12 @@
 
 
     li {
-        font-weight: 300 !important;
+        font-weight: 600 !important;
         color: $text-color;
-        font-size: 17px !important;
-        line-height: 1.5em !important;
+        font-size: 15px !important;
+        line-height: 1.0em !important;
         font-family: $primary-font;
+        padding-bottom: 10px;
     }
 
     .project-page-title {
@@ -379,6 +388,14 @@
         margin-bottom: 10px;
     }
 
+    .project-key-journal{
+        font-family: $primary-font;
+        font-weight: 500;
+        //font-size: 18px !important;
+        color: $text-color;
+       //margin-bottom: 10px;
+    }
+
 
 
     .project-single-meta {
@@ -390,3 +407,5 @@
         margin-bottom: 30px;
         padding-right: 70px;
     }
+
+    

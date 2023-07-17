@@ -2,6 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://boleehci.com/projects/2023/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boleehci.com/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://boleehci.com/kr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://boleehci.com/"
+                />
+  </url><url>
+    <loc>https://boleehci.com/tags/tag1/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://boleehci.com/kr/tags/tag1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://boleehci.com/tags/tag1/"
+                />
+  </url><url>
+    <loc>https://boleehci.com/tags/tag2/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://boleehci.com/kr/tags/tag2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://boleehci.com/tags/tag2/"
+                />
+  </url><url>
+    <loc>https://boleehci.com/tags/tag3/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://boleehci.com/kr/tags/tag3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://boleehci.com/tags/tag3/"
+                />
+  </url><url>
+    <loc>https://boleehci.com/tags/</loc>
+    <lastmod>2023-03-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://boleehci.com/kr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://boleehci.com/tags/"
+                />
+  </url><url>
+    <loc>https://boleehci.com/projects/2024/</loc>
+    <lastmod>2022-03-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://boleehci.com/publications/publication-2/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
@@ -98,19 +169,6 @@
     <loc>https://boleehci.com/news/blog-6/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://boleehci.com/kr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://boleehci.com/"
-                />
-  </url><url>
     <loc>https://boleehci.com/contact/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
@@ -123,9 +181,6 @@
                 hreflang="en"
                 href="https://boleehci.com/contact/"
                 />
-  </url><url>
-    <loc>https://boleehci.com/projects/2021-occsim/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
     <loc>https://boleehci.com/publications/publication-1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
@@ -142,71 +197,6 @@
   </url><url>
     <loc>https://boleehci.com/news/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-  </url><url>
-    <loc>https://boleehci.com/projects/project-2/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://boleehci.com/kr/projects/project-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://boleehci.com/projects/project-2/"
-                />
-  </url><url>
-    <loc>https://boleehci.com/projects/project-3/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://boleehci.com/kr/projects/project-3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://boleehci.com/projects/project-3/"
-                />
-  </url><url>
-    <loc>https://boleehci.com/projects/project-4/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://boleehci.com/kr/projects/project-4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://boleehci.com/projects/project-4/"
-                />
-  </url><url>
-    <loc>https://boleehci.com/projects/project-5/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://boleehci.com/kr/projects/project-5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://boleehci.com/projects/project-5/"
-                />
-  </url><url>
-    <loc>https://boleehci.com/projects/project-6/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://boleehci.com/kr/projects/project-6/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://boleehci.com/projects/project-6/"
-                />
   </url><url>
     <loc>https://boleehci.com/projects/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
@@ -260,57 +250,14 @@
                 href="https://boleehci.com/vision/"
                 />
   </url><url>
-    <loc>https://boleehci.com/tags/tag1/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://boleehci.com/kr/tags/tag1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://boleehci.com/tags/tag1/"
-                />
+    <loc>https://boleehci.com/projects/2020/</loc>
+    <lastmod>2020-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/tags/tag2/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://boleehci.com/kr/tags/tag2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://boleehci.com/tags/tag2/"
-                />
+    <loc>https://boleehci.com/projects/2019/</loc>
+    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/tags/tag3/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://boleehci.com/kr/tags/tag3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://boleehci.com/tags/tag3/"
-                />
-  </url><url>
-    <loc>https://boleehci.com/tags/</loc>
-    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://boleehci.com/kr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://boleehci.com/tags/"
-                />
+    <loc>https://boleehci.com/projects/2018/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boleehci.com/author/</loc>
     <xhtml:link
@@ -335,6 +282,8 @@
                 hreflang="en"
                 href="https://boleehci.com/categories/"
                 />
+  </url><url>
+    <loc>https://boleehci.com/projects/2021-occsim/</loc>
   </url><url>
     <loc>https://boleehci.com/author/george-cushen/</loc>
     <xhtml:link
