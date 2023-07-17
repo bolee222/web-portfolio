@@ -137,3 +137,22 @@ a.button :hover{
         background: $text-color !important;
     }
 }
+
+.btn-journal-name {
+    background: $highlight-bgcolor-purple;
+    color: $primary-color;
+    font-family: $primary-font;
+    font-weight: 600;
+    font-size: 15px !important;
+    text-align: center;
+    padding: 3px 5px;
+
+    border: 0px;
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+        background: $primary-color !important;
+        color: white !important;
+    }
+}

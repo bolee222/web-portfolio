@@ -318,7 +318,7 @@
     }
 
     //홈 화면에서 보여지는 프로젝트 요약페이지의 "학회명" 폰트
-    .project-journal {
+    .project-meta-journal {
         font-family: $primary-font;
         font-size: 15px !important;
         color: $text-color;
@@ -387,16 +387,6 @@
         color: $text-color;
         margin-bottom: 10px;
     }
-
-    .project-key-journal{
-        font-family: $primary-font;
-        font-weight: 500;
-        //font-size: 18px !important;
-        color: $text-color;
-       //margin-bottom: 10px;
-    }
-
-
 
     .project-single-meta {
         font-family: $primary-font;

@@ -278,7 +278,7 @@ a:link-text-publications {
   margin-bottom: 15px;
   padding-right: 20px; }
 
-.project-journal {
+.project-meta-journal {
   font-family: "Roboto", sans-serif;
   font-size: 15px !important;
   color: #2f2f2f;
@@ -337,11 +337,6 @@ li {
   font-size: 18px !important;
   color: #2f2f2f;
   margin-bottom: 10px; }
-
-.project-key-journal {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: #2f2f2f; }
 
 .project-single-meta {
   font-family: "Roboto", sans-serif;
@@ -437,6 +432,19 @@ a.button :hover {
   color: #fff; }
   .btn-navbar:active, .btn-navbar:hover, .btn-navbar.focus, .btn-navbar.active {
     background: #2f2f2f !important; }
+
+.btn-journal-name {
+  background: #d4c4fe7c;
+  color: #400599;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px !important;
+  text-align: center;
+  padding: 3px 5px;
+  border: 0px; }
+  .btn-journal-name:active, .btn-journal-name:hover, .btn-journal-name.focus, .btn-journal-name.active {
+    background: #400599 !important;
+    color: white !important; }
 
 body {
   background-color: white;

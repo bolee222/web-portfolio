@@ -6,6 +6,6 @@
             <a href="{{ .Permalink }}"><strong>{{ .Title | markdownify }}</strong></a>
         </div>
         <div class="project-meta">{{ .Params.metacontent }}</div>
-        <div class="project-journal ">{{ .Params.conference }}</div>
+        <button type="button" class="btn-journal-name">{{ .Params.conference }}</button>
     </div>
 </article>
