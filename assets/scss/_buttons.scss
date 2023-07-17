@@ -156,3 +156,42 @@ a.button :hover{
         color: white !important;
     }
 }
+
+.btn-journal-name-purple {
+    background: $primary-color;
+    color: white;
+    font-family: $primary-font;
+    font-weight: 600;
+    font-size: 15px !important;
+    text-align: center;
+    padding: 3px 5px;
+
+    border: 0px;
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+        background: #4F088D !important;
+        color: white !important;
+    }
+}
+
+// Project 페이지에 "#키워드" 에 넣을 폰트
+.btn-publication-meta-white {
+    background: transparent;
+    color: #101010;
+    font-family: $hightlight-font;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px !important;
+    text-align: center;
+    padding: 3px 5px;
+    border: 0px;
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+        background: transparent;
+        color: $primary-color;
+    }
+}

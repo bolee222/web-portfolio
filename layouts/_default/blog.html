@@ -3,20 +3,17 @@
     {{ with .Params.Image }}
     <img src="{{ . | absURL }}" alt="" class="card-img-top mb-3 rounded-0" /> {{ end }}
     <div class="card-body padding0">
-        <div class="mb-3 blog-title">
+        <ul class="list-inline margin-updown-1">
+            <button type="button" class="btn-journal-name-purple">{{ .Params.conference }}</button>
+            <button type="button" class="btn-publication-meta-white">{{ .Params.shortkeys }}</button>
+        </ul>
+        <div class="mb-2 blog-title">
             <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
         </div>
 
-        <ul class="list-inline margin-updown-1">
-            <li class="list-inline-item project-key-journal">
-                <i class="text-primary ti-agenda mr-2"></i>{{ .Params.conference }}
-            </li>
-            <li class="list-inline-item">
-                <i class="text-primary ti-calendar mr-2"></i>{{ .Params.tags }}
-            </li>
-        </ul>
+        
         <p class="margin-updown-1">{{ .Params.metacontent }}</p>
-        <a href="{{ .Permalink }}" class="btn btn-link margin-bottom-20">{{ i18n "read_more" }}</a
+        <a href="{{ .Permalink }}" class="btn btn-link margin-bottom-20 margin-top-10 ">{{ i18n "read_more" }}</a
     >
   </div>
 </article>

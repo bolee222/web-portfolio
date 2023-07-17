@@ -296,6 +296,7 @@ a:link-text-publications {
   margin-bottom: 40px; }
 
 .blog-title {
+  margin-top: 10px;
   font-size: 20px;
   color: #2f2f2f;
   font-weight: 600; }
@@ -445,6 +446,33 @@ a.button :hover {
   .btn-journal-name:active, .btn-journal-name:hover, .btn-journal-name.focus, .btn-journal-name.active {
     background: #400599 !important;
     color: white !important; }
+
+.btn-journal-name-purple {
+  background: #400599;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px !important;
+  text-align: center;
+  padding: 3px 5px;
+  border: 0px; }
+  .btn-journal-name-purple:active, .btn-journal-name-purple:hover, .btn-journal-name-purple.focus, .btn-journal-name-purple.active {
+    background: #4F088D !important;
+    color: white !important; }
+
+.btn-publication-meta-white {
+  background: transparent;
+  color: #101010;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px !important;
+  text-align: center;
+  padding: 3px 5px;
+  border: 0px; }
+  .btn-publication-meta-white:active, .btn-publication-meta-white:hover, .btn-publication-meta-white.focus, .btn-publication-meta-white.active {
+    background: transparent;
+    color: #400599; }
 
 body {
   background-color: white;
@@ -909,6 +937,9 @@ textarea.form-control {
 
 .margin-top-20 {
   margin-top: 20px; }
+
+.margin-top-10 {
+  margin-top: 10px; }
 
 .padding-right-15 {
   margin-right: 10px !important; }
