@@ -92,7 +92,7 @@
                     <a href="{{ `projects` | absLangURL }}" class="btn btn-primary">{{ i18n "more_projects" }}</a>
                 </div>
             </div>
-            {{ range first 3 (where .Site.RegularPages "Section" "==" "projects").ByDate }}
+            {{ range first 6 (where .Site.RegularPages "Section" "==" "projects").ByDate.Reverse }}
             <div class="col-lg-4 col-sm-6 mb-4">{{ .Render "project" }}</div>
             {{ end }}
             
