@@ -11,17 +11,21 @@
            <label class="btn btn-sm btn-outline-primary active padding-right-15">
              <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
            </label>
-           {{ $paginator := .Paginate .Data.Pages }}
+
+           {{ $tags := slice}}
+
+           {{ range where .Pages "Section" "==" "projects"}}
+           {{ $tags = $tags | append .Params.tags}}
            
-           {{ $tags := slice }}
-           {{ range .Site.Data.project.item }}
-           {{ $tags = $tags | append .category }}
-           {{ end }}
+           {{end}}
+        
            {{ range ( $tags | uniq ) }}
            <label class="btn btn-sm btn-outline-primary padding-right-15">
              <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
            </label>
            {{ end }}
+
+
         </div>
       
         
