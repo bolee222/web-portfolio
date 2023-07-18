@@ -15,8 +15,9 @@
            {{ $tags := slice}}
 
            {{ range where .Pages "Section" "==" "projects"}}
+           {{ if isset .Params "tags"}}
            {{ $tags = $tags | append .Params.tags}}
-           
+           {{end}}
            {{end}}
         
            {{ range ( $tags | uniq ) }}
