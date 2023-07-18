@@ -65,9 +65,9 @@
                 <div class="banner-text-keyword">{{.key4 | markdownify }}</div>
                 {{ end }} {{ end }}
 
-            </div>
-            <hr style="margin-top: 40px; width:100%; height:1px;border-width:0;color:rgb(179, 179, 179);background-color:rgb(179, 179, 179)">
+            </div>    
         </div>
+        <hr style="margin-top: 40px; width:100%; height:1px;border-width:0;color:rgb(179, 179, 179);background-color:rgb(179, 179, 179)">
     </div>
     </div>
 
@@ -94,8 +94,9 @@
             {{ range first 3 (where .Site.RegularPages "Section" "==" "projects").ByDate }}
             <div class="col-lg-4 col-sm-6 mb-4">{{ .Render "project" }}</div>
             {{ end }}
-            <hr style="width:100%; height:1px;border-width:0;color:rgb(179, 179, 179);background-color:rgb(179, 179, 179)">
+            
         </div>
+        <hr style="width:100%; height:1px;border-width:0;color:rgb(179, 179, 179);background-color:rgb(179, 179, 179)">
     </div>
     
 </section>
@@ -107,7 +108,7 @@
 <!-- education -->
 {{ if $data.homepage.education.enable }} {{ with $data.homepage.education }}
 <section class="section pb-0" id="education">
-    <div class="container cv-section-padding">
+    <div class="container ">
         <div class="row">
             <div class="col-lg-2">
                 <div class="cv-title">{{ .title | markdownify }}</div>
