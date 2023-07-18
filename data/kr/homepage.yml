@@ -1,8 +1,8 @@
 ######################### Banner ###########################
 banner:
   enable : true
-  title :  "Bokyung Lee (이보경)"
-  subtitle : "인터랙션 디자인 및 HCI 연구 연구원"
+  title :  "Bokyung Lee"
+  subtitle : "HCI 디자인 연구자 / 인터랙션 디자이너"
   social : true
   # social icons comes from `config.toml` file.
 
@@ -11,22 +11,21 @@ banner:
 about:
   enable : true
   title : ""
-  image : "images/bokyungLee.jpg"
-  content : "Hi. I am an **Interaction Design / HCI** researcher. I hold a Ph.D. in Industrial Design at [**KAIST**](https://id.kaist.ac.kr/) (Korea Advanced Institute of Science and Technology). I am currently working as a Post-Doctoral Fellow at [**Autodesk Research**](https://autodeskresearch.com/), Toronto.
+  image : "images/bokyungLee_circle.png"
+  content : "Hi. I am an **Interaction Design / HCI** researcher. I hold a Ph.D. in Industrial Design at [KAIST](https://id.kaist.ac.kr/) (Korea Advanced Institute of Science and Technology). I am currently working as a Post-Doctoral Fellow at [Autodesk Research](https://autodeskresearch.com/), Toronto.
 
 
-  My research lies at the intersection of **Human-Computer Interaction** and **Interactive System Designs**. I envision the potential **interactions for future technologies (VR/AR/AI)** with a goal of enhancing our experiences. During my Ph.D., I explored embodied interactions for VR/AR digital design tools. I enjoy creating and applying new user-centered design methods, as well as prototyping interactive systems. To read my entire research vision, please visit here.
+  My research lies at the intersection of **Human-Computer Interaction** and **Interactive System Designs**. I envision the potential **interactions for future technologies (VR/AR/AI)** with a goal of enhancing our experiences. During my Ph.D., I explored embodied interactions for VR/AR digital design tools. I enjoy creating and applying new user-centered design methods, as well as prototyping interactive systems. To read my entire research vision, please visit [*here*](https://www.boleehci.com/vision)."
 
 
-  * Embodied interaction in VR/AR/XR
 
-  * Interactions for digital-physical convergence
-
-  * Interactive digital-human in the virtual world
-
-  * Generative design / data-driven design
-  "
-
+###################### Keyword ##############################
+keyword:
+  enable : true
+  key1 : "• Embodied interaction in VR/AR/XR"  
+  key2 : "• Interactions for digital-physical convergence"  
+  key3 : "• Interactive digital-human in the virtual world"  
+  key4 : "• Generative design / data-driven design"  
 
 
 ####################### Education ###########################
@@ -107,14 +106,14 @@ talk:
 
 ########################## Projects ###########################
 project:
-  enable : true
+  enable : false
   title : "Mes projets"
   # projects item comes from `content/**/projects/` folder.
 
 
 ########################### Blog ##############################
 blog:
-  enable : true
+  enable : false
   title : "Article de blog"
   # blog item comes from `content/**/blogs/` folder.
 
@@ -123,7 +122,7 @@ blog:
 ########################## Contact ############################
 # contact foem
 contact_form:
-  enable : true
+  enable : false
   title : "Contactez moi"
   contact_form_action : "#" #contact form works with https://formspree.io
   name_label : "Your Name"
@@ -133,7 +132,7 @@ contact_form:
 
 # contact info
 contact_info:
-  enable : true
+  enable : false
   title : "Entrer en contact"
   content : "Let’s talk about your project and how I can help you or if you just want to chat about design and art - shoot me a message at abcxmple@gmail.com"
   contact_item:

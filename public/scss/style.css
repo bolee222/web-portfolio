@@ -125,21 +125,22 @@ h6,
   margin-bottom: 10px; }
 
 .cv-text {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   color: #2f2f2f;
   font-family: "Roboto", sans-serif;
-  line-height: 1.4; }
+  line-height: 1.4;
+  margin-bottom: 5px; }
 
 .padding-left-30 {
   padding-left: 30px; }
 
 .cv-text-bold {
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 600;
   color: #2f2f2f;
   font-family: "Roboto", sans-serif;
-  line-height: 1.4; }
+  line-height: 1.3; }
 
 .link-text-publications {
   font-size: 14px !important;
@@ -158,7 +159,7 @@ a:link-text-publications {
   color: #2f2f2f;
   font-family: "Lato", sans-serif;
   line-height: 1.0;
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
 
 .banner-subtitle {
   font-size: 25px;
@@ -175,7 +176,7 @@ a:link-text-publications {
   color: #2f2f2f;
   font-family: "Lato", sans-serif;
   line-height: 1.0;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
   text-decoration: underline; }
 
 .banner-subtitle-social {
@@ -185,7 +186,8 @@ a:link-text-publications {
   color: #2f2f2f;
   font-family: "Lato", sans-serif;
   line-height: 1.0;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  margin-top: 15px; }
 
 .banner-subtitle-social strong {
   font-weight: 600; }
@@ -278,7 +280,7 @@ a:link-text-publications {
   margin-bottom: 15px;
   padding-right: 20px; }
 
-.project-journal {
+.project-meta-journal {
   font-family: "Roboto", sans-serif;
   font-size: 15px !important;
   color: #2f2f2f;
@@ -296,6 +298,7 @@ a:link-text-publications {
   margin-bottom: 40px; }
 
 .blog-title {
+  margin-top: 10px;
   font-size: 20px;
   color: #2f2f2f;
   font-weight: 600; }
@@ -337,11 +340,6 @@ li {
   font-size: 18px !important;
   color: #2f2f2f;
   margin-bottom: 10px; }
-
-.project-key-journal {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: #2f2f2f; }
 
 .project-single-meta {
   font-family: "Roboto", sans-serif;
@@ -437,6 +435,46 @@ a.button :hover {
   color: #fff; }
   .btn-navbar:active, .btn-navbar:hover, .btn-navbar.focus, .btn-navbar.active {
     background: #2f2f2f !important; }
+
+.btn-journal-name {
+  background: #d4c4fe7c;
+  color: #400599;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px !important;
+  text-align: center;
+  padding: 3px 5px;
+  border: 0px; }
+  .btn-journal-name:active, .btn-journal-name:hover, .btn-journal-name.focus, .btn-journal-name.active {
+    background: #400599 !important;
+    color: white !important; }
+
+.btn-journal-name-purple {
+  background: #400599;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px !important;
+  text-align: center;
+  padding: 3px 5px;
+  border: 0px; }
+  .btn-journal-name-purple:active, .btn-journal-name-purple:hover, .btn-journal-name-purple.focus, .btn-journal-name-purple.active {
+    background: #4F088D !important;
+    color: white !important; }
+
+.btn-publication-meta-white {
+  background: transparent;
+  color: #101010;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px !important;
+  text-align: center;
+  padding: 3px 5px;
+  border: 0px; }
+  .btn-publication-meta-white:active, .btn-publication-meta-white:hover, .btn-publication-meta-white.focus, .btn-publication-meta-white.active {
+    background: transparent;
+    color: #400599; }
 
 body {
   background-color: white;
@@ -902,6 +940,9 @@ textarea.form-control {
 .margin-top-20 {
   margin-top: 20px; }
 
+.margin-top-10 {
+  margin-top: 10px; }
+
 .padding-right-15 {
   margin-right: 10px !important; }
 
@@ -939,3 +980,7 @@ textarea.form-control {
     margin: 1rem 0;
     min-width: 20rem / 2;
     padding: 0 1rem; }
+
+.row-fix {
+  margin-right: 0 !important;
+  margin-left: 0 !important; }

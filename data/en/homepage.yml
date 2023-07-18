@@ -2,7 +2,7 @@
 banner:
   enable : true
   title :  "Bokyung Lee"
-  subtitle : "HCI Researcher & Interaction Scientist"
+  subtitle : "HCI Researcher & Interaction Designer"
   social : true
   # social icons comes from `config.toml` file.
 
@@ -317,14 +317,14 @@ talk:
 ########################## Projects ###########################
 project:
   enable : true
-  title : "My Projects"
-  # projects item comes from `content/**/project/` folder.
+  title : "Mes projets"
+  # projects item comes from `content/**/projects/` folder.
 
 
 ########################### Blog ##############################
 blog:
   enable : false
-  title : "News"
+  title : "Article de blog"
   # blog item comes from `content/**/blogs/` folder.
 
 

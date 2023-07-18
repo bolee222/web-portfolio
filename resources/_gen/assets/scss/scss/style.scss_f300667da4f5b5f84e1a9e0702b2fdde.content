@@ -159,7 +159,7 @@ a:link-text-publications {
   color: #2f2f2f;
   font-family: "Lato", sans-serif;
   line-height: 1.0;
-  margin-bottom: 15px; }
+  margin-bottom: 20px; }
 
 .banner-subtitle {
   font-size: 25px;
@@ -176,7 +176,7 @@ a:link-text-publications {
   color: #2f2f2f;
   font-family: "Lato", sans-serif;
   line-height: 1.0;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
   text-decoration: underline; }
 
 .banner-subtitle-social {
@@ -186,7 +186,8 @@ a:link-text-publications {
   color: #2f2f2f;
   font-family: "Lato", sans-serif;
   line-height: 1.0;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  margin-top: 15px; }
 
 .banner-subtitle-social strong {
   font-weight: 600; }
