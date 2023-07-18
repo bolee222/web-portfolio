@@ -5,11 +5,14 @@
     <div class="single-page-title padding-side-0">{{.Title}}</div>
     </div>
 
+    
     <div class="row row-fix">
         <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
            <label class="btn btn-sm btn-outline-primary active padding-right-15">
              <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
            </label>
+           {{ $paginator := .Paginate .Data.Pages }}
+           
            {{ $tags := slice }}
            {{ range .Site.Data.project.item }}
            {{ $tags = $tags | append .category }}
@@ -24,7 +27,7 @@
         
         <div class="row">
           {{ $paginator := .Paginate .Data.Pages }}
-          {{ range $paginator.Pages.ByDate  }}
+          {{ range $paginator.Pages.ByDate.Reverse  }}
           <div class="col-sm-4 padding-right-3 margin-top-20 ">
             {{ .Render "blog" }}
           </div>

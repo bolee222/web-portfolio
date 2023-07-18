@@ -7,16 +7,17 @@
 <div class="single-page-title padding-side-0">{{.Title}}</div>
 </div>
 
+<ul>
+  {{ range where .Paginator.Pages ".Params.tags" "intersect" (slice "tag1")}}
+  <li>
+    <span>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
+    <a href="{{ .URL }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul> 
+
 <div class="row row-fix">
 
-  <!-- <ul>
-    {{ range where .Paginator.Pages ".Params.tags" "intersect" (slice "tag1")}}
-    <li>
-      <span>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
-      <a href="{{ .URL }}">{{ .Title }}</a>
-    </li>
-    {{ end }}
-  </ul> -->
 
     <!-- 버튼 -->
     <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
