@@ -12,15 +12,15 @@
              <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
            </label>
 
-           {{ $tags := slice}}
+           {{ $categories := slice}}
 
            {{ range where .Pages "Section" "==" "projects"}}
-           {{ if isset .Params "tags"}}
-           {{ $tags = $tags | append .Params.tags}}
+           {{ if isset .Params "category"}}
+           {{ $categories = $categories | append .Params.category}}
            {{end}}
            {{end}}
         
-           {{ range ( $tags | uniq ) }}
+           {{ range ( $categories | uniq ) }}
            <label class="btn btn-sm btn-outline-primary padding-right-15">
              <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
            </label>
