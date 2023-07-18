@@ -131,11 +131,12 @@
     }
 
     .cv-text {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 300;
         color: $text-color;
         font-family: $primary-font;
         line-height: 1.4;
+        margin-bottom: 5px;
     }
 
     .padding-left-30 {
@@ -144,7 +145,7 @@
 
     .cv-text-bold {
         font-size: 16px;
-        font-weight: 800;
+        font-weight: 600;
         color: $text-color;
         font-family: $primary-font;
         line-height: 1.4;

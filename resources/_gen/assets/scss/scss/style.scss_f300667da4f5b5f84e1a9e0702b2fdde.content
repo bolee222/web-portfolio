@@ -125,18 +125,19 @@ h6,
   margin-bottom: 10px; }
 
 .cv-text {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 300;
   color: #2f2f2f;
   font-family: "Roboto", sans-serif;
-  line-height: 1.4; }
+  line-height: 1.4;
+  margin-bottom: 5px; }
 
 .padding-left-30 {
   padding-left: 30px; }
 
 .cv-text-bold {
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 600;
   color: #2f2f2f;
   font-family: "Roboto", sans-serif;
   line-height: 1.4; }
