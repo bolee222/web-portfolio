@@ -251,7 +251,7 @@
                 {{ range .academicService_item }}
                 <div class="row cv-lineBox">
                     <div class="col-lg-9">
-                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text-bold">{{ .name | markdownify }}</div>
                         <div class="cv-text">{{ .content | markdownify }}</div>
                     </div>
                     <div class="col-lg-3">
@@ -362,7 +362,7 @@
                         <div class="cv-text-authors">{{ .name | markdownify  }}</div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="cv-text">{{ .duration }}</div>
+                        <div class="cv-text-bold">{{ .duration }}</div>
                     </div>
                 </div>
                 {{ end }}

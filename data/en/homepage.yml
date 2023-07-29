@@ -193,12 +193,12 @@ academicService:
   academicService_item:
     # academic item loop
     - name: "Conference Chair (Web)"
-    - content : ACM TEI Web Chair of 2022
+      content : ACM TEI Web Chair of 2022
       duration: "2022"
 
     # academic item loop
     - name: "Paper Review"
-    - content : ACM CHI, ACM DIS, ACM CSCW, ACM UIST, ACM TEI, ACM Siggraph E-tech, ACM IDC, ACM Siggraph Asia, ACM C&C, ACM CHI Play 
+      content : ACM CHI, ACM DIS, ACM CSCW, ACM UIST, ACM TEI, ACM Siggraph E-tech, ACM IDC, ACM Siggraph Asia, ACM C&C, ACM CHI Play 
       duration: "2017 - current"
 
   
@@ -329,21 +329,50 @@ publicationList:
   enable : true
   title : " PUBLICATION"
   publicationList_item:
-    # expertise item loop
-    - name : "<ins>Bokyung Lee</ins>, Michael Lee, Jacky Bibliowicz, Rhys Goldstein, Jeremy Mogk, Alexander Tessier., **Generative design for COVID-19 and future pathogens using stochastic multi-agent simulation**, _Journal of Sustainable Cities and Society_, Volume 97, 104661, ISSN 2210-6707"
+    # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Michael Lee, Jacky Bibliowicz, Rhys Goldstein, Jeremy Mogk, Alexander Tessier., **Generative design for COVID-19 and future pathogens using stochastic multi-agent simulation**, _Journal of Sustainable Cities and Society, Volume 97, 104661, ISSN 2210-6707_"
       content : "Journal_sci"
       duration: 2023
 
-    # expertise item loop
-    - name : "<ins>Bokyung Lee</ins>, Daniel Saakes., **Understanding the Roles of Intelligent Product-Customization Systems through Expert Interviews**, _International Association of Societies of Design Research **(IASDR 2021)**, full paper_  "
+    # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Daniel Saakes., **Understanding the Roles of Intelligent Product-Customization Systems through Expert Interviews**, _International Association of Societies of Design Research (IASDR 2021)_  "
       content : "Conference_int"
       duration: 2021
 
-    # expertise item loop
-    - name : "<ins>Bokyung Lee</ins>, Michael Lee, Jacky Bibliowicz, Rhys Goldstein, Jeremy Mogk, Alexander Tessier., **Simulation and Visualization of Virus Transmission for Architectural Design Analysis**, _ACM International Conference on Computer Graphics and Interactive Techniques **(SIGGRAPH 2021)**_, _Talks_"
+    # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Michael Lee, Jacky Bibliowicz, Rhys Goldstein, Jeremy Mogk, Alexander Tessier., **Simulation and Visualization of Virus Transmission for Architectural Design Analysis**, _ACM International Conference on Computer Graphics and Interactive Techniques (SIGGRAPH 2021)_"
       content : "Conference_int"
-      duration: 2021
+      duration: 
 
+    # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Michael Lee, Jeremy Mogk, Rhys Goldstein, Jacky Bibliowicz, Frederik Brudy, Alexander Tessier., **Designing a Multi-Agent Occupant Simulation System to Support Facility Planning and Analysis for COVID-19**, _ACM Designing Interactive Systems (DIS 2021), <span style='color: blue;'>Honorable Mention Award (Top 5%)</span>_"
+      content : "Conference_sci"
+      duration: 
+
+    # publication item loop
+    - name : "Aigerim Shunayeva, Taesu Kim, <ins>Bokyung Lee</ins>,  Hyeon-Jeong Suk.., **Evaluating Color and Material of Home Appliances in Virtual Homes during the Early Stage of Design**, _The Congress of the International Color Association (AIC 2021)_"
+      content : "Conference_int"
+      duration: 
+
+    # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Michael Lee, Pan Zhang, Alexander Tessier, Daniel Saakes, Azam Khan., **Socio-Spatial Comfort: Using Vision-based Analysis to Inform User-Centred Human-Building Interactions**, _ACM Journal of Hum.-Comput. Interact. 4, CSCW3, Article 238 (December 2020), 33 pages., <span style='color: blue;'>Best Paper Award (Top 1%}</span>_"
+      content : "Conference_sci"
+      duration: 2020
+
+    # publication item loop
+    - name : "<ins>Bokyung Lee</ins>., **Embodied Design Toolkits for Consumers and Creators**, Supervisor: Daniel Saakes, _**Ph.D Thesis.**_"
+      content : "Conference_sci"
+      duration: 
+
+    # publication item loop
+    - name : "Jaeho Sung, <ins>Bokyung Lee</ins>, Daniel Saakes., **PoseScape: Pose-based Analysis System for Long-term Observation Studies**, _ACM Nordic Conference on Human-Computer Interaction (NordiCHI 2020)_"
+      content : "Conference_sci"
+      duration: 
+
+    # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, , Michael Lee, Pan Zhang, Alexander Tessier, Azam Khan., **An Empirical Study of How Socio-Spatial Formations are influenced by Interior Elements and Displays in an Office Context.**, _ACM Journal of Hum.-Comput. Interact. 3. CSCW, Article 58., <span style='color: blue;'>Honorable Mention Award (Top 5%)</span>_"
+      content : "Conference_sci"
+      duration: 2019
 
 
 ####################### Publication ###########################
