@@ -1,7 +1,7 @@
 ---
 # BASIC INFO
 title: Generative Design for COVID-19 and Future Pathogens Using Stochastic Multi-agent Simulation
-author : <ins>Bokyung Lee</ins>, Damon Lau, Jeremy P.M. Mogk, Michael Lee, Jacobo Bibliowicz, Rhys Goldstein, Alexander Tessier
+author : <ins>Bokyung Lee</ins>, Damon Lau, Jeremy Mogk, Michael Lee, Jacobo Bibliowicz, Rhys Goldstein, Alex Tessier
 Journal: Journal of Sustainable Cities and Society, Volume 97, 104661, ISSN 2210-6707
 
 #Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, conference_dom
