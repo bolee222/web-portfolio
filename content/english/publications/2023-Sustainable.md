@@ -10,6 +10,7 @@ type: "Journal_sci"
 # DATE INFO
 date: 2023-03-14T15:40:24+06:00
 publicationDate: 2023.06
+homeYearTag: 2023
 
 # PAGE PARAMETER
 draft: false

@@ -11,7 +11,7 @@
       {{ $paginator := .Paginate .Data.Pages }}
       {{ range $paginator.Pages.ByDate.Reverse }}
       <div class="col-md-12 col-sm-6 mb-4">
-        {{ .Render "publication_Journal_sci" }}
+        {{ .Render "publication_sci" }}
       </div>
       {{ end }}
       <div class="col-12 mt-5">

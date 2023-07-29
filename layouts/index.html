@@ -348,6 +348,29 @@
 
 
 <!-- Publication  -->
+{{ if $data.homepage.publicationList.enable }}
+<section class="section pb-0" id="publication">
+    <div class="container cv-section-padding">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="cv-title mb-3">PUBLICATION</div>
+            </div>
+            <div class="col-lg-10">
+                {{ range first 6 (where .Site.RegularPages "Section" "==" "publications" )}}
+                <div>{{ .Render "publication_all" }}</div>
+                {{ end }}
+                <div class="text-left">
+                    <a href="{{ `publications` | absLangURL }}" class="btn btn-primary-allPublications ">{{ i18n "all_publications"}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+
+
+<!-- Publication  -->
+<!--
 {{ if $data.homepage.publicationList.enable }}{{ with $data.homepage.publicationList }}
 <section class="section pb-0" id="publication">
     <div class="container cv-section-padding">
@@ -371,7 +394,7 @@
     </div>
 </section>
 {{ end }}{{ end }}
-
+-->
 
 
 <!-- talks -->

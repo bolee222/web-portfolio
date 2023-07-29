@@ -1,8 +1,7 @@
 <section class="section pb-0 padding0 margin-bottom-0" id="project">
     <div class="container cv-section-padding margin-bottom-0 padding-side-0">
-            {{if eq .Params.Type "Journal_sci"  }}
             <div class="row margin-bottom-0">
-                <div class="col-lg-11 margin-bottom-0 padding-publication_title ">
+                <div class="col-lg-9 margin-bottom-0 padding-publication_title ">
                     <div class="cv-text-bold margin-bottom-0"><a href="{{ .Params.link_PDF | absURL }}"> {{ .Title  | markdownify }}</a></div>
                     <div class="cv-text margin-bottom-0">{{ .Params.Author  | markdownify }}</div>
                     <div class="cv-text margin-bottom-0"><em>{{ .Params.Journal  | markdownify }}</em></div>
@@ -14,11 +13,9 @@
                         {{ end }}
                         </ul>
                 </div>
-                <div class="col-lg-1 margin-bottom-0 padding-side-0">
-                  <div class="cv-text-bold">{{ .Params.publicationDate}}</div>
-                </div>
-              {{end}}
-                  
+                <div class="col-lg-3 margin-bottom-0 ">
+                  <div class="cv-text-bold">{{ .Params.homeYearTag}}</div>
+                </div>                  
                   
             </div>
         </div>

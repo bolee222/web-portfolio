@@ -191,7 +191,8 @@ h6,
   font-weight: 400 !important;
   color: #2f2f2f;
   font-family: "Roboto", sans-serif;
-  line-height: 1.4; }
+  line-height: 1.4;
+  margin-bottom: 10px; }
 
 a:link-text-publications {
   font-weight: 600 !important;
