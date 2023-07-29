@@ -150,6 +150,9 @@ h6,
   font-family: "Roboto", sans-serif;
   line-height: 1.3; }
 
+.cv-text-bold a {
+  text-decoration: underline; }
+
 .cv-text-bold a:hover {
   background-color: #F2F2F2; }
 
