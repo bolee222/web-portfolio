@@ -403,10 +403,11 @@
     .publication-type-title {
         font-family: $primary-font;
         font-weight: 800;
-        font-size: 20px !important;
-        color: $text-color;
+        font-size: 23px !important;
+        color: $hightlight-font;
         margin-top: 0px;
         margin-bottom: 15px;
+        background-color: $highlight-bgcolor-purple;
     }
 
     .blog-title {
