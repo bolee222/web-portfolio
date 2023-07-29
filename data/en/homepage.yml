@@ -327,11 +327,12 @@ leadership:
 ####################### Publication List ###########################
 publicationList:
   enable : true
-  title : " PUBLICATION <br> LIST"
+  title : " PUBLICATION"
   publicationList_item:
     # expertise item loop
-    - name : "Data Analysis and Visualization"
+    - name : "<ins>Bokyung Lee</ins>, Michael Lee, Jacky Bibliowicz, Rhys Goldstein, Jeremy Mogk, Alexander Tessier., **Generative design for COVID-19 and future pathogens using stochastic multi-agent simulation**, _Journal of Sustainable Cities and Society_, Volume 97, 104661, ISSN 2210-6707"
       content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+      duration: 2023
 
     # expertise item loop
     - name : "Statical Meathod Learning"

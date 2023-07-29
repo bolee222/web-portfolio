@@ -2,8 +2,9 @@
 #Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, conference_dom
 type: "Journal_sci"
 
-title: "Generative design for COVID-19 and future pathogens using stochastic multi-agent simulation"
-author : "George Cushen"
+title: Generative design for COVID-19 and future pathogens using stochastic multi-agent simulation
+author : <ins>Bokyung Lee</ins>, Damon Lau, Jeremy P.M. Mogk, Michael Lee, Jacobo Bibliowicz, Rhys Goldstein, Alexander Tessier
+journal: Sustainable Cities and Society, Volume 97
 publicationDate: Jan 14
 
 
@@ -18,8 +19,6 @@ description: "This is meta description"
 # links
 links:
   - label : "PDF"
-    link : "#"
-  - label : "Code"
     link : "#"
   - label : "Source File"
     link : "#"
