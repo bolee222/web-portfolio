@@ -366,7 +366,7 @@ publicationList:
 
     # publication item loop
     - name : "Jaeho Sung, <ins>Bokyung Lee</ins>, Daniel Saakes., **PoseScape: Pose-based Analysis System for Long-term Observation Studies**, _ACM Nordic Conference on Human-Computer Interaction (NordiCHI 2020)_"
-      content : "Conference_sci"
+      content : "Conference_int"
       duration: 
 
     # publication item loop
@@ -425,7 +425,7 @@ publicationList:
       duration: 
 
   # publication item loop
-    - name : "<ins>Bokyung Lee</ins>, Minjoo Cho, Daniel Saakes., **Posing and Acting as Input for Personalizing Furniture.**, _ACM Nordic Conference on Human-Computer Interaction (NordiCHI Korea 2016)_"
+    - name : "<ins>Bokyung Lee</ins>, Minjoo Cho, Daniel Saakes., **Posing and Acting as Input for Personalizing Furniture.**, _ACM Nordic Conference on Human-Computer Interaction (NordiCHI 2016)_"
       content : "Conference_sci"
       duration: 2016
 
