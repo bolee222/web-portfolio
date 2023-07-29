@@ -356,7 +356,7 @@
                 <div class="cv-title mb-3">PUBLICATION</div>
             </div>
             <div class="col-lg-10">
-                {{ range first 6 (where .Site.RegularPages "Section" "==" "publications" )}}
+                {{ range first 100 (where .Site.RegularPages "Section" "==" "publications" )}}
                 <div>{{ .Render "publication_all" }}</div>
                 {{ end }}
                 <div class="text-left">
