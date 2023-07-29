@@ -31,15 +31,15 @@ keyword:
 ####################### Education ###########################
 education:
   enable : true
-  title : "EDUCATION"
+  title : "학력"
   education_item:
     # education item loop
-    - name : "한국과학기술원 (KAIST)"
+    - name : "한국과학기술원 ([KAIST](https://id.kaist.ac.kr/))"
       duration : "Mar 2015 – Feb 2019"
-      department: "석사/박사 통합 |  산업디자인학과 "
+      department: "공학 박사 |  산업디자인학과 "
 
     # education item loop
-    - name : "TU Delft, 네덜란드"
+    - name : "[TU Delft](https://www.tudelft.nl/en/ide), 네덜란드"
       duration : "Sep 2014 – Feb 2015"
       department : "석사 교환 프로그램 – Industrial Design Engineering / DFI 전공 (Design for Interactions)"
 
@@ -49,34 +49,34 @@ education:
       department : "학사 교환 프로그램 – Aalto / School of Science"
 
     # education item loop
-    - name : "한국과학기술원 (KAIST)"
+    - name : "한국과학기술원 ([KAIST](https://id.kaist.ac.kr/))"
       duration : "Feb 2009 – Feb 2014"
-      department : "학사 | 산업디자인학과 (주 전공) & 기술경영 (복수 전공)"
+      department : "공학 학사 | 산업디자인학과 (주 전공) & 기술경영 (복수 전공)"
 
 
 ####################### Work Experience ###########################
 work:
   enable : true
-  title : "WORK <br> EXPERIENCE"
+  title : "업무 경력"
   work_item:
 
     # expertise item loop
-    - name : "연세대학교 언더우드 국제학부, 조교수"
+    - name : "[연세대학교](https://www.yonsei.ac.kr/sc/index.jsp) [언더우드 국제학부](https://uic.yonsei.ac.kr/main/major.asp?mid=m02_03_05#mpart), 조교수"
       content : "Assistant Professor"
-      duration: "Sep 2023 – current"
+      duration: "Mar 2015 – Feb 2019"
 
     # expertise item loop
-    - name : "삼성 리서치, Senior Designer"
+    - name : "[삼성전자/Samsung Research](https://research.samsung.com/), 책임 디자이너"
       content : "UX Innovation Lab"
-      duration: "Mar 2020 – current"
+      duration: "Sep 2022 – Aug 2023"
 
     # expertise item loop
-    - name : "오토데스크 리서치 (캐나다), Senior Research Scientist"
+    - name : "[Autodesk Research](https://www.research.autodesk.com/) (캐나다), 책임 연구원"
       content : "Simulation, Optimization, Systems Group"
-      duration: "Mar 2020 – current"
+      duration: "Mar 2020 – Aug 2022"
 
     # expertise item loop
-    - name : "오토데스크 리서치 (캐나다), Research Intern"
+    - name : "[Autodesk Research](https://www.research.autodesk.com/) (캐나다), 리서치 인턴"
       content : "Systems Group"
       duration: "Oct 2018 – Aug 2019"
 
@@ -85,36 +85,36 @@ work:
 ####################### Awards ###########################
 award:
   enable : true
-  title : " HONORS &<br> AWARDS"
+  title : " 수상 경력"
   award_item:
     # award item loop
-    - name : "DIS 2021 – Honorable Mention Paper Award (Top 5%)"
+    - name : "ACM DIS 2021 | 우수 논문 상 (Top 5%)"
       content : "ACM Designing Interactive Systems"
+      duration : "2021"
+
+    # award item loop
+    - name : "ACM CSCW 2020 | 최우수 논문 상 (Top 1%)"
+      content : "ACM Hum.-Comput. Interact. Computer Supported Cooperative Work and Social Computing"
       duration : "2020"
 
     # award item loop
-    - name : "CSCW 2020 Best Paper Award (Top 1%)"
-      content : "ACM Computer Supported Cooperative Work and Social Computing"
-      duration : ""
-
-    # award item loop
-    - name : "CSCW 2019 Honorable Mention Award (Top 5%)"
-      content : "ACM Computer Supported Cooperative Work and Social Computing"
+    - name : "ACM CSCW 2019 | 우수 논문 상 (Top 5%)"
+      content : "ACM Hum.-Comput. Interact. Computer Supported Cooperative Work and Social Computing"
       duration : "2019"
 
     # award item loop
-    - name : "Gender Equality Pictogram Contest – Bronze Prize"
-      content : "hosted by Choongchung City"
+    - name : "양성평등 픽토리얼 공모전  ㅣ  장려상"
+      content : "충청북도 여성정책관"
       duration : "2014"
 
     # award item loop
-    - name : "LSB (Location-Based Service) App & Web Contest – Bronze Prize"
-      content : "Korea Communication and Commissions (KCC) / Korea Internet Security Agency (KISA)"
+    - name : "위치기반 서비스 활용 앱 & 웹 공모전  |  장려상"
+      content : "한국 방송통신위원회 (KCC) / 한국 인터넷진흥원 (KISA)"
       duration : "2013"
 
     # award item loop
-    - name : "Innopolis Idea Contest – Grand Prize"
-      content : "Ministry of Knowledge Economy of Korea / Innopolis Foundation"
+    - name : "이노폴리스 아이디어 컨테스트 | 최우수상"
+      content : "지식경제부 / 이노폴리스 재단"
       duration : "2013"
 
 
@@ -122,10 +122,15 @@ award:
 ####################### Patents ###########################
 patent:
   enable : true
-  title : " PATENT "
+  title : " 특허 "
   patent_item:
     # patent item loop
-    - name : "Furniture Design Apparatus Displaying Personalized Guide Information"
+    - name : "이동형 로봇 및 이의 제어 방법 (비공개 출원)"
+      content : "Invention field: ICT/SW, 출원번호: 10-2023-00735167"
+      duration : "Jun 2023"
+
+    # patent item loop
+    - name : "[맞춤형 가이드 정보를 출력하는 가구 디자인 장치](https://koasas.kaist.ac.kr/handle/10203/273578)"
       content : "Invention field: ICT/SW, KR-10-2018-0002957"
       duration : "Jan 2018"
 
@@ -133,139 +138,172 @@ patent:
 ####################### Project Experience ###########################
 projectExperience:
   enable : true
-  title : " PROJECT <br> EXPERIENCE"
+  title : " 프로젝트"
   projectExperience_item:
     # project item loop
-    - name : "• Living Lab & Digital Twins"
-      duration: "2020 – current"
+    - name : "• 미래 홈 로봇 탐색 연구"
+      duration: "2022 – 2023"
 
     # project item loop
-    - name : "• Designing and Simulating Digital Humans in the Virtual Space for Space/Product Design Evaluation"
-      duration : "2020 – current"
+    - name : "• 비디오 미디어 툴과 프라이버시 연구"
+      duration: "2020 – 2022"
 
     # project item loop
-    - name : "• Vision-based Social Interaction Analysis for Human-Centered Architecture"
-      duration : "2019 – current"
+    - name : "• 리빙 랩 & 디지털 트윈"
+      duration: "2020 – 2022"
 
     # project item loop
-    - name : "• Design Toolkits for Everybody with VR/AR Technology"
+    - name : "• Factory OS: 공장의 필중요 지식 자동 축적 및 인사이트 도출 방안 연구"
+      duration: "2020 – 2022"
+
+    # project item loop
+    - name : "• 공간 디자인 평가를 위한 가상 공간에서의 디지털 휴먼 디자인 및 시뮬레이션 활용 방안 연구"
+      duration : "2020 – 2022"
+
+    # project item loop
+    - name : "• 사용자 중심 건축물 디자인을 위한, 비전 기술 기반 소셜 인터렉션 분석 및 활용 연구"
+      duration : "2019 – 2022"
+
+    # project item loop
+    - name : "• VR/AR 기술을 활용한, 일반인을 위한 디자인 툴킷 연구"
       duration : "2015 – 2018"
 
     # project item loop
-    - name : "• AI/AR Personal Health Recommendations for Mobile Computing at Home"
+    - name : "• AI/AR 기술을 활용한, 홈 내에서 건강한 모바일 컴퓨팅 환경  조성을 위한 추천 시스템 연구"
       duration : "2018"
 
     # project item loop
-    - name : "• Gesture-based Trafficator to Enhance Human-Automobile Interaction"
+    - name : "• 사용자-자동차 인터렉션 증진을 위한 제스처 기반 트레픽케이트 연구"
       duration : "2017"
 
     # project item loop
-    - name : "• Augmented Reality Interface for the Internet of Things"
+    - name : "• IoT 환경 조성을 위한 AR 인터페이스 연구"
       duration : "2016 – 2018"
 
     # project item loop
-    - name : "• An Interactive Tabletop to Support Surveillance Scenarios with UAVs"
+    - name : "• 무인항공기를 위한 인터렉티브한 무인기 조정 시나리오 인터페이스 연구"
       duration : "2015"
 
     # project item loop
-    - name : "• Design for the Next Generation UX-Oriented Mobile Software Platform"
+    - name : "• 차세대 UX 기반 모바일 소프트웨어 플랫폼 개발을 위한 연구"
       duration : "2013"
 
 ####################### Academic Service ###########################
 academicService:
   enable : true
-  title : " ACADEMIC <br> SERVICE"
+  title : "아카데믹 서비스"
   academicService_item:
     # academic item loop
-    - content : ACM CHI paper review, ACM Siggraph e-vtech review, ACM DIS paper review, pictorial review, ACM IDC paper review
-      duration: "2020"
+    - name: "Conference Chair (Web)"
+    - content : ACM TEI Web Chair of 2022
+      duration: "2022"
 
     # academic item loop
-    - content : "ACM CHI paper review, ACM Siggraph Asia paper review"
-      duration : "2019"
+    - name: "Paper Review"
+    - content : ACM CHI, ACM DIS, ACM CSCW, ACM UIST, ACM TEI, ACM Siggraph E-tech, ACM IDC, ACM Siggraph Asia, ACM C&C, ACM CHI Play 
+      duration: "2017 - current"
 
-    # academic item loop
-    - content : "ACM DIS paper review, ACM DIS paper review, ACM C&C paper review"
-      duration : "2018"
-
-    # academic item loop
-    - content : "ACM CHI paper review, poster review, ACM CHI Play poster review, ACM CSCW poster review, ACM DIS paper review, poster review, ACM TEI paper review, ACM UIST paper review"
-      duration : "2017"
 
 ####################### Invited TAlk ###########################
 invitedTalk:
   enable : true
-  title : " INVITED <br> TALKS"
+  title : " 초청 강연"
   invitedTalk_item:
     # talk item loop
-    - name : "• University of Toronto – Dynamics Graphics Project (DGP) Lab"
+    - name : "• [국제 디자인 학회 (IASDR)](https://www.iasdr2021.org/programme) | 패널 토크 (홍콩)"
+      title: "‎ ‎ ‎ Impact Design Against COVID-19 / 디자인 + 기술: 코로나 시대 극복을 위한 영향력 있는 디자인"
+      duration: "Dec 2021"
+
+    # talk item loop
+    - name : "• 버지니아 대학교 | 초청 강연 (미국)"
+      title: "‎ ‎ ‎ Digital-Physical Convergence: Converging the Use-Stage and the Design-stage"
+      duration: "Nov 2021"  
+
+    # talk item loop
+    - name : "• 토론토 대학교 | 초청 강연 (캐나다)"
+      title: "‎ ‎ ‎  [Dynamics Graphics Project (DGP) Lab](https://www.dgp.toronto.edu/) / Future of Embodied Interactions in Digital Design Contexts"
       duration: "Mar 2021"
 
     # talk item loop
-    - name : "• HCI Korea Conference – Panel Talk (Future of Digital Fabrication)"
+    - name : "• [HCI Korea Conference](https://conference.hcikorea.org/hcik2021/programs/total_programs.asp) | 패널 토크 (한국)"
+      title: "‎ ‎ ‎ Future of Digital Fabrication / Not just helping you design easily, but help you design what you want"
       duration : "Jul 2021"
 
     # talk item loop
-    - name : "• ID KAIST Ph.D. Colloquium – Daejeon, Korea"
+    - name : "• ID KAIST Ph.D. Colloquium | 초청 강연 (한국)"
+      title: "‎ ‎ ‎ Doing a Ph.D. in HCI & Design Research"
       duration : "Jul 2020"
 
     # talk item loop
-    - name : "• Autodesk Research – Toronto, Canada"
+    - name : "• Autodesk Research | 연구 토크, (캐나다)"
+      title: "‎ ‎ ‎ Design Toolkits for Everybody"
       duration : "Nov 2018"
 
     # talk item loop
-    - name : "• CS374: Introduction to HCI Research Talk – Daejeon, Korea"
+    - name : "• CS374: Introduction to HCI Research Talk (한국)"
       duration : "Jun 2018"
 
     # talk item loop
-    - name : "• HCI KAIST Research Talk – Daejeon, Korea"
+    - name : "• HCI KAIST Research Talk (한국)"
       duration : "Apr 2017"
 
 ####################### Teaching Experience ###########################
 teachingExperience:
   enable : true
-  title : " TEACHING <br> EXPERIENCE"
+  title : " 교육 경력"
   teachingExperience_item:
     # teaching item loop
-    - name : "• Yonsei University | Introduction to CDM"
+    - name : "• 지속가능성을 위한 사회적 혁신 프로젝트 | ‎  _연세대학교, 전임_"
+      duration : "Spring 2023"
+
+    # teaching item loop
+    - name : "• 문화 산업의 현대 주요 토픽 | ‎  _연세대학교, 전임_"
+      duration : "Spring 2023"
+
+    # teaching item loop
+    - name : "• 디자인 논문 작성법 | ‎  _성신여자대학교, 특강_"
+      duration : "Spring 2023"
+
+    # teaching item loop
+    - name : "• CDM 개론 | ‎  _연세대학교, 특강_"
       duration : "Spring 2021"
 
     # teaching item loop
-    - name : "• Yonsei University | Research Paper Writing"
+    - name : "• 융합 연구 논문 작성법 | ‎  _연세대학교, 특강_"
       duration : "Spring 2021"
 
     # teaching item loop
-    - name : "• Digital Design Fabrication "
+    - name : "• 디지털 디자인 패브리케이션 | ‎  _KAIST, TA_"
       duration : "Fall 2017"
 
     # teaching item loop
-    - name : "• ID KAIST Academic Counselor "
+    - name : "• ID KAIST Academic Counselor | ‎  _KAIST, TA_ "
       duration : "Spring 2017"
 
     # teaching item loop
-    - name : "• Digital Design Fabrication (2016 fall)"
+    - name : "• 디지털 디자인 패브리케이션 | ‎  _KAIST, TA_"
       duration : "Fall 2016"
 
     # teaching item loop
-    - name : "• Integrated Design – Undergraduate graduation project "
+    - name : "• 통합 디자인 (학부졸업 프로젝트) | ‎  _KAIST, TA_"
       duration : "Spring 2016"
 
     # teaching item loop
-    - name : "• Digital Design Fabrication"
+    - name : "• 디지털 디자인 패브리케이션 | ‎  _KAIST, TA_"
       duration : "Fall 2015"
 
     # teaching item loop
-    - name : "• Space Design"
+    - name : "• 공간 디자인 | ‎  _KAIST, TA_"
       duration : "Spring 2015"
 
     # teaching item loop
-    - name : "• Introduction to Industrial Design"
+    - name : "• 산업디자인 개론| ‎  _KAIST, TA_"
       duration : "Spring 2014"
 
 
 ####################### Leadership Activities ###########################
 leadership:
-  enable : true
+  enable : false
   title : " LEADERSHIP <br> ACTIVITY"
   leadership_item:
     # expertise item loop

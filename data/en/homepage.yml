@@ -32,12 +32,12 @@ education:
   title : "EDUCATION"
   education_item:
     # education item loop
-    - name : "Korea Advanced Institute of Science and Technology (KAIST)"
+    - name : "Korea Advanced Institute of Science and Technology ([KAIST](https://id.kaist.ac.kr/))"
       duration : "Mar 2014 – Feb 2019"
       department: "Ph.D. of Engineering  |  Department of Industrial Design "
 
     # education item loop
-    - name : "TU Delft, Netherlands"
+    - name : "[TU Delft](https://www.tudelft.nl/en/ide), Netherlands"
       duration : "Sep 2014 – Feb 2015"
       department : "M.S. Exchange Program - Department of Industrial Design Engineering"
 
@@ -47,7 +47,7 @@ education:
       department : "Undergraduate Exchange Program – School of Science"
 
     # education item loop
-    - name : "Korea Advanced Institute of Science and Technology (KAIST)"
+    - name : "Korea Advanced Institute of Science and Technology ([KAIST](https://id.kaist.ac.kr/))"
       duration : "Feb 2009 – Feb 2014"
       department : "Bachelor of Engineering in Industrial Design,  Technology Management (double major)"
 
@@ -60,12 +60,12 @@ work:
   title : "WORK <br> EXPERIENCE"
   work_item:
     # expertise item loop
-    - name : "Yonsei University, Underwood International College, Korea"
+    - name : "[Yonsei University](https://www.yonsei.ac.kr/sc/index.jsp), [Underwood International College](https://uic.yonsei.ac.kr/main/major.asp?mid=m02_03_05#mpart), Korea"
       content : "Assistant Professor"
       duration: "Sep 2023 – current"
 
     # expertise item loop
-    - name : "Samsung Research, Korea"
+    - name : "[Samsung Research](https://research.samsung.com/), Korea"
       content : "Senior Designer | UX Innovation Lab"
       duration: "Sep 2022 – Aug 2023"
 
@@ -87,18 +87,18 @@ award:
   title : " HONORS &<br> AWARDS"
   award_item:
     # award item loop
-    - name : "DIS 2021 – Honorable Mention Paper Award (Top 5%)"
+    - name : "DIS 2021 Honorable Mention Paper Award (Top 5%)"
       content : "ACM Designing Interactive Systems"
-      duration : "2020"
+      duration : "2021"
 
     # award item loop
     - name : "CSCW 2020 Best Paper Award (Top 1%)"
-      content : "ACM Computer Supported Cooperative Work and Social Computing"
-      duration : ""
+      content : "ACM Hum.-Comput. Interact. Computer Supported Cooperative Work and Social Computing"
+      duration : "2020"
 
     # award item loop
     - name : "CSCW 2019 Honorable Mention Award (Top 5%)"
-      content : "ACM Computer Supported Cooperative Work and Social Computing"
+      content : "ACM Hum.-Comput. Interact. Computer Supported Cooperative Work and Social Computing"
       duration : "2019"
 
     # award item loop
@@ -124,6 +124,11 @@ patent:
   title : " PATENT "
   patent_item:
     # patent item loop
+    - name : "Mobile Robot and control method thereof"
+      content : "Invention field: ICT/SW, 10-2023-00735167"
+      duration : "Jun 2023"
+
+    # patent item loop
     - name : "Furniture Design Apparatus Displaying Personalized Guide Information"
       content : "Invention field: ICT/SW, KR-10-2018-0002957"
       duration : "Jan 2018"
@@ -134,16 +139,28 @@ projectExperience:
   title : " PROJECT <br> EXPERIENCE"
   projectExperience_item:
     # project item loop
-    - name : "• Living Lab & Digital Twins"
-      duration: "2020 – current"
+    - name : "• Future Home Robots"
+      duration: "2022 – 2023"
 
     # project item loop
-    - name : "• Designing and Simulating Digital Humans in the Virtual Space for Space/Product Design Evaluation"
-      duration : "2020 – current"
+    - name : "• Video Media Tool and Privacy"
+      duration: "2020 – 2022"
+
+    # project item loop
+    - name : "• Living Lab & Digital Twins"
+      duration: "2020 – 2022"
+
+    # project item loop
+    - name : "• Factory OS: Knowledge-capture and insight"
+      duration : "2020 – 2022"
+
+    # project item loop
+    - name : "• Designing and Simulating Digital Humans in the Virtual Space" # for Space/Product Design Evaluation
+      duration : "2020 – 2022"
 
     # project item loop
     - name : "• Vision-based Social Interaction Analysis for Human-Centered Architecture"
-      duration : "2019 – current"
+      duration : "2019 – 2022"
 
     # project item loop
     - name : "• Design Toolkits for Everybody with VR/AR Technology"
@@ -175,48 +192,57 @@ academicService:
   title : " ACADEMIC <br> SERVICE"
   academicService_item:
     # academic item loop
-    - content : ACM CHI paper review, ACM Siggraph e-vtech review, ACM DIS paper review, pictorial review, ACM IDC paper review
-      duration: "2020"
+    - name: "Conference Chair (Web)"
+    - content : ACM TEI Web Chair of 2022
+      duration: "2022"
 
     # academic item loop
-    - content : "ACM CHI paper review, ACM Siggraph Asia paper review"
-      duration : "2019"
+    - name: "Paper Review"
+    - content : ACM CHI, ACM DIS, ACM CSCW, ACM UIST, ACM TEI, ACM Siggraph E-tech, ACM IDC, ACM Siggraph Asia, ACM C&C, ACM CHI Play 
+      duration: "2017 - current"
 
-    # academic item loop
-    - content : "ACM DIS paper review, ACM DIS paper review, ACM C&C paper review"
-      duration : "2018"
-
-    # academic item loop
-    - content : "ACM CHI paper review, poster review, ACM CHI Play poster review, ACM CSCW poster review, ACM DIS paper review, poster review, ACM TEI paper review, ACM UIST paper review"
-      duration : "2017"
-
+  
 ####################### Invited TAlk ###########################
 invitedTalk:
   enable : true
   title : " INVITED <br> TALKS"
   invitedTalk_item:
     # talk item loop
-    - name : "• University of Toronto – Dynamics Graphics Project (DGP) Lab"
+    - name : "• [IASDR Panel Talk](https://www.iasdr2021.org/programme), Hong Kong"
+      title: "‎ ‎ ‎ Impact Design Against COVID-19 / Design + Technology for Impactful Design"
+      duration: "Dec 2021"
+
+    # talk item loop
+    - name : "• University of Virginia, USA"
+      title: "‎ ‎ ‎ Digital-Physical Convergence: Converging the Use-Stage and the Design-stage"
+      duration: "Nov 2021"
+
+    # talk item loop
+    - name : "• University of Toronto, Canada"
+      title: "‎ ‎ ‎ [Dynamics Graphics Project (DGP) Lab](https://www.dgp.toronto.edu/) / Future of Embodied Interactions in Digital Design Contexts"
       duration: "Mar 2021"
 
     # talk item loop
-    - name : "• HCI Korea Conference – Panel Talk (Future of Digital Fabrication)"
+    - name : "• [HCI Korea Panel Talk](https://conference.hcikorea.org/hcik2021/programs/total_programs.asp), Korea"
+      title: "‎ ‎ ‎ Future of Digital Fabrication / Not just helping you design easily, but help you design what you want"
       duration : "Jul 2021"
 
     # talk item loop
-    - name : "• ID KAIST Ph.D. Colloquium – Daejeon, Korea"
+    - name : "• ID KAIST Ph.D. Colloquium, Daejeon, Korea"
+      title: "‎ ‎ ‎ Doing a Ph.D. in HCI & Design Research"
       duration : "Jul 2020"
 
     # talk item loop
-    - name : "• Autodesk Research – Toronto, Canada"
+    - name : "• Autodesk Research, Toronto, Canada"
+      title: "‎ ‎ ‎ Design Toolkits for Everybody"
       duration : "Nov 2018"
 
     # talk item loop
-    - name : "• CS374: Introduction to HCI Research Talk – Daejeon, Korea"
+    - name : "• CS374: Introduction to HCI Research Talk,  Daejeon, Korea"
       duration : "Jun 2018"
 
     # talk item loop
-    - name : "• HCI KAIST Research Talk – Daejeon, Korea"
+    - name : "• HCI KAIST Research Talk, Daejeon, Korea"
       duration : "Apr 2017"
 
 ####################### Teaching Experience ###########################
@@ -225,45 +251,57 @@ teachingExperience:
   title : " TEACHING <br> EXPERIENCE"
   teachingExperience_item:
     # teaching item loop
-    - name : "• Yonsei University | Introduction to CDM"
+    - name : "• Social Innovation for Sustainability | ‎ _Yonsei University, Full Lecture_"
+      duration : "Spring 2021"
+    
+    # teaching item loop
+    - name : "• Contemporary Topics for Cultural Industry | ‎ _Yonsei University, Full Lecture_"
+      duration : "Spring 2021"
+      
+    # teaching item loop
+    - name : "• Design Research Paper Writing | ‎ _Sungsin Woman's University, Special Leture_"
+      duration : "Spring 2021"
+    
+    # teaching item loop
+    - name : "• Introduction to CDM | ‎ _Yonsei University, Special Leture_"
       duration : "Spring 2021"
 
     # teaching item loop
-    - name : "• Yonsei University | Research Paper Writing"
+    - name : "• Design Research Paper Writing | ‎ _Yonsei University, Special Leture_"
       duration : "Spring 2021"
 
     # teaching item loop
-    - name : "• Digital Design Fabrication "
+    - name : "• Digital Design Fabrication | ‎ _KAIST, TA_"
       duration : "Fall 2017"
 
     # teaching item loop
-    - name : "• ID KAIST Academic Counselor "
+    - name : "• ID KAIST Academic Counselor | ‎ _KAIST, TA_"
       duration : "Spring 2017"
 
     # teaching item loop
-    - name : "• Digital Design Fabrication (2016 fall)"
+    - name : "• Digital Design Fabrication | ‎ _KAIST, TA_"
       duration : "Fall 2016"
 
     # teaching item loop
-    - name : "• Integrated Design – Undergraduate graduation project "
+    - name : "• Integrated Design, Undergraduate graduation project | ‎ _KAIST, TA_"
       duration : "Spring 2016"
 
     # teaching item loop
-    - name : "• Digital Design Fabrication"
+    - name : "• Digital Design Fabrication | ‎ _KAIST, TA_"
       duration : "Fall 2015"
 
     # teaching item loop
-    - name : "• Space Design"
+    - name : "• Space Design | ‎ _KAIST, TA_"
       duration : "Spring 2015"
 
     # teaching item loop
-    - name : "• Introduction to Industrial Design"
+    - name : "• Introduction to Industrial Design | ‎ _KAIST, TA_"
       duration : "Spring 2014"
 
 
 ####################### Leadership Activities ###########################
 leadership:
-  enable : true
+  enable : false
   title : " LEADERSHIP <br> ACTIVITY"
   leadership_item:
     # expertise item loop

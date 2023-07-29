@@ -118,7 +118,7 @@
                 {{ range .education_item }}
                 <div class="row cv-lineBox">
                     <div class="col-lg-9">
-                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text-bold">{{ .name  | markdownify}}</div>
                         <div class="cv-text">{{ .department | markdownify }}</div>
                     </div>
                     <div class="col-lg-3">
@@ -199,7 +199,7 @@
                 {{ range .patent_item }}
                 <div class="row cv-lineBox">
                     <div class="col-lg-9">
-                        <div class="cv-text-bold">{{ .name }}</div>
+                        <div class="cv-text-bold">{{ .name | markdownify }}</div>
                         <div class="cv-text">{{ .content | markdownify }}</div>
                     </div>
                     <div class="col-lg-3">
@@ -278,8 +278,8 @@
                 {{ range .invitedTalk_item }}
                 <div class="row cv-lineBox">
                     <div class="col-lg-9">
-                        <div class="cv-text-bold">{{ .name }}</div>
-                        <div class="cv-text">{{ .content | markdownify }}</div>
+                        <div class="cv-text-bold">{{ .name | markdownify }}</div>
+                        <div class="cv-text">{{ .title | markdownify }}</div>
                     </div>
                     <div class="col-lg-3">
                         <div class="cv-text">{{ .duration }}</div>
@@ -305,8 +305,8 @@
                 {{ range .teachingExperience_item }}
                 <div class="row cv-lineBox">
                     <div class="col-lg-9">
-                        <div class="cv-text-bold">{{ .name }}</div>
-                        <div class="cv-text">{{ .content | markdownify }}</div>
+                        <div class="cv-text-bold">{{ .name | markdownify }}</div>
+                        <div class="cv-text">{{ .school | markdownify }}</div>
                     </div>
                     <div class="col-lg-3">
                         <div class="cv-text">{{ .duration }}</div>
