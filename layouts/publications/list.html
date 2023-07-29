@@ -6,10 +6,10 @@
     <div class="single-page-title">{{.Title}}</div>
     </div>
 
-    <div class="publication-type-title"> International Journals </div>
+    <div class="publication-type-title"> SCI Journals / Top-rank Conferences </div>
     <div class="row">
       {{ $paginator := .Paginate .Data.Pages }}
-      {{ range $paginator.Pages }}
+      {{ range $paginator.Pages.ByDate.Reverse }}
       <div class="col-md-12 col-sm-6 mb-4">
         {{ .Render "publication_Journal_sci" }}
       </div>
