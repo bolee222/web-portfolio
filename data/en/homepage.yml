@@ -331,14 +331,18 @@ publicationList:
   publicationList_item:
     # expertise item loop
     - name : "<ins>Bokyung Lee</ins>, Michael Lee, Jacky Bibliowicz, Rhys Goldstein, Jeremy Mogk, Alexander Tessier., **Generative design for COVID-19 and future pathogens using stochastic multi-agent simulation**, _Journal of Sustainable Cities and Society_, Volume 97, 104661, ISSN 2210-6707"
-      content : ""
+      content : "Journal_sci"
       duration: 2023
 
     # expertise item loop
-    - name : "<ins>Bokyung Lee</ins>, Daniel Saakes., **Understanding the Roles of Intelligent Product-Customization Systems through Expert Interviews**, _International Association of Societies of Design Research (IASDR)_, full paper  "
-      content : ""
+    - name : "<ins>Bokyung Lee</ins>, Daniel Saakes., **Understanding the Roles of Intelligent Product-Customization Systems through Expert Interviews**, _International Association of Societies of Design Research **(IASDR 2021)**, full paper_  "
+      content : "Conference_int"
       duration: 2021
 
+    # expertise item loop
+    - name : "<ins>Bokyung Lee</ins>, Michael Lee, Jacky Bibliowicz, Rhys Goldstein, Jeremy Mogk, Alexander Tessier., **Simulation and Visualization of Virus Transmission for Architectural Design Analysis**, _ACM International Conference on Computer Graphics and Interactive Techniques **(SIGGRAPH 2021)**_, _Talks_"
+      content : "Conference_int"
+      duration: 2021
 
 
 

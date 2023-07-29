@@ -36,10 +36,10 @@ p strong {
 p a {
   text-decoration: underline;
   font-weight: 600;
-  background-color: #F5F5F5; }
+  background-color: #F2F2F2; }
 
 p a:hover {
-  background-color: #F5F5F5; }
+  background-color: #F2F2F2; }
 
 h1,
 h2,
@@ -132,6 +132,39 @@ h6,
   line-height: 1.4;
   margin-bottom: 5px; }
 
+.cv-text-authors {
+  font-size: 15px !important;
+  font-weight: 300 !important;
+  color: #2f2f2f !important;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.3;
+  margin-bottom: 10px;
+  padding-right: 20px; }
+
+.cv-text-authors strong {
+  font-weight: 600;
+  color: #2f2f2f !important;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.3; }
+
+.cv-text-authors em {
+  font-weight: 300; }
+
+.cv-text-authors em strong {
+  font-weight: 300 !important;
+  background-color: #F2F2F2; }
+
+.cv-text-authors ins {
+  font-weight: 400; }
+
+.cv-text-period {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2f2f2f;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  margin-bottom: 10px; }
+
 .padding-left-30 {
   padding-left: 30px; }
 
@@ -141,6 +174,13 @@ h6,
   color: #2f2f2f;
   font-family: "Roboto", sans-serif;
   line-height: 1.3; }
+
+.cv-text-bold a:hover {
+  background-color: #F2F2F2; }
+
+.cv-text-bold em {
+  font-weight: 300 !important;
+  font-size: 15px; }
 
 .link-text-publications {
   font-size: 14px !important;
@@ -176,8 +216,11 @@ a:link-text-publications {
   color: #2f2f2f;
   font-family: "Lato", sans-serif;
   line-height: 1.0;
-  margin-bottom: 7px;
-  text-decoration: underline; }
+  margin-bottom: 5px; }
+
+.banner-subtitle-email a:hover {
+  background-color: #F2F2F2;
+  color: #400599; }
 
 .banner-subtitle-social {
   font-size: 16px;
@@ -198,7 +241,7 @@ a:link-text-publications {
 
 .banner-subtitle-social a:hover {
   background-color: #E5E5E5;
-  color: #2f2f2f; }
+  color: #400599; }
 
 .banner-text {
   font-size: 16px;
@@ -218,7 +261,7 @@ a:link-text-publications {
   line-height: 1.5em !important; }
 
 .banner-text-keyword:hover {
-  background-color: #F5F5F5; }
+  background-color: #F2F2F2; }
 
 .linear-news {
   font-size: 15px;
@@ -269,7 +312,7 @@ a:link-text-publications {
   line-height: 1.3rem; }
 
 .project-title strong:hover {
-  background-color: #F5F5F5; }
+  background-color: #F2F2F2; }
 
 .project-meta {
   font-family: "Roboto", sans-serif;
@@ -296,6 +339,14 @@ a:link-text-publications {
   color: #2f2f2f;
   margin-top: 60px;
   margin-bottom: 40px; }
+
+.publication-type-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 20px !important;
+  color: #2f2f2f;
+  margin-top: 0px;
+  margin-bottom: 0px; }
 
 .blog-title {
   margin-top: 10px;
