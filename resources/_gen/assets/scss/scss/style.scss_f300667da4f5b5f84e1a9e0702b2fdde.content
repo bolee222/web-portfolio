@@ -349,7 +349,7 @@ a:link-text-publications {
   font-size: 23px !important;
   color: #2f2f2f;
   margin-top: 0px;
-  margin-bottom: 15px; }
+  margin-bottom: 30px; }
 
 .blog-title {
   margin-top: 10px;
