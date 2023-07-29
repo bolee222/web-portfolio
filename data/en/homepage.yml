@@ -331,16 +331,14 @@ publicationList:
   publicationList_item:
     # expertise item loop
     - name : "<ins>Bokyung Lee</ins>, Michael Lee, Jacky Bibliowicz, Rhys Goldstein, Jeremy Mogk, Alexander Tessier., **Generative design for COVID-19 and future pathogens using stochastic multi-agent simulation**, _Journal of Sustainable Cities and Society_, Volume 97, 104661, ISSN 2210-6707"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+      content : ""
       duration: 2023
 
     # expertise item loop
-    - name : "Statical Meathod Learning"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+    - name : "<ins>Bokyung Lee</ins>, Daniel Saakes., **Understanding the Roles of Intelligent Product-Customization Systems through Expert Interviews**, _International Association of Societies of Design Research (IASDR)_, full paper  "
+      content : ""
+      duration: 2021
 
-    # expertise item loop
-    - name : "Statical Meathod Learning"
-      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
 
 
 
