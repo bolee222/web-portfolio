@@ -6,11 +6,12 @@
     <div class="single-page-title">{{.Title}}</div>
     </div>
 
-    <div class="row ">
+    <div class="publication-type-title"> SCI Journals </div>
+    <div class="row">
       {{ $paginator := .Paginate .Data.Pages }}
       {{ range $paginator.Pages }}
       <div class="col-md-12 col-sm-6 mb-4">
-        {{ .Render "publication" }}
+        {{ .Render "publication_Journal_sci" }}
       </div>
       {{ end }}
       <div class="col-12 mt-5">

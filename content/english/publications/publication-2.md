@@ -1,14 +1,19 @@
 ---
-title: "“The biggest change to News Feed since 2013”: Facebook is making it easy to bypass its algorithm Feed since biggest"
+#Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, conference_dom
+type: "Journal_sci"
+
+title: "Generative design for COVID-19 and future pathogens using stochastic multi-agent simulation"
+author : "George Cushen"
+publicationDate: Jan 14
+
+
 date: 2020-03-14T15:40:24+06:00
 # publication thumb
 image : "images/publications/pub2.jpg"
-# author
-author : "George Cushen"
+
 draft: false
 # description
-#Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, conference_dom
-type: "Journal_int"
+
 description: "This is meta description"
 # links
 links:

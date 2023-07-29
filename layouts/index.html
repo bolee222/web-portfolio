@@ -357,7 +357,7 @@
             </div>
             <div class="col-lg-10">
                 {{ range first 3 (where .Site.RegularPages "Section" "==" "publications" )}}
-                <div>{{ .Render "publication" }}</div>
+                <div>{{ .Render "publication_Journal_sci" }}</div>
                 {{ end }}
                 <div class="text-left">
                     <a href="{{ `publications` | absLangURL }}" class="btn btn-primary-allPublications ">{{ i18n "all_publications"}}</a>

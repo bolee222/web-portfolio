@@ -9,7 +9,7 @@ author : "Bo Lee"
 draft: false
 publicationDate: Jan 14
 #Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, conference_dom
-type: "Journal_int"
+type: "Conference_sci"
 # description
 description: "This is meta description"
 

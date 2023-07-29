@@ -1,10 +1,10 @@
 <section class="section pb-0 padding0 margin-bottom-0" id="project">
     <div class="container cv-section-padding margin-bottom-0 padding-side-0">
-            <div class="row margin-bottom-0">
-                <div class="col-lg-9 margin-bottom-0 padding-publication_title ">
-                  {{if eq .Params.Type "Journal_int"  }}
+            {{if eq .Params.Type "Journal_sci"  }}
+            <div class="container row margin-bottom-0">
+                <div class="col-lg-10 margin-bottom-0 padding-publication_title ">
                     <div class="cv-text-bold margin-bottom-0"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
-                    <div class="cv-text margin-bottom-0"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Author }}</div>
+                    <div class="cv-text margin-bottom-0">{{ .Params.Author }}</div>
                         <ul class="btn-link-group list-inline margin-bottom-0">
                           {{ range .Params.Links }}
                           <li class="list-inline-item link-text-publications">
@@ -12,11 +12,13 @@
                         </li>
                         {{ end }}
                         </ul>
-                    {{end}}
-                    </div>
-                    <div class="col-lg-3 margin-bottom-0 padding-side-0">
-                        <div class="cv-text">{{ .Params.publicationDate}}</div>
-                    </div>
                 </div>
+                <div class="col-lg-2 margin-bottom-0 padding-side-0">
+                  <div class="cv-text">{{ .Params.publicationDate}}</div>
+                </div>
+              {{end}}
+                  
+                  
+            </div>
         </div>
 </section>
