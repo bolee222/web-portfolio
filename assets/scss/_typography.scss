@@ -139,6 +139,16 @@
         margin-bottom: 5px;
     }
 
+    .cv-text-period {
+        font-size: 14px;
+        font-weight: 400;
+        color: $text-color;
+        font-family: $primary-font;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+
     .padding-left-30 {
         padding-left: 30px;
     }
@@ -149,6 +159,11 @@
         color: $text-color;
         font-family: $primary-font;
         line-height: 1.3;
+    }
+
+    .cv-text-bold a:hover{
+        background-color: 
+        $highlight-bgcolor-gray;
     }
 
     .link-text-publications {
@@ -190,8 +205,13 @@
         color: $text-color;
         font-family: $hightlight-font;
         line-height: 1.0;
-        margin-bottom: 7px;
-        text-decoration: underline;
+        margin-bottom: 5px;
+        //text-decoration: underline;
+    }
+
+    .banner-subtitle-email a:hover {
+        background-color: $highlight-bgcolor-gray;
+        color: $primary-color;
     }
 
     .banner-subtitle-social {
@@ -216,7 +236,7 @@
 
     .banner-subtitle-social a:hover{
       background-color: #E5E5E5;
-      color: $text-color;
+      color: $primary-color;
     }
 
 

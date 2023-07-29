@@ -34,29 +34,24 @@ education:
   title : "EDUCATION"
   education_item:
     # education item loop
-    - name : "한국과힉기술원 (KAIST)"
+    - name : "한국과학기술원 (KAIST)"
       duration : "Mar 2015 – Feb 2019"
-      academy : "Ph.D. in Industrial Design (Human-Computer Interaction)"
+      department: "석사/박사 통합 |  산업디자인학과 "
 
     # education item loop
     - name : "TU Delft, 네덜란드"
       duration : "Sep 2014 – Feb 2015"
-      academy : "M.S. Exchange Program – DFI (Design for Interactions)"
-
-    # education item loop
-    - name : "한국과힉기술원 (KAIST)"
-      duration : "Mar 2014 – Aug 2014"
-      academy : "M.S. Program – Industrial Design"
+      department : "석사 교환 프로그램 – Industrial Design Engineering / DFI 전공 (Design for Interactions)"
 
     # education item loop
     - name : "Aalto University, 헬싱키, 핀란드"
       duration : "Jan 2012 – Jul 2012"
-      academy : "B.S. Exchange Program – School of Science"
+      department : "학사 교환 프로그램 – Aalto / School of Science"
 
     # education item loop
-    - name : "Korea Advanced Institute of Science and Technology (KAIST)"
+    - name : "한국과학기술원 (KAIST)"
       duration : "Feb 2009 – Feb 2014"
-      academy : "Bachelor of Engineering in Industrial Design & Technology Management"
+      department : "학사 | 산업디자인학과 (주 전공) & 기술경영 (복수 전공)"
 
 
 ####################### Work Experience ###########################
@@ -64,23 +59,240 @@ work:
   enable : true
   title : "WORK <br> EXPERIENCE"
   work_item:
+
     # expertise item loop
-    - name : "Autodesk Research – Canada"
-      content : "Postdoctoral Research Fellow (Simulation, Optimization, Systems Group)"
+    - name : "연세대학교 언더우드 국제학부, 조교수"
+      content : "Assistant Professor"
+      duration: "Sep 2023 – current"
+
+    # expertise item loop
+    - name : "삼성 리서치, Senior Designer"
+      content : "UX Innovation Lab"
       duration: "Mar 2020 – current"
 
     # expertise item loop
-    - name : "Autodesk Research – Canada"
-      content : "Research Intern | Systems Group / Collaborator: Azam Khan, Alex Tessier, and Mike Lee"
+    - name : "오토데스크 리서치 (캐나다), Senior Research Scientist"
+      content : "Simulation, Optimization, Systems Group"
+      duration: "Mar 2020 – current"
+
+    # expertise item loop
+    - name : "오토데스크 리서치 (캐나다), Research Intern"
+      content : "Systems Group"
       duration: "Oct 2018 – Aug 2019"
 
 
 
-####################### Expertise ###########################
-expertise:
+####################### Awards ###########################
+award:
   enable : true
-  title : "Compétence"
-  expertise_item:
+  title : " HONORS &<br> AWARDS"
+  award_item:
+    # award item loop
+    - name : "DIS 2021 – Honorable Mention Paper Award (Top 5%)"
+      content : "ACM Designing Interactive Systems"
+      duration : "2020"
+
+    # award item loop
+    - name : "CSCW 2020 Best Paper Award (Top 1%)"
+      content : "ACM Computer Supported Cooperative Work and Social Computing"
+      duration : ""
+
+    # award item loop
+    - name : "CSCW 2019 Honorable Mention Award (Top 5%)"
+      content : "ACM Computer Supported Cooperative Work and Social Computing"
+      duration : "2019"
+
+    # award item loop
+    - name : "Gender Equality Pictogram Contest – Bronze Prize"
+      content : "hosted by Choongchung City"
+      duration : "2014"
+
+    # award item loop
+    - name : "LSB (Location-Based Service) App & Web Contest – Bronze Prize"
+      content : "Korea Communication and Commissions (KCC) / Korea Internet Security Agency (KISA)"
+      duration : "2013"
+
+    # award item loop
+    - name : "Innopolis Idea Contest – Grand Prize"
+      content : "Ministry of Knowledge Economy of Korea / Innopolis Foundation"
+      duration : "2013"
+
+
+
+####################### Patents ###########################
+patent:
+  enable : true
+  title : " PATENT "
+  patent_item:
+    # patent item loop
+    - name : "Furniture Design Apparatus Displaying Personalized Guide Information"
+      content : "Invention field: ICT/SW, KR-10-2018-0002957"
+      duration : "Jan 2018"
+
+
+####################### Project Experience ###########################
+projectExperience:
+  enable : true
+  title : " PROJECT <br> EXPERIENCE"
+  projectExperience_item:
+    # project item loop
+    - name : "• Living Lab & Digital Twins"
+      duration: "2020 – current"
+
+    # project item loop
+    - name : "• Designing and Simulating Digital Humans in the Virtual Space for Space/Product Design Evaluation"
+      duration : "2020 – current"
+
+    # project item loop
+    - name : "• Vision-based Social Interaction Analysis for Human-Centered Architecture"
+      duration : "2019 – current"
+
+    # project item loop
+    - name : "• Design Toolkits for Everybody with VR/AR Technology"
+      duration : "2015 – 2018"
+
+    # project item loop
+    - name : "• AI/AR Personal Health Recommendations for Mobile Computing at Home"
+      duration : "2018"
+
+    # project item loop
+    - name : "• Gesture-based Trafficator to Enhance Human-Automobile Interaction"
+      duration : "2017"
+
+    # project item loop
+    - name : "• Augmented Reality Interface for the Internet of Things"
+      duration : "2016 – 2018"
+
+    # project item loop
+    - name : "• An Interactive Tabletop to Support Surveillance Scenarios with UAVs"
+      duration : "2015"
+
+    # project item loop
+    - name : "• Design for the Next Generation UX-Oriented Mobile Software Platform"
+      duration : "2013"
+
+####################### Academic Service ###########################
+academicService:
+  enable : true
+  title : " ACADEMIC <br> SERVICE"
+  academicService_item:
+    # academic item loop
+    - content : ACM CHI paper review, ACM Siggraph e-vtech review, ACM DIS paper review, pictorial review, ACM IDC paper review
+      duration: "2020"
+
+    # academic item loop
+    - content : "ACM CHI paper review, ACM Siggraph Asia paper review"
+      duration : "2019"
+
+    # academic item loop
+    - content : "ACM DIS paper review, ACM DIS paper review, ACM C&C paper review"
+      duration : "2018"
+
+    # academic item loop
+    - content : "ACM CHI paper review, poster review, ACM CHI Play poster review, ACM CSCW poster review, ACM DIS paper review, poster review, ACM TEI paper review, ACM UIST paper review"
+      duration : "2017"
+
+####################### Invited TAlk ###########################
+invitedTalk:
+  enable : true
+  title : " INVITED <br> TALKS"
+  invitedTalk_item:
+    # talk item loop
+    - name : "• University of Toronto – Dynamics Graphics Project (DGP) Lab"
+      duration: "Mar 2021"
+
+    # talk item loop
+    - name : "• HCI Korea Conference – Panel Talk (Future of Digital Fabrication)"
+      duration : "Jul 2021"
+
+    # talk item loop
+    - name : "• ID KAIST Ph.D. Colloquium – Daejeon, Korea"
+      duration : "Jul 2020"
+
+    # talk item loop
+    - name : "• Autodesk Research – Toronto, Canada"
+      duration : "Nov 2018"
+
+    # talk item loop
+    - name : "• CS374: Introduction to HCI Research Talk – Daejeon, Korea"
+      duration : "Jun 2018"
+
+    # talk item loop
+    - name : "• HCI KAIST Research Talk – Daejeon, Korea"
+      duration : "Apr 2017"
+
+####################### Teaching Experience ###########################
+teachingExperience:
+  enable : true
+  title : " TEACHING <br> EXPERIENCE"
+  teachingExperience_item:
+    # teaching item loop
+    - name : "• Yonsei University | Introduction to CDM"
+      duration : "Spring 2021"
+
+    # teaching item loop
+    - name : "• Yonsei University | Research Paper Writing"
+      duration : "Spring 2021"
+
+    # teaching item loop
+    - name : "• Digital Design Fabrication "
+      duration : "Fall 2017"
+
+    # teaching item loop
+    - name : "• ID KAIST Academic Counselor "
+      duration : "Spring 2017"
+
+    # teaching item loop
+    - name : "• Digital Design Fabrication (2016 fall)"
+      duration : "Fall 2016"
+
+    # teaching item loop
+    - name : "• Integrated Design – Undergraduate graduation project "
+      duration : "Spring 2016"
+
+    # teaching item loop
+    - name : "• Digital Design Fabrication"
+      duration : "Fall 2015"
+
+    # teaching item loop
+    - name : "• Space Design"
+      duration : "Spring 2015"
+
+    # teaching item loop
+    - name : "• Introduction to Industrial Design"
+      duration : "Spring 2014"
+
+
+####################### Leadership Activities ###########################
+leadership:
+  enable : true
+  title : " LEADERSHIP <br> ACTIVITY"
+  leadership_item:
+    # expertise item loop
+    - name : "• My Design Lab – Student Lead"
+      duration : "Mar 2014 – Dec 2017 "
+
+    # expertise item loop
+    - name : "• Ph.D. student representative. Industrial Design department, KAIST"
+      duration : "Sep 2016 – Aug 2017"
+
+    # expertise item loop
+    - name : "• Student organizing lead, Design 3.0 Forum"
+      duration : "Aug 2017"
+
+    # expertise item loop
+    - name : "• Student organizing lead, ID KAIST 30th anniversary event"
+      duration : "Aug 2017"
+
+    # expertise item loop
+    - name : "• K2 KAIST-Kyushu University Workshop"
+      duration : "Feb 2017"
+
+####################### Publication List ###########################
+publicationList:
+  enable : false
+  title : " PUBLICATION <br> LIST"
+  publicationList_item:
     # expertise item loop
     - name : "Data Analysis and Visualization"
       content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
@@ -89,27 +301,17 @@ expertise:
     - name : "Statical Meathod Learning"
       content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
 
+    # expertise item loop
+    - name : "Statical Meathod Learning"
+      content : "Analysis Libraries: pandas, numpy <br> Visualizations: Tablaeu, Seaborn"
+
+
 
 ####################### Publication ###########################
 publication:
   enable : true
-  title : "Les publications"
+  title : "Publications"
   # publication item comes from `content/**/publications/` folder.
-
-
-########################### Talk ##############################
-talk:
-  enable : true
-  title : "Pourparlers récents et à venir"
-  # talk item comes from `content/**/talks/` folder.
-
-
-########################## Projects ###########################
-project:
-  enable : false
-  title : "Mes projets"
-  # projects item comes from `content/**/projects/` folder.
-
 
 ########################### Blog ##############################
 blog:

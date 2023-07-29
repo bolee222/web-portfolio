@@ -33,28 +33,23 @@ education:
   education_item:
     # education item loop
     - name : "Korea Advanced Institute of Science and Technology (KAIST)"
-      duration : "Mar 2015 – Feb 2019"
-      academy : "Ph.D. in Industrial Design (Human-Computer Interaction)"
+      duration : "Mar 2014 – Feb 2019"
+      department: "Ph.D. of Engineering  |  Department of Industrial Design "
 
     # education item loop
     - name : "TU Delft, Netherlands"
       duration : "Sep 2014 – Feb 2015"
-      academy : "M.S. Exchange Program – DFI (Design for Interactions)"
-
-    # education item loop
-    - name : "Korea Advanced Institute of Science and Technology (KAIST)"
-      duration : "Mar 2014 – Aug 2014"
-      academy : "M.S. Program – Industrial Design"
+      department : "M.S. Exchange Program - Department of Industrial Design Engineering"
 
     # education item loop
     - name : "Aalto University, Helsinki, Finland"
       duration : "Jan 2012 – Jul 2012"
-      academy : "B.S. Exchange Program – School of Science"
+      department : "Undergraduate Exchange Program – School of Science"
 
     # education item loop
     - name : "Korea Advanced Institute of Science and Technology (KAIST)"
       duration : "Feb 2009 – Feb 2014"
-      academy : "Bachelor of Engineering in Industrial Design & Technology Management"
+      department : "Bachelor of Engineering in Industrial Design,  Technology Management (double major)"
 
 
 
@@ -65,13 +60,23 @@ work:
   title : "WORK <br> EXPERIENCE"
   work_item:
     # expertise item loop
-    - name : "Autodesk Research – Canada"
-      content : "Postdoctoral Research Fellow (Simulation, Optimization, Systems Group)"
-      duration: "Mar 2020 – current"
+    - name : "Yonsei University, Underwood International College, Korea"
+      content : "Assistant Professor"
+      duration: "Sep 2023 – current"
 
     # expertise item loop
-    - name : "Autodesk Research – Canada"
-      content : "Research Intern | Systems Group / Collaborator: Azam Khan, Alex Tessier, and Mike Lee"
+    - name : "Samsung Research, Korea"
+      content : "Senior Designer | UX Innovation Lab"
+      duration: "Sep 2022 – Aug 2023"
+
+    # expertise item loop
+    - name : "[Autodesk Research](https://www.research.autodesk.com/), Toronto, Canada"
+      content : "Senior Research Scientist | Simulation, Optimization, Systems Group"
+      duration: "Mar 2020 – Aug 2022"
+
+    # expertise item loop
+    - name : "Autodesk Research, Canada"
+      content : "Research Intern | Systems Group"
       duration: "Oct 2018 – Aug 2019"
 
 
