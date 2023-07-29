@@ -370,10 +370,90 @@ publicationList:
       duration: 
 
     # publication item loop
-    - name : "<ins>Bokyung Lee</ins>, , Michael Lee, Pan Zhang, Alexander Tessier, Azam Khan., **An Empirical Study of How Socio-Spatial Formations are influenced by Interior Elements and Displays in an Office Context.**, _ACM Journal of Hum.-Comput. Interact. 3. CSCW, Article 58., <span style='color: blue;'>Honorable Mention Award (Top 5%)</span>_"
+    - name : "<ins>Bokyung Lee</ins>, Michael Lee, Pan Zhang, Alexander Tessier, Azam Khan., **An Empirical Study of How Socio-Spatial Formations are influenced by Interior Elements and Displays in an Office Context.**, _ACM Journal of Hum.-Comput. Interact. 3. CSCW, Article 58., <span style='color: blue;'>Honorable Mention Award (Top 5%)</span>_"
       content : "Conference_sci"
       duration: 2019
 
+    # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Michael Lee, Alexander Tessier, Azam Khan., **Skeletonographer: Skeleton-based Digital Ethnography Tool.**, _ACM Computer Supported Cooperative Work and Social Computing (CSCW 2019)_"
+      content : "Conference_sci"
+      duration: 2019
+
+    # publication item loop
+    - name : "Alexander Tessier, Simon Breslav, Kean Walmsley, Michael Lee, Hali Larsen, Jacky Bibliowicz, Pan Zhang, Liviu-Mihai Calin, <ins>Bokyung Lee</ins>, Josh Cameron, Rhys Goldstein, and Azam Khan., **Occupancy Visualization towards Activity Recognition.**, _ACM International Workshop on Device-Free Human (DFSH 2019)_"
+      content : "Conference_int"
+      duration: 
+
+    # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Michael Lee, Alexander Tessier, Azam Khan., **Semantic Human Activity Annotation Tool Using Skeletonized Surveillance Videos.**, _ACM Pervasive and Ubiquitous Computing (Ubicomp 2019)_"
+      content : "Conference_sci"
+      duration: 
+
+    # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Taeil Jin, Sung-Hee Lee, Daniel Saakes., **SmartManikin: Virtual Humans with Agency for Design Tools.**, _ACM Human Factors in Computing Systems (CHI 2019)_"
+      content : "Conference_sci"
+      duration: 
+
+    # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Sindy Wu, Maria Reyes, Daniel Saakes., **The Effect of Interruption Timings on Autonomous Height-Adjustable Desks that Responds to Task Changes.**, _ACM Human Factors in Computing Systems (CHI 2019)_"
+      content : "Conference_sci"
+      duration: 
+
+  # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Joongi Shin, Hyoshin Bae, Daniel Saakes., **Interactive and Situated Guidelines to Help Users Design a Personal Desk that Fits Their Bodies.**, _ACM Designing Interactive Systems (DIS 2018)_"
+      content : "Conference_sci"
+      duration: 2018
+
+  # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Jiwoo Hong, Jaeheung Surh, Daniel Saakes., **Ori-mandu: Korean Dumpling into Whatever Shape You Want.**, _ACM Designing Interactive Systems (DIS 2017)_"
+      content : "Conference_sci"
+      duration: 2017
+
+  # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Gyeol Han, Jundong Park, Daniel Saakes., **Consumer to Creator: How Households Buy Furniture to Inform Design and Fabrication Interfaces.**, _ACM Human Factors in Computing Systems (CHI 2017)_"
+      content : "Conference_sci"
+      duration: 
+
+  # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Jiwoo Hong, Jaeheung Surh, Daniel Saakes., **Ori-mandu: Korean Dumpling into Whatever Shape You Want.**, _ACM Human Factors in Computing Systems (CHI 2017), video showcase_"
+      content : "Conference_sci"
+      duration: 
+
+  # publication item loop
+    - name : "Jundong Park, <ins>Bokyung Lee</ins>, Gyeol Han, Daniel Saakes., **Two Mental Models of Non-Professional Design Process for Future Fabrication Interface.**, _ACM Human Factors in Computing Systems (HCI Korea 2017)_"
+      content : "Conference_sci"
+      duration: 
+
+  # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Minjoo Cho, Daniel Saakes., **Posing and Acting as Input for Personalizing Furniture.**, _ACM Nordic Conference on Human-Computer Interaction (NordiCHI Korea 2016)_"
+      content : "Conference_sci"
+      duration: 2016
+
+  # publication item loop
+    - name : "SeungRyoel Kim, <ins>Bokyung Lee</ins>, Daniel Saakes., **Gesture-based Trafficator to Improve Driver to Traffic Communication.**, _(KSDS 2016) Fall_"
+      content : "conference_dom"
+      duration: 
+
+  # publication item loop
+    - name : "Foong-Yi Chia, <ins>Bokyung Lee</ins>, Daniel Saakes., **Collaboration in the Living Room or How Couples Design Together.**, _ACM Nordic Conference on Human-Computer Interaction (NordiCHI 2016)_"
+      content : "Conference_int"
+      duration: 
+
+  # publication item loop
+    - name : "Minjoo Cho, <ins>Bokyung Lee</ins>, Joonhee Min, Daniel Saakes., **Sketching in Virtual Reality for Rapid and Situated Idea Generation.**, _(KSDS 2015) Fall_"
+      content : "conference_dom"
+      duration: 2015
+
+  # publication item loop
+    - name : "<ins>Bokyung Lee</ins>, Froukje Sleeswijk Visser, Daniel Saakes., **Online User Reviews as a Design Resource.**, _International Association of Societies of Design Research (IASDR 2015)_"
+      content : "conference_dom"
+      duration: 
+
+  # publication item loop
+    - name : "Shin H-S (Felix), <ins>Bokyung Lee</ins>, Daniel Saakes., **TagRadar: Locating Objects Using a Smart Phone Accessory**, _ACM Pervasive and Ubiquitous Computing (Ubicomp/ISWC 2015)_"
+      content : "Conference_sci"
+      duration: 
+      
 
 ####################### Publication ###########################
 publication:
