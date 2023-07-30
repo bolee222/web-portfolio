@@ -203,6 +203,19 @@
         font-size: 15px;
     }
 
+    .cv-text-pubs{
+        font-size: 15px;
+        font-weight: 300;
+        color: $text-color;
+        font-family: $primary-font;
+        line-height: 1.4;
+        margin-bottom: 5px;
+    }
+
+    .cv-text-pubs em strong {
+        font-weight: 500;
+    }
+
     .link-text-publications {
         font-size: 14px !important;
         font-weight: 400 !important;
@@ -408,6 +421,8 @@
         margin-top: 0px;
         margin-bottom: 30px;
     }
+
+    
 
     .blog-title {
         margin-top: 10px;

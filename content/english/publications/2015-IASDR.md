@@ -2,10 +2,10 @@
 # BASIC INFO
 title: Online User Reviews as a Design Resource.
 author : <ins>Bokyung Lee</ins>, Froukje Sleeswijk Visser, Daniel Saakes.
-Journal: International Association of Societies of Design Research (IASDR 2015)
+Journal: International Association of Societies of Design Research **(IASDR 2015)**
 
-#Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, conference_dom
-type: "conference_dom"
+#Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, Conference_dom
+type: "Conference_int"
 
 # DATE INFO
 date: 2015-06-14T15:40:24+06:00

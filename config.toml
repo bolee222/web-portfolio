@@ -55,10 +55,10 @@ weight = 2
 #URL = "projects"
 #weight = 4
 
-#[[menu.main]]
-#name = "publication"
-#URL = "publications"
-#weight = 5
+[[menu.main]]
+name = "publication"
+URL = "publications"
+weight = 5
 
 #[[menu.main]]
 #name = "News"

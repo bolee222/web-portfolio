@@ -2,7 +2,7 @@
 # BASIC INFO
 title: "SmartManikin: Virtual Humans with Agency for Design Tools"
 author : <ins>Bokyung Lee</ins>, Taeil Jin, Sung-Hee Lee, Daniel Saakes.
-Journal: ACM Human Factors in Computing Systems (CHI 2019)
+Journal: ACM Human Factors in Computing Systems (**CHI 2019**)
 
 #Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, conference_dom
 type: "Conference_sci"

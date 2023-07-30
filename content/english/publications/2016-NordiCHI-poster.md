@@ -2,7 +2,7 @@
 # BASIC INFO
 title: Collaboration in the Living Room or How Couples Design Together
 author : Foong-Yi Chia, <ins>Bokyung Lee</ins>, Daniel Saakes.
-Journal: ACM Nordic Conference on Human-Computer Interaction (NordiCHI 2016)
+Journal: ACM Nordic Conference on Human-Computer Interaction **(NordiCHI 2016)**
 
 #Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, conference_dom
 type: "Conference_int"

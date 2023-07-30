@@ -2,7 +2,7 @@
 # BASIC INFO
 title: "PoseScape: Pose-based Analysis System for Long-term Observation Studies"
 author : Jaeho Sung, <ins>Bokyung Lee</ins>, Daniel Saakes.
-Journal: ACM Nordic Conference on Human-Computer Interaction (NordiCHI 2020)
+Journal: "ACM Nordic Conference on Human-Computer Interaction **(NordiCHI 2020)**"
 
 #Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, conference_dom
 type: "Conference_int"

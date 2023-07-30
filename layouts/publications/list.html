@@ -7,13 +7,16 @@
     </div>
 
     <!--SCI Journals / Top Rank Conferences-->
-    <div class="publication-type-title"> SCI Journals / Top-rank Conferences </div>
+    <div class="publication-type-title"><strong> SCI Journals / Top-rank Conferences </strong></div>
     <div class="row">
       {{ $paginator := .Paginate .Data.Pages }}
       {{ range $paginator.Pages.ByDate.Reverse }}
-      <div class="col-md-12 col-sm-6 mb-3">
-        {{ .Render "publication_sci" }}
+      <div class="container">
+        <div class="col-md-12 col-sm-6 mb-3">
+          {{ .Render "publication_sci" }}
+        </div>
       </div>
+        
       {{ end }}
       <div class="col-12 mt-5">
         {{ template "_internal/pagination.html" . }}
@@ -21,27 +24,34 @@
     </div>
 
     <!--International Conferences-->
-    <div class="publication-type-title"> International Conferences </div>
+    <div class="container publication-type-title"><strong> International Conferences </strong></div>
     <div class="row">
       {{ $paginator := .Paginate .Data.Pages }}
       {{ range $paginator.Pages.ByDate.Reverse }}
-      <div class="col-md-12 col-sm-6 mb-3">
-        {{ .Render "publication_int" }}
+      <div class="container">
+        <div class="col-md-12 col-sm-6 mb-3">
+          {{ .Render "publication_int" }}
+        </div>
       </div>
+        
       {{ end }}
       <div class="col-12 mt-5">
         {{ template "_internal/pagination.html" . }}
       </div>
     </div>
 
+
     <!--Domestic Conferences-->
-    <div class="publication-type-title"> Domestic Conferences </div>
+    <div class="container publication-type-title"><strong> Domestic Conferences </strong></div>
     <div class="row">
       {{ $paginator := .Paginate .Data.Pages }}
       {{ range $paginator.Pages.ByDate.Reverse }}
-      <div class="col-md-12 col-sm-6 mb-3">
-        {{ .Render "publication_domestic" }}
+      <div class="container">
+        <div class="col-md-12 col-sm-6 mb-3">
+          {{ .Render "publication_domestic" }}
+        </div>
       </div>
+        
       {{ end }}
       <div class="col-12 mt-5">
         {{ template "_internal/pagination.html" . }}

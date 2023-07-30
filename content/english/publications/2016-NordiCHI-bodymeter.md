@@ -2,10 +2,10 @@
 # BASIC INFO
 title: Posing and Acting as Input for Personalizing Furniture
 author : <ins>Bokyung Lee</ins>, Minjoo Cho, Daniel Saakes.
-Journal: ACM Nordic Conference on Human-Computer Interaction (NordiCHI 2016)
+Journal: ACM Nordic Conference on Human-Computer Interaction **(NordiCHI 2016)**
 
 #Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, conference_dom
-type: "Conference_sci"
+type: "Conference_int"
 
 # DATE INFO
 date: 2016-11-15T15:40:24+06:00
