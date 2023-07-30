@@ -14,7 +14,7 @@ metacontent: "we propose OccSim, a system that automatically generates occupancy
 conference: "DIS 2021"
 conference_full: "ACM Designing Interactive Systems 2021"
 con_date: "June 28 - July 1, 2021"
-keywords: simulation-driven design, virtual human with agency, digital human"
+keys: "simulation-driven design, virtual human with agency, digital human"
 researcher: "Bokyung Lee, Michael Lee, Jeremy Mogk, Rhys Goldstein, Jacky Bibliowicz, Frederik Brudy, Alexander Tessier."
 summary: "
 • The COVID-19 pandemic changed our lives, forcing us to reconsider our built environment, architectural designs, and even behaviours.  

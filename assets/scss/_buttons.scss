@@ -140,7 +140,7 @@ a.button :hover{
 
 .btn-journal-name {
     background: $highlight-bgcolor-purple;
-    color: $primary-color;
+    color: $text-color;
     font-family: $primary-font;
     font-weight: 600;
     font-size: 15px !important;
@@ -158,7 +158,7 @@ a.button :hover{
 }
 
 .btn-journal-name-purple {
-    background: $primary-color;
+    background: $gray-80;
     color: white;
     font-family: $primary-font;
     font-weight: 600;

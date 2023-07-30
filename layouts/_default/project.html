@@ -1,11 +1,14 @@
+<!-- Home 페이지의 프로젝트 그리드 페이지 형식 -->
 <article class="card rounded-0 border-0" id="project">
     {{ with .Params.Image }}
     <img src="{{ . | absURL }}" alt="" class="card-img-top mb-4 rounded-0" /> {{ end }}
     <div class="card-body padding0">
+        <button type="button" class="btn-journal-name-purple" style="margin-bottom: 10px;">{{ .Params.conference }}</button>
+
         <div class="mb-2 project-title">
-            <a href="{{ .Permalink }}"><strong>{{ .Title | markdownify }}</strong></a>
+            <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
         </div>
         <div class="project-meta">{{ .Params.metacontent }}</div>
-        <button type="button" class="btn-journal-name">{{ .Params.conference }}</button>
+        
     </div>
 </article>
