@@ -372,37 +372,50 @@ li {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 30px !important;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   line-height: 1.2;
   color: #2f2f2f;
   margin-top: 10px;
   margin-bottom: 20px;
-  width: 80%; }
+  width: 80%;
+  padding: 0px 15px; }
 
 .project-conference-title {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 19px !important;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   color: #2f2f2f;
   width: 70%;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  padding: 0px 15px; }
+
+.project-sidePadding-15 {
+  padding: 0px 15px; }
 
 .project-subtitle {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 18px !important;
   color: #2f2f2f;
+  margin-top: 10px;
   margin-bottom: 10px; }
 
 .project-single-meta {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 17px !important;
+  font-weight: 400;
+  font-size: 15px !important;
   line-height: 1.5;
   color: #2f2f2f;
-  margin-bottom: 30px;
   padding-right: 70px; }
+
+.project-single-meta p {
+  margin-bottom: 0.2rem !important; }
+
+.project-blog-meta {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.3em !important; }
 
 /* Button style */
 .btn {
@@ -529,6 +542,29 @@ a.button :hover {
   .btn-publication-meta-white:active, .btn-publication-meta-white:hover, .btn-publication-meta-white.focus, .btn-publication-meta-white.active {
     background: transparent;
     color: #400599; }
+
+.project-link-btn {
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  background: transparent;
+  padding: 5px 15px;
+  margin-right: 0px;
+  border-radius: 0px;
+  border: 1px solid;
+  position: relative;
+  z-index: 1;
+  transition: .2s ease;
+  margin-bottom: 10px; }
+  .project-link-btn:hover, .project-link-btn:active, .project-link-btn:focus {
+    outline: 0;
+    box-shadow: none !important; }
+
+.project-link-btn:hover {
+  background: #400599;
+  color: white; }
 
 body {
   background-color: white;
@@ -669,7 +705,8 @@ hr {
 .project-teaser-image {
   width: 100%;
   aspect-ratio: 2560 / 945;
-  margin-top: 20px !important; }
+  margin-top: 20px !important;
+  padding: 0px 15px; }
 
 .nav-item {
   font-weight: 700 !important;

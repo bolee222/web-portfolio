@@ -3,33 +3,38 @@
 
 <section class="section pt-0">
     <div class="container">
+        <!--Top Teaser Image-->
         <div class="row">
             {{ with .Params.teaser }}
             <img src="{{ . | absURL }}" alt="" class="img-fluid mb-4 project-teaser-image" /> {{ end }}
             <div class="project-page-title">{{.Title}}</div>
-            <div class="project-conference-title">{{.Params.conference}}</div>
+            <div class="project-conference-title">{{.Params.conference_full}}</div>
         </div>
 
-        <div>
-            <div class="row">
-                <a href="https://google.com"><button class="project-btn">Paper</button></a
-        >
-        <a href="https://google.com"
-          ><button class="project-btn">Presentation</button></a
-        >
-        <a href="https://google.com"
-          ><button class="project-btn">DOI</button></a
-        >
-      </div>
-    </div>
-
+        <!--Link Buttons-->
+        <div class="row project-sidePadding-15">
+          <div class="text-center">
+            {{ if .Params.Links }}
+            <ul class="btn-link-group list-inline">
+              {{ range .Params.Links }}
+              <li class="list-inline-item">
+                <a href="{{ .link | absURL }}"><button class="project-link-btn">{{ .label }}</button></a>
+                  </li>
+                  {{ end }}
+            </ul>
+            {{ end }}
+          
+          </div>
+        </div>
+          
     <div>
+      <hr style="margin-bottom: 20px; width:100%; height:1px;border-width:0;color:rgb(179, 179, 179);background-color:rgb(179, 179, 179)">  
       <div class="row">
-        <div class="col-7 padding-side-0 project-subtitle">
+        <div class="col-8">
           <div class="project-subtitle">Summary</div>
-          <div class="project-single-meta">{{ .Params.summary}}</div>
+          <div class="project-single-meta">{{ .Params.summary | markdownify }}</div>
         </div>
-        <div class="col-5 padding-side-0">
+        <div class="col-4 ">
           <div class="project-subtitle">Researcher</div>
           <div class="project-single-meta">{{ .Params.researcher}}</div>
           <div class="project-subtitle">Keywords</div>
@@ -39,17 +44,6 @@
     </div>
 
     <div class="row">
-        <div class="text-center padding0">
-          {{ if .Params.Links }}
-          <ul class="btn-link-group list-inline">
-            {{ range .Params.Links }}
-            <li class="list-inline-item">
-              <a href="{{ .link | absURL }}">{{ .label }}</a>
-                </li>
-                {{ end }}
-                </ul>
-                {{ end }}
-            </div>
             <div class="content mt-5">{{ .Content }}</div>
             </article>
         </div>

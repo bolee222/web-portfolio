@@ -4,7 +4,7 @@ title: Generative Design for COVID-19 and Future Pathogens Using Stochastic Mult
 author : <ins>Bokyung Lee</ins>, Damon Lau, Jeremy Mogk, Michael Lee, Jacobo Bibliowicz, Rhys Goldstein, Alex Tessier
 Journal: Journal of Sustainable Cities and Society, Volume 97, 104661, ISSN 2210-6707
 
-#Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, conference_dom
+#Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, Conference_dom
 type: "Journal_sci"
 
 # DATE INFO
@@ -14,14 +14,14 @@ homeYearTag: 2023
 
 # PAGE PARAMETER
 draft: false
-link_PDF: "https://www.sciencedirect.com/science/article/abs/pii/S221067072300272X"
+link_PDF: "https://www.dropbox.com/scl/fi/fddvnga6l8upa8hdatfcx/2023-sustainable.pdf?rlkey=2oa8d7tatl2eb459ov9tl8ihq&dl=0"
 
 # links
 links:
   - label : "PDF"
-    link : "https://www.sciencedirect.com/science/article/abs/pii/S221067072300272X"
+    link : "https://www.dropbox.com/scl/fi/fddvnga6l8upa8hdatfcx/2023-sustainable.pdf?rlkey=2oa8d7tatl2eb459ov9tl8ihq&dl=0"
   - label : "Project Page"
-    link : "/projects"
+    link : "/projects/2023-occsim/"
   - label : "Source URL"
     link : "https://www.sciencedirect.com/science/article/abs/pii/S221067072300272X"
 ---
