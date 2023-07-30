@@ -184,6 +184,17 @@ h6,
   font-weight: 300 !important;
   font-size: 15px; }
 
+.cv-text-pubs {
+  font-size: 15px;
+  font-weight: 300;
+  color: #2f2f2f;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  margin-bottom: 5px; }
+
+.cv-text-pubs em strong {
+  font-weight: 500; }
+
 .link-text-publications {
   font-size: 14px !important;
   font-weight: 400 !important;
