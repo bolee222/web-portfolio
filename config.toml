@@ -45,30 +45,30 @@ name = "about"
 URL = ""
 weight = 2
 
-[[menu.main]]
-name = "vision"
-URL = "vision"
-weight = 3
+#[[menu.main]]
+#name = "vision"
+#URL = "vision"
+#weight = 3
 
-[[menu.main]]
-name = "project"
-URL = "projects"
-weight = 4
+#[[menu.main]]
+#name = "project"
+#URL = "projects"
+#weight = 4
 
-[[menu.main]]
-name = "publication"
-URL = "publications"
-weight = 5
+#[[menu.main]]
+#name = "publication"
+#URL = "publications"
+#weight = 5
 
-[[menu.main]]
-name = "News"
-URL = "news"
-weight = 6
+#[[menu.main]]
+#name = "News"
+#URL = "news"
+#weight = 6
 
-[[menu.main]]
-name = "contact"
-URL = "contact"
-weight = 7
+#[[menu.main]]
+#name = "contact"
+#URL = "contact"
+#weight = 7
 
 #################### taxonomies ########################################
 [taxonomies]
@@ -132,10 +132,11 @@ copyright = "Copyright &copy; Bokyung Lee"
 
 
 ################################### Korean language #####################################
-[Languages.kr]
-languageName = "Kr"
-languageCode = "kr-kr"
-contentDir = "content/korean"
-weight = 2
+#[Languages.kr]
+#languageName = "Kr"
+#languageCode = "kr-kr"
+#contentDir = "content/korean"
+#weight = 2
+
 # copyright
-copyright = "Copyright &copy; Bokyung Lee"
+#copyright = "Copyright &copy; Bokyung Lee"
