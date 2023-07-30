@@ -1071,13 +1071,10 @@ textarea.form-control {
 .margin-top-25 {
   margin-top: 30px; }
 
-.book-columns {
-  margin-left: -1rem;
-  margin-right: -1rem; }
-  .book-columns > div {
-    margin: 1rem 0;
-    min-width: 20rem / 2;
-    padding: 0 1rem; }
+.book-columns > div {
+  margin: 1rem 0;
+  min-width: 20rem / 2;
+  padding: 0 1rem; }
 
 .row-fix {
   margin-right: 0 !important;

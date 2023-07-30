@@ -56,7 +56,7 @@ Then, how can we provide decision-makers and designers with the ability to analy
 <--->
 
 #### Few
-![image](../../images/blogs/blog2.jpg)
+![image](../../images/blogs/blog2.jpg "100%")
 
 {{< /columns >}}
 
