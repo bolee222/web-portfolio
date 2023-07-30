@@ -13,7 +13,7 @@ publicationDate: 2020.11
 homeYearTag: 2020
 
 # PAGE PARAMETER
-draft: true
+draft: false
 link_PDF: ""
 
 # links

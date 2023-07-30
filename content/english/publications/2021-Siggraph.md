@@ -10,10 +10,10 @@ type: "Conference_sci"
 # DATE INFO
 date: 2021-08-14T15:40:24+06:00
 publicationDate: 2021.08
-homeYearTag: 2021
+homeYearTag: 
 
 # PAGE PARAMETER
-draft: true
+draft: false
 link_PDF: ""
 
 # links

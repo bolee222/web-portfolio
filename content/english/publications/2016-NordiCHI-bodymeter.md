@@ -8,12 +8,12 @@ Journal: ACM Nordic Conference on Human-Computer Interaction (NordiCHI 2016)
 type: "Conference_sci"
 
 # DATE INFO
-date: 2016-11-14T15:40:24+06:00
+date: 2016-11-15T15:40:24+06:00
 publicationDate: 2016.11
 homeYearTag: 2016
 
 # PAGE PARAMETER
-draft: true
+draft: false
 link_PDF: ""
 
 # links

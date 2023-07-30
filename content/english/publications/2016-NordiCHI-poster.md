@@ -10,10 +10,10 @@ type: "Conference_int"
 # DATE INFO
 date: 2016-11-14T15:40:24+06:00
 publicationDate: 2016.11
-homeYearTag: 2016
+homeYearTag: 
 
 # PAGE PARAMETER
-draft: true
+draft: false
 link_PDF: ""
 
 # links

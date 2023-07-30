@@ -10,10 +10,10 @@ type: "Conference_sci"
 # DATE INFO
 date: 2015-09-14T15:40:24+06:00
 publicationDate: 2015.09
-homeYearTag: 2015
+homeYearTag: 
 
 # PAGE PARAMETER
-draft: true
+draft: false
 link_PDF: ""
 
 # links

@@ -10,10 +10,10 @@ type: "Conference_sci"
 # DATE INFO
 date: 2019-09-14T15:40:24+06:00
 publicationDate: 2019.09
-homeYearTag: 2019
+homeYearTag: 
 
 # PAGE PARAMETER
-draft: true
+draft: false
 link_PDF: ""
 
 # links

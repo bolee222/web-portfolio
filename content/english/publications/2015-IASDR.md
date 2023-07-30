@@ -10,10 +10,10 @@ type: "conference_dom"
 # DATE INFO
 date: 2015-06-14T15:40:24+06:00
 publicationDate: 2015.06
-homeYearTag: 2015
+homeYearTag: 
 
 # PAGE PARAMETER
-draft: true
+draft: false
 link_PDF: ""
 
 # links
