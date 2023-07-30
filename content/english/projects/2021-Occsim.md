@@ -45,6 +45,15 @@ links:
 
 ---
 
+{{< project-description 
+
+    description = "title: Designing A Multi-Agent Occupant Simulation System To Support Facility Planning And Analysis For **COVID**-19"    
+    imageRef = "Babo"
+    >}}
+
+
+{{< /project-description >}}
+
 
 
 {{< columns >}}

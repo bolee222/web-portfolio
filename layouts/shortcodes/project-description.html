@@ -1,0 +1,20 @@
+{{ $description := index .Params "description" | default "text" }} 
+{{ $imageRef := index .Params "imageRef" | default "text" }} 
+<!-- {{ $imageRef := .Get 1 | default "image" }} -->
+
+
+<div class="blankSpace40"></div>
+
+<div class="container p-4" style="background-color: #ebf4fc">
+    <!-- #e1effc -->
+    <div class="row g-0">
+        <div class="col-md-8">
+            <div class="project-single-meta">{{ $description | markdownify  }}{{ .Inner | markdownify }}</div>
+        </div>
+        <div class="col-md-4">
+            <div class="project-single-meta">{{ $imageRef | markdownify  }}{{ .Inner | markdownify }}</div>
+        </div>
+    </div>
+</div>
+
+<div class="blankSpace40"></div>
