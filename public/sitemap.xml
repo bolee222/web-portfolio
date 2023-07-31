@@ -23,18 +23,6 @@
     <loc>https://boleehci.com/publications/2023-sustainable/</loc>
     <lastmod>2023-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2024/</loc>
-    <lastmod>2022-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boleehci.com/tags/tag1/</loc>
-    <lastmod>2022-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boleehci.com/tags/tag2/</loc>
-    <lastmod>2022-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boleehci.com/tags/tag3/</loc>
-    <lastmod>2022-03-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://boleehci.com/publications/2021-iasdr/</loc>
     <lastmod>2021-11-14T15:40:24+06:00</lastmod>
   </url><url>
@@ -52,6 +40,9 @@
   </url><url>
     <loc>https://boleehci.com/publications/2020-nordichi/</loc>
     <lastmod>2020-11-14T15:40:24+06:00</lastmod>
+  </url><url>
+    <loc>https://boleehci.com/projects/2019-social_interactions/</loc>
+    <lastmod>2020-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boleehci.com/publications/2020-cscw/</loc>
     <lastmod>2020-10-14T15:40:24+06:00</lastmod>
@@ -104,11 +95,23 @@
     <loc>https://boleehci.com/vision/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2020/</loc>
-    <lastmod>2020-03-14T00:00:00+00:00</lastmod>
+    <loc>https://boleehci.com/tags/tag1/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
+  </url><url>
+    <loc>https://boleehci.com/tags/tag2/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
+  </url><url>
+    <loc>https://boleehci.com/tags/tag3/</loc>
+    <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
     <loc>https://boleehci.com/publications/2020-phd/</loc>
     <lastmod>2020-02-14T15:40:24+06:00</lastmod>
+  </url><url>
+    <loc>https://boleehci.com/projects/2020-socio_spatial_comfort/</loc>
+    <lastmod>2020-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boleehci.com/projects/2019-skeletonographer/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boleehci.com/publications/2019-cscw/</loc>
     <lastmod>2019-10-14T15:40:24+06:00</lastmod>
@@ -128,14 +131,20 @@
     <loc>https://boleehci.com/publications/2019-chi-sindy/</loc>
     <lastmod>2019-05-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2019/</loc>
-    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
+    <loc>https://boleehci.com/projects/2019-smartmanikin/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boleehci.com/projects/2019-robotdesk/</loc>
+    <lastmod>2019-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boleehci.com/publications/2018-dis/</loc>
     <lastmod>2018-06-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2018/</loc>
-    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+    <loc>https://boleehci.com/projects/2018-body2desk/</loc>
+    <lastmod>2018-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://boleehci.com/projects/2016-bodymeter/</loc>
+    <lastmod>2018-06-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boleehci.com/publications/2017-chi/</loc>
     <lastmod>2017-05-14T15:40:24+06:00</lastmod>
@@ -145,6 +154,9 @@
   </url><url>
     <loc>https://boleehci.com/publications/2017-dis-mandu/</loc>
     <lastmod>2017-05-14T15:40:24+06:00</lastmod>
+  </url><url>
+    <loc>https://boleehci.com/projects/2017-consumer2creator/</loc>
+    <lastmod>2017-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://boleehci.com/publications/2017-hcik/</loc>
     <lastmod>2017-01-14T15:40:24+06:00</lastmod>
