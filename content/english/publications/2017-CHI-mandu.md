@@ -16,12 +16,14 @@ homeYearTag:
 draft: false
 link_PDF: ""
 
+exactPeriod: 06 May 2017
+cite_acm: "Bokyung Lee, Jiwoo Hong, Jaeheung Surh, and Daniel Saakes. 2017. Ori-mandu: Korean Dumpling into Whatever Shape You Want. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '17). Association for Computing Machinery, New York, NY, USA, 456."
+doi: https://dl.acm.org/doi/abs/10.1145/3027063.3049777
+
 # links
 links:
-  - label : "PDF"
-    link : ""
   - label : "Project Page"
     link : "/projects/"
   - label : "Source URL"
-    link : ""
+    link : "https://dl.acm.org/doi/abs/10.1145/3027063.3049777"
 ---

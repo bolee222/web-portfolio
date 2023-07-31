@@ -8,14 +8,14 @@ draft: false
 category: [ "System", "Innovation" ]
 image: "/projects/2023-OccSim/_[opt]teaser.jpg"
 teaser: "/projects/2023-OccSim/_[opt]top.jpg"
-metacontent: "we propose OccSim, a system that automatically generates occupancy behaviours in a 3D model of a building and helps users analyze the potential effect of virus transmission from a large-scale and longitudinal perspective."
+metacontent: "We propose a generative design workflow that integrates a stochastic multi-agent simulation with the intent of helping building designers reduce the risk posed by COVID-19 and future pathogens."
 
 # Meta-Data
-conference: "Sustainable Cities and Society"
+conference: "Sustainable Cities and Society 2023"
 con_date: "June 01"
-keywords: "simulation-driven design / virtual human with agency / digital human"
+keywords: "generative design / human-centered architecture / AI-driven"
 researcher: "Bokyung Lee, Michael Lee, Jeremy Mogk, Rhys Goldstein, Jacky Bibliowicz, Frederik Brudy, Alexander Tessier."
-summary: "• The COVID-19 pandemic changed our lives, forcing us to reconsider our built environment, architectural designs, and even behaviours. • However, systems to effectively and interactively evaluate virus transmission in physical spaces are lacking. • To help fill this gap, we propose OccSim, a system that automatically generates occupancy behaviours in a 3D model of a building and helps users analyze the potential effect of virus transmission from a large-scale and longitudinal perspective. • Our participatory evaluation with four groups of stakeholders revealed that OccSim could enhance their decision making processes by identifying specific risks of virus transmission in advance, and illuminating how each risk relates to complex human-building interactions."
+summary: "• We propose a generative design workflow that integrates a stochastic multi-agent simulation with the intent of helping building designers reduce the risk posed by COVID-19 and future pathogens. Our custom simulation randomly generates activities and movements of individual occupants, tracking the amount of virus transmitted through air and surfaces from contagious to susceptible agents. The stochastic nature of the simulation requires that many repetitions be performed to achieve statistically reliable results. Accordingly, a series of initial experiments identified parameter values that balanced the trade-off between computational cost and accuracy. Applying generative design to a case study based on an existing office space reduced the predicted transmission by around 10% to 20% compared with a baseline set of layouts. Additionally, a qualitative examination of the generated layouts revealed design patterns that may reduce transmission. Stochastic multi-agent simulation is a computationally expensive yet plausible way to generate safer building designs."
 tags: ["Design", "Bab", "Bibibib"]
 shortkeys: "#generative design"
 
