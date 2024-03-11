@@ -7,7 +7,7 @@
         {{ with $data.homepage.banner }}
         <div class="col-7 col-sm-5 col-md-4 padding-side-0">
             {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
-                <img src="{{ .image | absURL }}" class="bokyung-img" alt="" style="width:60%" /> {{ end }} {{ end }}
+                <img src="{{ .image | absURL }}" class="bokyung-img image-cropper " alt="" style="width:60%" /> {{ end }} {{ end }}
         </div>
         
         <div class="banner-title-bold">{{ .title | markdownify }}</div>

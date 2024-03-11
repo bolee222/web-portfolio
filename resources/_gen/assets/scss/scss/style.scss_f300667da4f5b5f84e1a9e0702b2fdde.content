@@ -618,6 +618,11 @@ img {
   place-items: center;
   margin-bottom: 40px; }
 
+.image-cropper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%; }
+
 a {
   color: inherit; }
 
