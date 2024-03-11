@@ -5,9 +5,9 @@
 <section class="section-home pb-0" id="home">
     <div class="container">
         {{ with $data.homepage.banner }}
-        <div class="col-7 col-sm-5 col-md-4 padding-side-0">
+        <div class="col-7 col-sm-6 col-md-7 padding-side-0">
             {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
-                <img src="{{ .image | absURL }}" class="bokyung-img image-cropper " alt="" style="width:60%" /> {{ end }} {{ end }}
+                <img src="{{ .image | absURL }}" class="bokyung-img image-cropper about-img img-responsive" alt="" style="width:60%" /> {{ end }} {{ end }}
         </div>
         
         <div class="banner-title-bold">{{ .title | markdownify }}</div>

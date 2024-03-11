@@ -34,6 +34,8 @@ img {
 }
 
 .bokyung-img{
+    opacity: .9;
+    width: 100%;
     display: grid;
     place-items: center;
     margin-bottom: 40px;
@@ -43,7 +45,16 @@ img {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
- }
+}
+
+.about-img {
+    overflow:hidden;
+
+    &:hover img {
+      transform: scale3D(1.1,1.1,1);
+    }
+    
+}
  
 
 a {
