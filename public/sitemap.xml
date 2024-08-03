@@ -2,187 +2,199 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://boleehci.com/tags/bab/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/design/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/design-tools/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/2024-everydayobject/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vr/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publications/2024-objectcreativity/</loc>
+    <lastmod>2024-01-14T15:40:24+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bab/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/tags/bibibib/</loc>
+    <loc>http://localhost:1313/tags/bibibib/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/</loc>
+    <loc>http://localhost:1313/projects/2023-occsim/</loc>
     <lastmod>2023-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/tags/design/</loc>
-    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boleehci.com/projects/2023-occsim/</loc>
-    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boleehci.com/tags/</loc>
-    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://boleehci.com/publications/2023-sustainable/</loc>
+    <loc>http://localhost:1313/publications/2023-sustainable/</loc>
     <lastmod>2023-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2021-iasdr/</loc>
+    <loc>http://localhost:1313/publications/2021-iasdr/</loc>
     <lastmod>2021-11-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2021-siggraph/</loc>
+    <loc>http://localhost:1313/publications/2021-siggraph/</loc>
     <lastmod>2021-08-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2021-dis/</loc>
+    <loc>http://localhost:1313/publications/2021-dis/</loc>
     <lastmod>2021-06-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2021-occsim/</loc>
+    <loc>http://localhost:1313/projects/2021-occsim/</loc>
     <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2021-aic/</loc>
+    <loc>http://localhost:1313/publications/2021-aic/</loc>
     <lastmod>2021-01-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2020-nordichi/</loc>
+    <loc>http://localhost:1313/publications/2020-nordichi/</loc>
     <lastmod>2020-11-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2019-social_interactions/</loc>
+    <loc>http://localhost:1313/projects/2019-social_interactions/</loc>
     <lastmod>2020-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2020-cscw/</loc>
+    <loc>http://localhost:1313/publications/2020-cscw/</loc>
     <lastmod>2020-10-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/talks/talk-1/</loc>
+    <loc>http://localhost:1313/talks/talk-1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/talks/talk-2/</loc>
+    <loc>http://localhost:1313/talks/talk-2/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/talks/talk-3/</loc>
+    <loc>http://localhost:1313/talks/talk-3/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/talks/talk-4/</loc>
+    <loc>http://localhost:1313/talks/talk-4/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/news/blog-1/</loc>
+    <loc>http://localhost:1313/news/blog-1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/news/blog-2/</loc>
+    <loc>http://localhost:1313/news/blog-2/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/news/blog-3/</loc>
+    <loc>http://localhost:1313/news/blog-3/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/news/blog-4/</loc>
+    <loc>http://localhost:1313/news/blog-4/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/news/blog-5/</loc>
+    <loc>http://localhost:1313/news/blog-5/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/news/blog-6/</loc>
+    <loc>http://localhost:1313/news/blog-6/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/news/</loc>
+    <loc>http://localhost:1313/news/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/</loc>
+    <loc>http://localhost:1313/publications/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/talks/</loc>
+    <loc>http://localhost:1313/talks/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/vision/</loc>
+    <loc>http://localhost:1313/vision/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/tags/tag1/</loc>
+    <loc>http://localhost:1313/tags/tag1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/tags/tag2/</loc>
+    <loc>http://localhost:1313/tags/tag2/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/tags/tag3/</loc>
+    <loc>http://localhost:1313/tags/tag3/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2020-phd/</loc>
+    <loc>http://localhost:1313/publications/2020-phd/</loc>
     <lastmod>2020-02-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2020-socio_spatial_comfort/</loc>
+    <loc>http://localhost:1313/projects/2020-socio_spatial_comfort/</loc>
     <lastmod>2020-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2019-skeletonographer/</loc>
+    <loc>http://localhost:1313/projects/2019-skeletonographer/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2019-cscw/</loc>
+    <loc>http://localhost:1313/publications/2019-cscw/</loc>
     <lastmod>2019-10-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2019-cscw-demo/</loc>
+    <loc>http://localhost:1313/publications/2019-cscw-demo/</loc>
     <lastmod>2019-10-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2019-dfsh/</loc>
+    <loc>http://localhost:1313/publications/2019-dfsh/</loc>
     <lastmod>2019-09-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2019-ubicomp/</loc>
+    <loc>http://localhost:1313/publications/2019-ubicomp/</loc>
     <lastmod>2019-09-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2019-chi-manikin/</loc>
+    <loc>http://localhost:1313/publications/2019-chi-manikin/</loc>
     <lastmod>2019-05-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2019-chi-sindy/</loc>
+    <loc>http://localhost:1313/publications/2019-chi-sindy/</loc>
     <lastmod>2019-05-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2019-smartmanikin/</loc>
+    <loc>http://localhost:1313/projects/2019-smartmanikin/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2019-robotdesk/</loc>
+    <loc>http://localhost:1313/projects/2019-robotdesk/</loc>
     <lastmod>2019-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2018-dis/</loc>
+    <loc>http://localhost:1313/publications/2018-dis/</loc>
     <lastmod>2018-06-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2018-body2desk/</loc>
+    <loc>http://localhost:1313/projects/2018-body2desk/</loc>
     <lastmod>2018-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2016-bodymeter/</loc>
+    <loc>http://localhost:1313/projects/2016-bodymeter/</loc>
     <lastmod>2018-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2017-chi/</loc>
+    <loc>http://localhost:1313/publications/2017-chi/</loc>
     <lastmod>2017-05-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2017-chi-mandu/</loc>
+    <loc>http://localhost:1313/publications/2017-chi-mandu/</loc>
     <lastmod>2017-05-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2017-dis-mandu/</loc>
+    <loc>http://localhost:1313/publications/2017-dis-mandu/</loc>
     <lastmod>2017-05-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/projects/2017-consumer2creator/</loc>
+    <loc>http://localhost:1313/projects/2017-consumer2creator/</loc>
     <lastmod>2017-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2017-hcik/</loc>
+    <loc>http://localhost:1313/publications/2017-hcik/</loc>
     <lastmod>2017-01-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2016-nordichi-bodymeter/</loc>
+    <loc>http://localhost:1313/publications/2016-nordichi-bodymeter/</loc>
     <lastmod>2016-11-15T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2016-nordichi-poster/</loc>
+    <loc>http://localhost:1313/publications/2016-nordichi-poster/</loc>
     <lastmod>2016-11-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2016-hcik/</loc>
+    <loc>http://localhost:1313/publications/2016-hcik/</loc>
     <lastmod>2016-10-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2015-ksds/</loc>
+    <loc>http://localhost:1313/publications/2015-ksds/</loc>
     <lastmod>2015-10-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2015-ubicomp/</loc>
+    <loc>http://localhost:1313/publications/2015-ubicomp/</loc>
     <lastmod>2015-09-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/publications/2015-iasdr/</loc>
+    <loc>http://localhost:1313/publications/2015-iasdr/</loc>
     <lastmod>2015-06-14T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>https://boleehci.com/author/</loc>
+    <loc>http://localhost:1313/author/</loc>
   </url><url>
-    <loc>https://boleehci.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://boleehci.com/author/george-cushen/</loc>
+    <loc>http://localhost:1313/author/george-cushen/</loc>
   </url>
 </urlset>

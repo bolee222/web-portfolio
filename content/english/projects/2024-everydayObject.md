@@ -22,7 +22,7 @@ shortkeys: "#generative design"
 # links
 links:
   - label : "Paper"
-    link : "https://www.dropbox.com/scl/fi/2emgg06ytqptcwc5x180l/2024_Everyday-Objects.pdf?rlkey=32nj895y2q343r0zo3zqabvqs&dl=0"
+    link : "https://www.dropbox.com/s/4q04sm1gfiuo7tg/2024-Everyday%20Objects.pdf?dl=0"
   - label : "Source URL"
     link : "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003051994"
   - label : "Project Page"

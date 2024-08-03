@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tag3 on Bokyung | Personal Website</title>
-    <link>https://boleehci.com/tags/tag3/</link>
-    <description>Recent content in tag3 on Bokyung | Personal Website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Tag3 on Bokyung | Personal Website</title>
+    <link>http://localhost:1313/tags/tag3/</link>
+    <description>Recent content in Tag3 on Bokyung | Personal Website</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; Bokyung Lee</copyright>
-    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://boleehci.com/tags/tag3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tag3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>https://boleehci.com/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      
-      <guid>https://boleehci.com/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</description>
     </item>
-    
     <item>
       <title>Research Vision</title>
-      <link>https://boleehci.com/vision/</link>
+      <link>http://localhost:1313/vision/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
-      
-      <guid>https://boleehci.com/vision/</guid>
+      <guid>http://localhost:1313/vision/</guid>
       <description>MY RESEARCH JOUNEY FOR LAST 9 YEARS: Focusing on the &amp;ldquo;Desing tools&amp;rdquo; Many future applications will require advanced embodied interactions, such as digital twin facility systems, virtual museums, virtual meetings, smart physical environment, or human-robot collaborations.</description>
     </item>
-    
   </channel>
 </rss>
