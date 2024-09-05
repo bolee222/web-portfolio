@@ -79,5 +79,12 @@
       <guid>http://localhost:1313/projects/2017-consumer2creator/</guid>
       <description>In this paper, we explored the application of human factor guidelines in personal fabrication. This is useful for several Do-It-Yourself (DIY) scenarios, including users adjusting workstation configurations or designing a desk to fit a single person. We identified a dependency map between the user&amp;rsquo;s anthropometrics, ergonomic pose recommendations, and design dimensions. Based on this, we developed situated and interactive guidelines to assist users in design applications. We applied these guidelines in a Virtual Reality (VR) system that lets users customize their desk and provides real-time feedback and feedforward on pose and design. We evaluated the system with six participants, had each one design a personal desk, fabricated their desks, and let them work on their desks for four hours. The design and evaluation contribute to fabrication tools as it helped users be aware of their pose and ergonomic knowledge, and design for their bodies and needs.</description>
     </item>
+    <item>
+      <title>Ori-mandu: Korean Dumpling into Whatever Shape You Want</title>
+      <link>http://localhost:1313/projects/2017-orimandu/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2017-orimandu/</guid>
+      <description>Food 3D printing is getting the spotlight by offering the opportunity to customize food appearances, textures, and flavors that are troublesome to make by hand. Additive manufacturing machines extrude ingredients into a certain shape, however, they cannot be applied to all types of food, such as mandu (Korean dumpling). In this pictorial, we extend the research on digital gastronomy by using digital fabrication to create custom tools that assist the process of cooking. We present the iterative process of designing the “Ori-mandu” system, and how Ori-mandu enables users to fabricate dumplings in whatever shape they want.</description>
+    </item>
   </channel>
 </rss>
