@@ -309,6 +309,20 @@
         font-family: $primary-font;
         line-height: 1.5em !important;
     }
+
+    .banner-text-purple{
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+        font-family: $primary-font;
+        line-height: 1.5em !important;
+        background-color: $hyperlink-color;
+    }
+
+    .banner-text-purple a{
+        color: #fcf76a;
+
+    }
     
     .banner-text-keyword:hover{
         background-color: $highlight-bgcolor-gray
