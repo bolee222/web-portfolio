@@ -13,68 +13,15 @@
       {{ range $paginator.Pages.ByDate.Reverse }}
       <div class="container">
         <div class="col-md-12 col-sm-6 mb-3">
-          {{ .Render "publication_sci" }}
+          {{ .Render "publication_all" }}
         </div>
-      </div>
-        
+      </div>     
       {{ end }}
       <div class="col-12 mt-5">
         {{ template "_internal/pagination.html" . }}
       </div>
     </div>
 
-    <!--International Conferences-->
-    <div class="container publication-type-title"><strong> International Conferences </strong></div>
-    <div class="row">
-      {{ $paginator := .Paginate .Data.Pages }}
-      {{ range $paginator.Pages.ByDate.Reverse }}
-      <div class="container">
-        <div class="col-md-12 col-sm-6 mb-3">
-          {{ .Render "publication_int" }}
-        </div>
-      </div>
-        
-      {{ end }}
-      <div class="col-12 mt-5">
-        {{ template "_internal/pagination.html" . }}
-      </div>
-    </div>
-
-    <!--Domestic Journals-->
-    <div class="container publication-type-title"><strong> Domestic Journals </strong></div>
-    <div class="row">
-      {{ $paginator := .Paginate .Data.Pages }}
-      {{ range $paginator.Pages.ByDate.Reverse }}
-      <div class="container">
-        <div class="col-md-12 col-sm-6 mb-3">
-          {{ .Render "publication_journal_dom" }}
-        </div>
-      </div>
-      {{ end }}
-      <div class="col-12 mt-5">
-        {{ template "_internal/pagination.html" . }}
-      </div>
-    </div>
-
-
-    <!--Domestic Conferences-->
-    <div class="container publication-type-title"><strong> Domestic Conferences </strong></div>
-    <div class="row">
-      {{ $paginator := .Paginate .Data.Pages }}
-      {{ range $paginator.Pages.ByDate.Reverse }}
-      <div class="container">
-        <div class="col-md-12 col-sm-6 mb-3">
-          {{ .Render "publication_domestic" }}
-        </div>
-      </div>
-        
-      {{ end }}
-      <div class="col-12 mt-5">
-        {{ template "_internal/pagination.html" . }}
-      </div>
-    </div>
-
-  </div>
 </section>
 
 {{ end }}

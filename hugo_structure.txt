@@ -1,0 +1,308 @@
+.
+├── archetypes
+│   └── default.md
+├── assets
+│   ├── js
+│   │   └── script.js
+│   └── scss
+│       ├── _buttons.scss
+│       ├── _common.scss
+│       ├── _mixins.scss
+│       ├── _typography.scss
+│       ├── _variables.scss
+│       ├── style.scss
+│       └── templates
+├── config.toml
+├── content
+│   ├── english
+│   │   ├── author
+│   │   ├── contact.md
+│   │   ├── news
+│   │   ├── projects
+│   │   ├── publications
+│   │   ├── talks
+│   │   └── vision.md
+│   └── korean
+│       ├── author
+│       ├── blogs
+│       ├── contact.md
+│       ├── projects
+│       ├── publications
+│       ├── talks
+│       └── vision.md
+├── data
+│   ├── en
+│   │   └── homepage.yml
+│   ├── kr
+│   │   └── homepage.yml
+│   └── project.yml
+├── hugo_structure.txt
+├── i18n
+│   ├── en.yaml
+│   └── fr.yaml
+├── layouts
+│   ├── 404.html
+│   ├── _default
+│   │   ├── _markup
+│   │   ├── baseof.html
+│   │   ├── blog.html
+│   │   ├── blogSingle.html
+│   │   ├── list.html
+│   │   ├── project.html
+│   │   ├── projectSingle.html
+│   │   ├── publication_all.html
+│   │   ├── publication_domestic.html
+│   │   ├── publication_int.html
+│   │   ├── publication_journal_dom.html
+│   │   ├── publication_sci.html
+│   │   ├── single.html
+│   │   └── talk.html
+│   ├── author
+│   │   └── single.html
+│   ├── index.html
+│   ├── partials
+│   │   ├── footer.html
+│   │   ├── head.html
+│   │   ├── header.html
+│   │   ├── page-header.html
+│   │   ├── preloader.html
+│   │   └── tags.html
+│   ├── projects
+│   │   └── list.html
+│   ├── publications
+│   │   └── list.html
+│   ├── shortcodes
+│   │   ├── collapse.html
+│   │   ├── columns.html
+│   │   ├── columns7-5.html
+│   │   ├── notice.html
+│   │   ├── project-description.html
+│   │   ├── tab.html
+│   │   └── tabs.html
+│   ├── talks
+│   │   └── list.html
+│   └── taxonomy
+│       ├── tag.html
+│       └── taxonomy.html
+├── public
+│   ├── author
+│   │   ├── george-cushen
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   └── page
+│   ├── categories
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── contact
+│   │   └── index.html
+│   ├── en
+│   │   ├── index.html
+│   │   └── sitemap.xml
+│   ├── images
+│   │   ├── __favicon.png
+│   │   ├── author.jpg
+│   │   ├── blogs
+│   │   ├── bokyungLee-prof.jpg
+│   │   ├── bokyungLee-prof2.jpg
+│   │   ├── bokyungLee.jpg
+│   │   ├── bokyungLee_circle.jpg
+│   │   ├── bokyungLee_circle.png
+│   │   ├── favicon-bo.png
+│   │   ├── logo-01.png
+│   │   ├── logo-02.png
+│   │   ├── logo-lab.png
+│   │   ├── logo.png
+│   │   ├── logo_bolee.png
+│   │   ├── projects
+│   │   ├── publications
+│   │   └── talks
+│   ├── index.html
+│   ├── index.xml
+│   ├── js
+│   │   └── script.min.js
+│   ├── kr
+│   │   ├── author
+│   │   ├── blogs
+│   │   ├── categories
+│   │   ├── contact
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── projects
+│   │   ├── publications
+│   │   ├── sitemap.xml
+│   │   ├── tags
+│   │   ├── talks
+│   │   └── vision
+│   ├── news
+│   │   ├── blog-1
+│   │   ├── blog-2
+│   │   ├── blog-3
+│   │   ├── blog-4
+│   │   ├── blog-5
+│   │   ├── blog-6
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   └── page
+│   ├── plugins
+│   │   ├── bootstrap
+│   │   ├── jQuery
+│   │   ├── particles
+│   │   ├── reading-time
+│   │   └── themify-icons
+│   ├── projects
+│   │   ├── 2016-bodymeter
+│   │   ├── 2017-ConsumerToCreator
+│   │   ├── 2017-consumer2creator
+│   │   ├── 2017-dis-mandu
+│   │   ├── 2017-orimandu
+│   │   ├── 2018
+│   │   ├── 2018-body2desk
+│   │   ├── 2019
+│   │   ├── 2019-robotdesk
+│   │   ├── 2019-skeletonographer
+│   │   ├── 2019-smartmanikin
+│   │   ├── 2019-social_interactions
+│   │   ├── 2020
+│   │   ├── 2020-socio_spatial_comfort
+│   │   ├── 2021-occsim
+│   │   ├── 2023
+│   │   ├── 2023-occsim
+│   │   ├── 2024
+│   │   ├── 2024-everydayObjects
+│   │   ├── 2024-everydayobject
+│   │   ├── 2024-roby
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── page
+│   │   ├── project1.jpg
+│   │   ├── project2.jpg
+│   │   ├── project3.jpg
+│   │   ├── project4.jpg
+│   │   ├── project5.jpg
+│   │   ├── project6.jpg
+│   │   └── 기본 370x225 |  72dpi | max 1920
+│   ├── publications
+│   │   ├── 2015-iasdr
+│   │   ├── 2015-ksds
+│   │   ├── 2015-ubicomp
+│   │   ├── 2016-hcik
+│   │   ├── 2016-nordichi-bodymeter
+│   │   ├── 2016-nordichi-poster
+│   │   ├── 2017-chi
+│   │   ├── 2017-chi-mandu
+│   │   ├── 2017-dis-mandu
+│   │   ├── 2017-hcik
+│   │   ├── 2018-dis
+│   │   ├── 2019-chi-manikin
+│   │   ├── 2019-chi-sindy
+│   │   ├── 2019-cscw
+│   │   ├── 2019-cscw-demo
+│   │   ├── 2019-dfsh
+│   │   ├── 2019-ubicomp
+│   │   ├── 2020-cscw
+│   │   ├── 2020-nordichi
+│   │   ├── 2020-phd
+│   │   ├── 2021-aic
+│   │   ├── 2021-dis
+│   │   ├── 2021-iasdr
+│   │   ├── 2021-siggraph
+│   │   ├── 2023-sustainable
+│   │   ├── 2024-XRMuseum
+│   │   ├── 2024-XRdocent
+│   │   ├── 2024-objectcreativity
+│   │   ├── 2024-roby
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── page
+│   │   ├── pub1.jpg
+│   │   ├── pub2.jpg
+│   │   ├── pub3.jpg
+│   │   ├── publication-1
+│   │   ├── publication-2
+│   │   └── publication-3
+│   ├── scss
+│   │   └── style.css
+│   ├── sitemap.xml
+│   ├── tags
+│   │   ├── bab
+│   │   ├── bibibib
+│   │   ├── design
+│   │   ├── design-tools
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── interaction
+│   │   ├── productivity
+│   │   ├── robot
+│   │   ├── tag1
+│   │   ├── tag2
+│   │   ├── tag3
+│   │   └── vr
+│   ├── talks
+│   │   ├── index.html
+│   │   ├── index.xml
+│   │   ├── page
+│   │   ├── talk-1
+│   │   ├── talk-2
+│   │   ├── talk-3
+│   │   └── talk-4
+│   └── vision
+│       ├── index.html
+│       ├── research ma.png
+│       ├── vision1.png
+│       └── vision2.png
+├── resources
+│   └── _gen
+│       ├── assets
+│       └── images
+├── static
+│   ├── images
+│   │   ├── __favicon.png
+│   │   ├── author.jpg
+│   │   ├── blogs
+│   │   ├── bokyungLee-prof.jpg
+│   │   ├── bokyungLee-prof2.jpg
+│   │   ├── bokyungLee.jpg
+│   │   ├── bokyungLee_circle.jpg
+│   │   ├── bokyungLee_circle.png
+│   │   ├── favicon-bo.png
+│   │   ├── logo-lab.png
+│   │   ├── logo.png
+│   │   ├── logo_bolee.png
+│   │   └── talks
+│   ├── projects
+│   │   ├── 2016-BodyMeter
+│   │   ├── 2017-ConsumerToCreator
+│   │   ├── 2018-Body2Desk
+│   │   ├── 2019-RobotDesk
+│   │   ├── 2019-Skeletonographer
+│   │   ├── 2019-SmartManikin
+│   │   ├── 2019-social_interactions
+│   │   ├── 2020-Socio_Spatial_Comfort
+│   │   ├── 2021-OccSim
+│   │   ├── 2023-OccSim
+│   │   ├── 2024-Roby
+│   │   ├── 2024-everydayObjects
+│   │   ├── project1.jpg
+│   │   ├── project2.jpg
+│   │   ├── project3.jpg
+│   │   ├── project4.jpg
+│   │   ├── project5.jpg
+│   │   ├── project6.jpg
+│   │   └── 기본 370x225 |  72dpi | max 1920
+│   ├── publications
+│   │   ├── pub1.jpg
+│   │   ├── pub2.jpg
+│   │   └── pub3.jpg
+│   └── vision
+│       ├── research ma.png
+│       ├── vision1.png
+│       └── vision2.png
+└── themes
+    └── gofolium
+        ├── archetypes
+        ├── assets
+        ├── layouts
+        ├── netlify.toml
+        └── static
+
+176 directories, 130 files
