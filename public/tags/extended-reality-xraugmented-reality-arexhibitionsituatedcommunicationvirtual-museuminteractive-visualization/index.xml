@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Extended Reality (XR)augmented Reality (AR)exhibitionsituatedcommunicationvirtual Museuminteractive Visualization on Bokyung | Personal Website</title>
+    <link>http://localhost:1313/tags/extended-reality-xraugmented-reality-arexhibitionsituatedcommunicationvirtual-museuminteractive-visualization/</link>
+    <description>Recent content in Extended Reality (XR)augmented Reality (AR)exhibitionsituatedcommunicationvirtual Museuminteractive Visualization on Bokyung | Personal Website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; Bokyung Lee</copyright>
+    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/extended-reality-xraugmented-reality-arexhibitionsituatedcommunicationvirtual-museuminteractive-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring the Next Phase of Situated and Interactive Docents for XR Exhibitions: From the Perspective of Knowledge Delivery</title>
+      <link>http://localhost:1313/projects/2025-xrdocent/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2025-xrdocent/</guid>
+      <description>A well-designed docent significantly impacts visitors’ comprehension of the knowledge provided in museums. This study investigates the potential of eXtended Reality (XR) interactions to enhance knowledge delivery within exhibitions. Analyzing 737 exhibit commentary descriptions from 10 real-world exhibitions, we first provided a foundational knowledge taxonomy that outlines various types of information frequently conveyed along with physical exhibits. Subsequently, interviews with expert curators based on our taxonomy framework revealed their past challenges with communication for each type of knowledge and their desires. Our findings elucidate several implications for designing XR interactions to deliver curated knowledge more effectively. Unlike other works of knowledge-delivery supports in XR museums that focused on immersive representations and virtual human guides, our findings suggested new perspectives on incorporating the current understanding of situated visualization, spatio-temporal interaction, participatory embodiment, and the feedback loop into XR exhibition contexts, thus enriching the informative learning experience for museum visitors.</description>
+    </item>
+  </channel>
+</rss>
