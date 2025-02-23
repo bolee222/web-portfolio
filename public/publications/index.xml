@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; Bokyung Lee</copyright>
-    <lastBuildDate>Sat, 31 Aug 2024 15:40:24 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 31 Dec 2024 15:40:24 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring the Next Phase of Situated and Interactive Docents for XR Exhibitions: From the Perspective of Knowledge Delivery</title>
+      <link>http://localhost:1313/publications/2025-xrdocent/</link>
+      <pubDate>Tue, 31 Dec 2024 15:40:24 +0600</pubDate>
+      <guid>http://localhost:1313/publications/2025-xrdocent/</guid>
+      <description>Working from home (WFH) provides flexibility but often at the expense of productivity.</description>
+    </item>
     <item>
       <title>Investigating Work Companion Robot Interactions to Enhance Work-from-Home Productivity and Experience</title>
       <link>http://localhost:1313/publications/2024-roby/</link>
