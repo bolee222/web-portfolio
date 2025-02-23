@@ -722,7 +722,33 @@ p:empty {
   display: none; }
 
 .nav-tabs {
-  border-color: #555; }
+  border-bottom: none !important;
+  margin-bottom: 20px;
+  /* Adjust this value as needed */ }
+
+/* Set default tab text color to black */
+.nav-tabs .nav-link {
+  color: black !important;
+  font-weight: 400;
+  /* Optional: Makes text slightly bold */
+  padding: 10px 15px;
+  /* Adjust padding if needed */
+  border: none !important; }
+
+.nav-tabs .nav-link.active {
+  color: #7517C8 !important;
+  /* Replace with your site's primary color */
+  font-weight: 700;
+  border: none !important;
+  /* Ensures no bottom border */
+  border-bottom: #400599;
+  text-decoration: underline;
+  background-color: #e0e0e06a; }
+
+/* Optional: Add hover effect */
+.nav-tabs .nav-link:hover {
+  color: #b43ccf;
+  /* A slightly darker shade of primary color */ }
 
 .collapse-wrapper > a {
   text-decoration: none !important; }
