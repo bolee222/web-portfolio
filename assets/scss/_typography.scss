@@ -524,3 +524,21 @@
         line-height: 1.3em !important;
     }
     
+
+    .publication-text {
+        font-size: 15px;
+        font-weight: 400;
+        color: $text-color;
+        font-family: $primary-font;
+        line-height: 1.4;
+        margin-bottom: 10px;
+
+        strong {
+            font-weight: 600;
+        }
+
+        em {
+            color: $primary-color !important;
+            background-color: #f3f3f3cc;
+        }
+    }
