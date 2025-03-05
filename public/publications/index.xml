@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; Bokyung Lee</copyright>
-    <lastBuildDate>Tue, 31 Dec 2024 15:40:24 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2025 15:40:24 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Designatomy: Technology-Driven Rapid Ideation Pedagogy for Tech-Novice Design Students</title>
+      <link>http://localhost:1313/publications/2025-designatomy/</link>
+      <pubDate>Sat, 15 Feb 2025 15:40:24 +0600</pubDate>
+      <guid>http://localhost:1313/publications/2025-designatomy/</guid>
+      <description>The rapid technological and cultural advancements of the Fourth Industrial Revolution require designers to develop two essential skills: (i) the ability to quickly adapt to emerging technology and (ii) the ability to generate creative ideas in both user-driven and technology-driven ways.</description>
+    </item>
     <item>
       <title>Exploring the Next Phase of Situated and Interactive Docents for XR Exhibitions: From the Perspective of Knowledge Delivery</title>
       <link>http://localhost:1313/publications/2024-xrdocent/</link>
