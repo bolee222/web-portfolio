@@ -680,6 +680,15 @@ textarea.form-control {
     line-height: 1;
 }
 
+.publication-publisher-icon {
+    display: block;
+    width: 13px;
+    height: 13px;
+    flex: 0 0 13px;
+    border-radius: 2px;
+    object-fit: contain;
+}
+
 .publication-award-badge {
     display: inline-flex;
     align-items: center;

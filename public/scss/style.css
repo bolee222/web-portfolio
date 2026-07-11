@@ -819,6 +819,7 @@ hr {
 .navbar-nav .nav-item {
   display: flex;
   align-items: center;
+  font-weight: 500 !important;
   padding-bottom: 0 !important; }
 
 .navbar {
@@ -1382,6 +1383,14 @@ textarea.form-control {
 .publication-link-icon {
   font-size: 13px;
   line-height: 1; }
+
+.publication-publisher-icon {
+  display: block;
+  width: 13px;
+  height: 13px;
+  flex: 0 0 13px;
+  border-radius: 2px;
+  object-fit: contain; }
 
 .publication-award-badge {
   display: inline-flex;

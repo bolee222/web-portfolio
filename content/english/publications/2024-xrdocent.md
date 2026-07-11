@@ -29,7 +29,7 @@ links:
   - label : "Project Page"
     link : "/projects/2024-xrdocent"
   - label : "Publisher Page"
-    link : "https://aodr.org/_common/do.php?a=current&b=91&bidx=3779&aidx=41676"
+    link : "https://doi.org/10.1080/10447318.2024.2437127"
 ---
 
 

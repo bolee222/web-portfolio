@@ -6,14 +6,36 @@
                     <div class="publication-text margin-bottom-0"><a href="{{ .Params.link_PDF | absURL }}" target="_blank"></a>{{ .Params.cite_acm  | markdownify }}</a></div>
 
                         <ul class="btn-link-group publication-link-buttons list-inline margin-bottom-0">
-                          {{ range .Params.Links }}
+                          {{ $publicationLinks := .Params.Links }}
+                          {{ range (slice "Publisher Page" "Project Page" "PDF") }}
+                          {{ $linkLabel := . }}
+                          {{ range where $publicationLinks "label" $linkLabel }}
                           {{ if .link }}
                           <li class="list-inline-item link-text-publications">
                             <a href="{{ .link | absURL }}" target="_blank" rel="noopener">
-                              <span class="publication-link-icon" aria-hidden="true">{{ if eq .label "PDF" }}📄{{ else if eq .label "Project Page" }}🔗{{ else }}↗{{ end }}</span>
+                              {{ if eq .label "Publisher Page" }}
+                                {{ $publisherURL := urls.Parse .link }}
+                                {{ $publisherHost := $publisherURL.Host }}
+                                {{ if strings.Contains .link "10.1145/" }}
+                                  {{ $publisherHost = "dl.acm.org" }}
+                                {{ else if strings.Contains .link "10.15187/" }}
+                                  {{ $publisherHost = "aodr.org" }}
+                                {{ else if strings.Contains .link "10.1080/" }}
+                                  {{ $publisherHost = "www-tandfonline-com-ssl.access.yonsei.ac.kr" }}
+                                {{ end }}
+                                {{ $publisherIcon := printf "images/publisher-icons/%s.png" $publisherHost }}
+                                {{ if fileExists (printf "static/%s" $publisherIcon) }}
+                                <img class="publication-publisher-icon" src="{{ $publisherIcon | relURL }}" alt="" aria-hidden="true">
+                                {{ else }}
+                                <span class="publication-link-icon" aria-hidden="true">↗</span>
+                                {{ end }}
+                              {{ else }}
+                              <span class="publication-link-icon" aria-hidden="true">{{ if eq .label "PDF" }}📄{{ else }}🔗{{ end }}</span>
+                              {{ end }}
                               <span>{{ .label }}</span>
                             </a>
                         </li>
+                          {{ end }}
                           {{ end }}
                           {{ end }}
                           {{ with .Params.award }}
