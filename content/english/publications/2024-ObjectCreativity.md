@@ -8,13 +8,13 @@ Journal: "**한국디자인포럼**, Volume 29, no.1, ISSN 2586-4777"
 type: "Journal_dom"
 
 # DATE INFO
-date: 2024-01-14T15:40:24+06:00
+date: 2023-06-14T15:40:24+06:00
 publicationDate: 2024.01
-homeYearTag: 2024
+homeYearTag: 2023
 
 
 exactPeriod: 2023.06.01
-cite_acm: "이보경 and 이현경. (2024). Everyday Objects in VR Shape Exploration Tools for Novice Artists - A way to Support Geometry Shaping Process for Non-professionals -. 한국디자인포럼, 29(1), 77-87."
+cite_acm: "Bokyung Lee and Hyun-Kyung Lee. (2024). **Everyday Objects in VR Shape Exploration Tools for Novice Artists - A way to Support Geometry Shaping Process for Non-professionals**. _Korea Design Forum_, 29(1), 77-87."
 doi: https://doi.org/10.21326/ksdt.2024.29.1.007
 
 
@@ -42,4 +42,4 @@ Methods.  This paper aims to investigate future interfaces that could support no
 Result.  We found that non-design experts rely on various 3D reference objects when generating their desired 3D geometry shapes, and they tend to apply those references directly in shape descriptions.
 
 
-Conclusion.  Based on these insights, we highlighted the potential of having reference-based digital 3D design tools for novices. A new system called ShapeloreVR is proposed, which utilizes everyday objects and basic primitives in a VR design playground so that non-experts can quickly interact with, merge, modify, and generate desired 3D shapes while brainstorming.
+Conclusion.  Based on these insights, we highlighted the potential of having reference-based digital 3D design tools for novices. A new system called ShapeloreVR is proposed, which utilizes everyday objects and basic primitives in a VR design playground so that non-experts can quickly interact with, merge, modify, and generate desired 3D shapes while brainstorming.

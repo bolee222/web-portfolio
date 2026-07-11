@@ -14,7 +14,7 @@ homeYearTag: 2023
 
 
 exactPeriod: 2023.06.01
-cite_acm: "Bokyung Lee, Damon Lau, Jeremy P.M. Mogk, Michael Lee, Jacobo Bibliowicz, Rhys Goldstein, Alexander Tessier, Generative design for COVID-19 and future pathogens using stochastic multi-agent simulation, Sustainable Cities and Society, Volume 97,2023, 104661, ISSN 2210-6707"
+cite_acm: "Bokyung Lee, Damon Lau, Jeremy P.M. Mogk, Michael Lee, Jacobo Bibliowicz, Rhys Goldstein, Alexander Tessier, **Generative Design for COVID-19 and Future Pathogens Using Stochastic Multi-agent Simulation**, _Sustainable Cities and Society_, Volume 97,2023, 104661, ISSN 2210-6707"
 doi: https://doi.org/10.1016/j.scs.2023.104661
 
 
@@ -33,4 +33,4 @@ links:
 ---
 
 
-We propose a generative design workflow that integrates a stochastic multi-agent simulation with the intent of helping building designers reduce the risk posed by COVID-19 and future pathogens. Our custom simulation randomly generates activities and movements of individual occupants, tracking the amount of virus transmitted through air and surfaces from contagious to susceptible agents. The stochastic nature of the simulation requires that many repetitions be performed to achieve statistically reliable results. Accordingly, a series of initial experiments identified parameter values that balanced the trade-off between computational cost and accuracy. Applying generative design to a case study based on an existing office space reduced the predicted transmission by around 10% to 20% compared with a baseline set of layouts. Additionally, a qualitative examination of the generated layouts revealed design patterns that may reduce transmission. Stochastic multi-agent simulation is a computationally expensive yet plausible way to generate safer building designs.
+We propose a generative design workflow that integrates a stochastic multi-agent simulation with the intent of helping building designers reduce the risk posed by COVID-19 and future pathogens. Our custom simulation randomly generates activities and movements of individual occupants, tracking the amount of virus transmitted through air and surfaces from contagious to susceptible agents. The stochastic nature of the simulation requires that many repetitions be performed to achieve statistically reliable results. Accordingly, a series of initial experiments identified parameter values that balanced the trade-off between computational cost and accuracy. Applying generative design to a case study based on an existing office space reduced the predicted transmission by around 10% to 20% compared with a baseline set of layouts. Additionally, a qualitative examination of the generated layouts revealed design patterns that may reduce transmission. Stochastic multi-agent simulation is a computationally expensive yet plausible way to generate safer building designs.

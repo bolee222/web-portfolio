@@ -1,0 +1,35 @@
+---
+# BASIC INFO
+title: "Discovery of Themes for Museum Docent Narratives to Guide XR Interactions for Better Comprehension"
+author : "Pei-Tzu Hung, <ins>Bokyung Lee</ins>"
+Journal: "**International Conference Proceedings, 2024**"
+
+#Type: Journal_sci, Journal_int, Journal_dom, Conference_sci, Conference_int, Conference_dom
+type: "Conference_int"
+
+# DATE INFO
+date: 2024-11-14T15:40:24+06:00
+publicationDate: 2024.02
+homeYearTag: 2024
+
+
+exactPeriod: 2024
+cite_acm: "Pei-Tzu Hung and Bokyung Lee. (2024). **Discovery of Themes for Museum Docent Narratives to Guide XR Interactions for Better Comprehension**. _Korea Society of Design and Science (KSDS)_, 2024."
+doi: ""
+
+
+# PAGE PARAMETER
+draft: false
+link_PDF: ""
+
+# links
+links:
+  - label : "PDF"
+    link : ""
+  - label : "Project Page"
+    link : ""
+  - label : "Publisher Page"
+    link : ""
+---
+
+This paper analyzes museum docent narratives to derive thematic frameworks that can guide XR interaction design for improved visitor comprehension. The findings organize key knowledge-description patterns that help designers structure more effective, context-aware XR museum experiences.

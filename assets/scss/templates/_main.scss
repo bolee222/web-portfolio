@@ -483,30 +483,48 @@ textarea.form-control {
 
 // Align publication entries with the page title and filter tabs.
 #publication-list .publication-item > .col-12 {
+    margin-bottom: 0 !important;
     padding-right: 0;
     padding-left: 0;
 }
 
+#publication-list {
+    width: 100%;
+    max-width: 920px;
+    margin-right: auto;
+    margin-left: 0;
+}
+
 #publication-list .publication-item {
     position: relative;
+    width: 100%;
+    max-width: none;
+    margin-bottom: 24px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 #publication-list .publication-item .publication-year-column {
     padding-right: 0;
 }
 
-.publication-year {
-    position: absolute;
-    top: 0;
-    right: 24px;
-    width: 100%;
-    text-align: right;
+.publication-entry {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 72px;
+    gap: 24px;
+    align-items: start;
 }
 
-@media (max-width: 575px) {
-    .publication-year {
-        display: none;
-    }
+.publication-entry-main {
+    min-width: 0;
+    padding-right: 0 !important;
+}
+
+.publication-year {
+    position: static;
+    width: auto;
+    margin: 0;
+    text-align: right;
 }
 
 .publication-layout {
@@ -590,7 +608,7 @@ textarea.form-control {
     .publication-layout {
         display: flex;
         flex-direction: column-reverse;
-        gap: 18px;
+        gap: 30px;
     }
 
     .publication-year-guide {
@@ -612,6 +630,13 @@ textarea.form-control {
         li {
             padding-bottom: 0 !important;
         }
+    }
+}
+
+@media (max-width: 600px) {
+    .publication-entry {
+        grid-template-columns: minmax(0, 1fr) 48px;
+        gap: 12px;
     }
 }
 
@@ -651,6 +676,31 @@ textarea.form-control {
 }
 
 .publication-link-icon {
+    font-size: 13px;
+    line-height: 1;
+}
+
+.publication-award-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 !important;
+    padding: 5px 9px !important;
+    border-radius: 6px;
+    background: $highlight-bgcolor-purple;
+    color: $primary-color;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 1.2 !important;
+
+    span:last-child {
+        font-size: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+    }
+}
+
+.publication-award-icon {
     font-size: 13px;
     line-height: 1;
 }

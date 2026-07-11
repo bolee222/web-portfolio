@@ -10,10 +10,10 @@ type: "Conference_sci"
 # DATE INFO
 date: 2021-08-14T15:40:24+06:00
 publicationDate: 2021.08
-homeYearTag: 
+homeYearTag: 2021
 
 exactPeriod: 06 August 2021
-cite_acm: "Bokyung Lee, Michael Lee, Jacobo Bibliowicz, Rhys Goldstein, Jeremy Mogk, and Alexander Tessier. 2021. Simulation and Visualization of Virus Transmission for Architectural Design Analysis. In ACM SIGGRAPH 2021 Talks (SIGGRAPH '21). Association for Computing Machinery, New York, NY, USA, Article 18, 1–2. https://doi.org/10.1145/3450623.3464638"
+cite_acm: "Bokyung Lee, Michael Lee, Jacobo Bibliowicz, Rhys Goldstein, Jeremy Mogk, and Alexander Tessier. (2021). **Simulation and Visualization of Virus Transmission for Architectural Design Analysis**. _ACM SIGGRAPH 2021 Talks (ACM SIGGRAPH '21)_. Association for Computing Machinery, New York, NY, USA, Article 18, 1–2."
 doi: https://dl.acm.org/doi/10.1145/3450623.3464638
 
 
@@ -26,7 +26,7 @@ links:
   - label : "PDF"
     link : "https://www.dropbox.com/scl/fi/62e8hifikau9mcrr39qwx/2021-Siggraph.pdf?rlkey=ju2qt6kwnmah6azdep9ttcnge&dl=0"
   - label : "Project Page"
-    link : "/projects/2021-Occsim/"
+    link : "/projects/2021-occsim/"
   - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/3450623.3464638"
 ---

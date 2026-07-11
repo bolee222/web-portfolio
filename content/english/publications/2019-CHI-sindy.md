@@ -10,7 +10,7 @@ type: "Conference_sci"
 # DATE INFO
 date: 2019-05-14T15:40:24+06:00
 publicationDate: 2019.05
-homeYearTag: 
+homeYearTag: 2019
 
 
 # PAGE PARAMETER
@@ -18,7 +18,7 @@ draft: false
 link_PDF: "https://www.dropbox.com/scl/fi/z0z7hqm84pq1kng9ltv3u/2019-CHI-Sindy.pdf?rlkey=l78zkflv8bziyij3ad6j31ozo&dl=0"
 
 exactPeriod: 02 May 2019
-cite_acm: "Bokyung Lee, Sindy Wu, Maria Jose Reyes, and Daniel Saakes. 2019. **The Effects of Interruption Timings on Autonomous Height-Adjustable Desks that Respond to Task Changes.** In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (**_CHI '19_**). Association for Computing Machinery, New York, NY, USA, Paper 328, 1–10."
+cite_acm: "Bokyung Lee, Sindy Wu, Maria Jose Reyes, and Daniel Saakes. 2019. **The Effects of Interruption Timings on Autonomous Height-Adjustable Desks that Respond to Task Changes**. _In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (ACM CHI '19)_. Association for Computing Machinery, New York, NY, USA, Paper 328, 1–10."
 doi: https://dl.acm.org/doi/10.1145/3290605.3300558
 
 # links
@@ -26,7 +26,7 @@ links:
   - label : "PDF"
     link : "https://www.dropbox.com/scl/fi/z0z7hqm84pq1kng9ltv3u/2019-CHI-Sindy.pdf?rlkey=l78zkflv8bziyij3ad6j31ozo&dl=0"
   - label : "Project Page"
-    link : "/projects/2019-robotdesk"
+    link : "/projects/2019-robotdesk/"
   - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/3290605.3300558"
 ---

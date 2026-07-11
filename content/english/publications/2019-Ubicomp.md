@@ -10,14 +10,14 @@ type: "Conference_sci"
 # DATE INFO
 date: 2019-09-14T15:40:24+06:00
 publicationDate: 2019.09
-homeYearTag: 
+homeYearTag: 2019
 
 # PAGE PARAMETER
 draft: false
 link_PDF: "https://www.dropbox.com/scl/fi/z27nrslx85a3jbrbui64x/2019-Ubicomp-demo.pdf?rlkey=3hxvcgygqkhkc361px46egoij&dl=0"
 
 exactPeriod: 09 September 2019
-cite_acm: "Bokyung Lee, Michael Lee, Pan Zhang, Alexander Tessier, and Azam Khan. 2019. Semantic human activity annotation tool using skeletonized surveillance videos. In Adjunct Proceedings of the 2019 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2019 ACM International Symposium on Wearable Computers (UbiComp/ISWC '19 Adjunct). Association for Computing Machinery, New York, NY, USA, 312–315."
+cite_acm: "Bokyung Lee, Michael Lee, Pan Zhang, Alexander Tessier, and Azam Khan. 2019. **Semantic Human Activity Annotation Tool Using Skeletonized Surveillance Videos**. _ACM International Joint Conference on Pervasive and Ubiquitous Computing and ACM International Symposium on Wearable Computers (ACM UbiComp/ISWC '19 Adjunct)_. Association for Computing Machinery, New York, NY, USA, 312–315."
 doi: "https://dl.acm.org/doi/10.1145/3341162.3343807"
 
 
@@ -26,7 +26,7 @@ links:
   - label : "PDF"
     link : "https://www.dropbox.com/scl/fi/z27nrslx85a3jbrbui64x/2019-Ubicomp-demo.pdf?rlkey=3hxvcgygqkhkc361px46egoij&dl=0"
   - label : "Project Page"
-    link : "/projects/2019-skeletonographer"
+    link : "/projects/2019-skeletonographer/"
   - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/3341162.3343807"
 ---
