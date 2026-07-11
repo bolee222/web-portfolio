@@ -28,7 +28,7 @@ links:
     link : "https://www.dropbox.com/scl/fi/2tq6hetgjm5ug38mb6m42/2023-sustainable.pdf?rlkey=jrthv3tamf05si5wxjul53w6v&dl=0"
   - label : "Project Page"
     link : "/projects/2023-occsim/"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://www.sciencedirect.com/science/article/abs/pii/S221067072300272X"
 ---
 

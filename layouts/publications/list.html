@@ -7,28 +7,29 @@
     </div>
 
     <!-- Tabs for Filtering -->
-<ul class="nav nav-tabs" id="publicationTabs">
+<ul class="nav project-filterbar publication-filterbar" id="publicationTabs" aria-label="Publication categories">
   <li class="nav-item">
-    <a class="nav-link active" data-type="all" href="#">All Publications</a>
+    <a class="nav-link project-filter-chip active" data-type="all" href="#">All</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-type="top-ranked" href="#">Top-Ranked</a>
+    <a class="nav-link project-filter-chip" data-type="top-ranked" href="#">Top-Ranked</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-type="international" href="#">International</a>
+    <a class="nav-link project-filter-chip" data-type="international" href="#">International</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" data-type="domestic" href="#">Domestic</a>
+    <a class="nav-link project-filter-chip" data-type="domestic" href="#">Domestic</a>
   </li>
 </ul>
 
 <!-- Publication List -->
+<div class="publication-layout">
 <div class="row" id="publication-list">
   {{ $paginator := .Paginate .RegularPages.ByDate.Reverse }}
   {{ range $paginator.Pages }}
   <div class="container publication-item" 
-       data-type="{{ .Params.type }}">
-    <div class="col-md-12 col-sm-6 mb-3">
+       data-type="{{ .Params.type }}" data-year="{{ .Params.homeYearTag }}">
+    <div class="col-12 mb-3">
       {{ .Render "publication_all_acm" }}
     </div>
   </div>
@@ -38,11 +39,50 @@
     {{ template "_internal/pagination.html" . }}
   </div>
 </div>
+<aside class="publication-year-guide" aria-label="Publication years">
+  <div class="publication-year-guide-title">Year</div>
+  <ul id="publicationYearGuide"></ul>
+</aside>
+</div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const tabs = document.querySelectorAll("#publicationTabs .nav-link");
   const publications = document.querySelectorAll(".publication-item");
+  const yearGuide = document.querySelector("#publicationYearGuide");
+
+  function updateVisibleYears() {
+    const displayedYears = new Set();
+
+    if (yearGuide) yearGuide.innerHTML = "";
+
+    publications.forEach(pub => {
+      const year = pub.getAttribute("data-year") || "";
+      const isVisible = window.getComputedStyle(pub).display !== "none";
+      const rowYear = pub.querySelector(".publication-year");
+
+      if (rowYear) rowYear.textContent = "";
+
+      if (!year.trim()) return;
+
+      if (isVisible && !displayedYears.has(year)) {
+        displayedYears.add(year);
+        if (rowYear) rowYear.textContent = year;
+
+        if (yearGuide) {
+          const item = document.createElement("li");
+          const button = document.createElement("button");
+          button.type = "button";
+          button.textContent = year;
+          button.addEventListener("click", function () {
+            pub.scrollIntoView({ behavior: "smooth", block: "start" });
+          });
+          item.appendChild(button);
+          yearGuide.appendChild(item);
+        }
+      }
+    });
+  }
 
   const categoryMapping = {
     "top-ranked": ["Conference_sci", "Journal_sci"],
@@ -71,8 +111,12 @@ document.addEventListener("DOMContentLoaded", function() {
           pub.style.display = "none";
         }
       });
+
+      updateVisibleYears();
     });
   });
+
+  updateVisibleYears();
 });
 </script>
 

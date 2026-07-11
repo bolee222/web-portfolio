@@ -28,7 +28,7 @@ links:
     link : "https://www.dropbox.com/s/4q04sm1gfiuo7tg/2024-Everyday%20Objects.pdf?dl=0"
   - label : "Project Page"
     link : "/projects/2024-everydayobject/"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003051994"
 ---
 

@@ -27,6 +27,6 @@ links:
     link : "https://www.dropbox.com/scl/fi/62e8hifikau9mcrr39qwx/2021-Siggraph.pdf?rlkey=ju2qt6kwnmah6azdep9ttcnge&dl=0"
   - label : "Project Page"
     link : "/projects/2021-Occsim/"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/3450623.3464638"
 ---

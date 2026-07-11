@@ -27,7 +27,7 @@ links:
     link : "https://www.dropbox.com/scl/fi/n437u9hfi2ln29xmeyxic/2021-IASDR.pdf?rlkey=2h51ueubkgf4i74rqz6x54jx1&dl=0"
   - label : "Project Page"
     link : "/projects/"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://link.springer.com/chapter/10.1007/978-981-19-4472-7_76"
 ---
 

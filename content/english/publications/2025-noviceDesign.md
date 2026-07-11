@@ -28,7 +28,7 @@ links:
     link : ""
   - label : "Project Page"
     link : "/projects/2024-xrdocent"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : ""
 ---
 

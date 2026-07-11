@@ -24,6 +24,6 @@ doi: https://dl.acm.org/doi/abs/10.1145/3027063.3049777
 links:
   - label : "Project Page"
     link : "/projects/2017-orimandu/"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://dl.acm.org/doi/abs/10.1145/3027063.3049777"
 ---

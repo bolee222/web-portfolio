@@ -1,23 +1,25 @@
 ---
-title: "Designatomy: Technology-Driven Rapid Ideation Pedagogy for Tech-Novice Design Students"
+title: "DESIGNATOMY: Tech-Driven Rapid Ideation Pedagogy for Tech-Novice Design Students"
+title_official: "DESIGNATOMY: Technology-Driven Rapid Ideation Pedagogy for Tech-Novice Design Students"
 date: 2025-01-24
 draft: false
 
 # Project thumb
-category: [ "System", "User Study", "XR", "User-Centered Process" ]
-image: "/projects/2025-designatomy/_[opt]teaser.jpg"
-teaser: "/projects/2025-designatomy/_[opt]top.jpg"
-metacontent: "This paper envisions generative Artificial Intelligence (AI) and eXtended Reality (XR) as means to better novices in adopting dual roles as designers and users while personalizing 3D products. A generative design study with 24 paçrticipants in their homes examined how novices think and act while designing personal products."
+#["XR", "AI", "Physical AI", "UX", "Embodied Interaction", "Digital Twin" , "Convergence", "Interaction Design", "System", "Visualization", "User Study", "Cultural Technology",  "Marketing", "User-centered Design", "Patent"]
+category: ["Convergence", "Design Education", "User Study"]
+image: "/projects/2025-designatomy/_[opt]teaser.webp"
+teaser: "/projects/2025-designatomy/_[opt]top.webp"
+metacontent: "We introduce Designatomy, a taxonomy-driven design pedagogy that helps technology-novice students generate technology-inspired design ideas. The approach structures technological features into conceptual categories that support systematic ideation."
 
 # Meta-Data
-conference: "International Journal of Design Education / 2025"
-conference_full: International Journal of Design Education
+conference: "Int’l Journal of Design Education / 2025"
+conference_full: International Journal of Design Education (IJDE)
 con_date: "Undecided"
-keywords: "generative AI, XR"
-researcher: "Bokyung Lee, Gyeol Han, Jundong Park, Daniel Saakes"
-summary: "Advanced technologies empower novices to create 3D products independently, yet existing tools focus on simplifying object creation, overlooking support for reflecting on users’ needs and desires. This paper envisions generative Artificial Intelligence (AI) and eXtended Reality (XR) as means to better novices in adopting dual roles as designers and users while personalizing 3D products. A generative design study with 24 participants in their homes examined how novices think and act while designing personal products. Observations and interviews reveal that participants actively leverage their bodies, everyday objects, and context-based language, uncovering new opportunities for AI and XR in 3D design tools."
+keywords: "generative AI, XR, Design Pedagogy"
+researcher: "Bokyung Lee"
+summary: "The rapid technological and cultural advancements of the Fourth Industrial Revolution require designers to develop two essential skills: (i) the ability to quickly adapt to emerging technology and (ii) the ability to generate creative ideas in both user-driven and technology-driven ways. However, conventional design education methods often fall short in simultaneously cultivating these skills. Therefore, this paper introduces Designatomy, a novel pedagogical approach to guide technology-driven design approaches to tech-novice design students. This method employs a taxonomy information framework as a foundational thinking strategy, encouraging students to independently explore and comprehend design features shaped by new technological advancements. Our study involving 22 students demonstrated that Designatomy effectively accelerates the acquisition of fundamental knowledge about the relationship between design and technology, fostering both engagement and efficiency. Furthermore, the acquired knowledge was successfully applied in students' idea-generation sessions. The results suggest that Designatomy has considerable potential to equip students with the skills necessary to navigate the rapidly evolving landscape of design, promoting a problem-solving mindset crucial for addressing emerging trends in design and technology."
 tags: ["Extended reality (XR)", "augmented reality (AR)", "exhibition", "situated communication", "virtual museum", "interactive visualization"]
-shortkeys: "#generative AI, XR/AR, design tools"
+shortkeys: ["technology-driven ideation", "design pedagogy", "taxonomy for creativity", "tech-novice innovation"]
 
 # links
 links:

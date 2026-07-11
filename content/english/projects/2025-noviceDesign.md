@@ -1,23 +1,25 @@
 ---
-title: "User-Centered Investigation of Generative AI and XR Interactions in 3D Product Design Tools"
-date: 2024-12-23
-layout: projectSingle
+title: "Design Implications of Generative AI and XR Interactions for 3D Product Design Tools"
+title_official: "User-Centered Investigation of Generative AI and XR Interactions in 3D Product Design Tools"
+date: 2025-01-23
 draft: false
 
 # Project thumb
-category: [ "System", "User Study", "XR", "User-Centered Process" ]
-image: "/projects/2025-noviceDesign/_[opt]teaser.jpg"
-teaser: "/projects/2025-noviceDesign/_[opt]top.jpg"
-metacontent: "This paper envisions generative Artificial Intelligence (AI) and eXtended Reality (XR) as means to better novices in adopting dual roles as designers and users while personalizing 3D products. A generative design study with 24 participants in their homes examined how novices think and act while designing personal products."
+#["XR", "AI", "Physical AI", "UX", "Embodied Interaction", "Digital Twin" , "Convergence", "Interaction Design", "System", "Visualization", "User Study", "Cultural Technology",  "Marketing", "User-centered Design", "Patent"]
+category: ["XR", "AI", "UX", "Embodied Interaction", "Convergence", "Interaction Design", "User Study", "User-centered Design"]
+image: "/projects/2025-noviceDesign/_[opt]teaser.webp"
+teaser: "/projects/2025-noviceDesign/_[opt]top.webp"
+metacontent: "This paper envisions generative AI and XR as means to better novices in adopting dual roles as designers and users while personalizing 3D products. A generative design study in their homes examined how novices think and act while designing personal products."
 
 # Meta-Data
-conference: "Ergonomics in Design / 2025"
+conference: "Ergonomics in Design (EiD) / 2025"
+conference_full: Ergonomics in Design (EiD)
 con_date: "Undecided"
 keywords: "generative AI, XR"
 researcher: "Bokyung Lee, Gyeol Han, Jundong Park, Daniel Saakes"
 summary: "Advanced technologies empower novices to create 3D products independently, yet existing tools focus on simplifying object creation, overlooking support for reflecting on users’ needs and desires. This paper envisions generative Artificial Intelligence (AI) and eXtended Reality (XR) as means to better novices in adopting dual roles as designers and users while personalizing 3D products. A generative design study with 24 participants in their homes examined how novices think and act while designing personal products. Observations and interviews reveal that participants actively leverage their bodies, everyday objects, and context-based language, uncovering new opportunities for AI and XR in 3D design tools."
 tags: ["Extended reality (XR)", "augmented reality (AR)", "exhibition", "situated communication", "virtual museum", "interactive visualization"]
-shortkeys: "#generative AI, XR/AR, design tools"
+shortkeys: ["generative AI + XR", "novice 3D design", "user-designer mindset", "future design tools"]
 
 # links
 links:
@@ -25,7 +27,6 @@ links:
     link : "https://www.dropbox.com/scl/fi/ul2xh7pbzoy7zo9weulx9/2024-XR-docent.pdf?rlkey=gvawi814v8gejw71die1mziv9&st=xljqfzor&dl=0"
   - label : "Source URL"
     link : "https://doi.org/10.1080/10447318.2024.2437127"
-
 
 information:
   - label : "Client"

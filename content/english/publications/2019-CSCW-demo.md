@@ -26,6 +26,6 @@ links:
     link : "https://www.dropbox.com/scl/fi/il3nf52892shl6yxqit0w/2019-CSCW-demo.pdf?rlkey=oz7m323rtdifiad7ild6er4h9&dl=0"
   - label : "Project Page"
     link : "/projects/2019-skeletonographer/"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/3311957.3359510"
 ---

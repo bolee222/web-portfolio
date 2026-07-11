@@ -1,11 +1,25 @@
 <!-- Project 페이지의 프로젝트 그리드 페이지  -->
 <article class="card rounded-0 border-0" data-file="{{.Permalink}}" data-target="article">
     {{ with .Params.Image }}
-    <img src="{{ . | absURL }}" alt="" class="card-img-top mb-3 rounded-0" /> {{ end }}
+    <a class="portfolio-image-link" href="{{ $.Permalink }}">
+        <img src="{{ . | absURL }}" alt="{{ $.Title }}" class="card-img-top mb-3 rounded-0" />
+        {{ with $.Params.shortkeys }}
+        <span class="portfolio-shortkeys" aria-label="Project keywords">
+            {{ if reflect.IsSlice . }}
+                {{ range . }}<span class="portfolio-shortkey">{{ . }}</span>{{ end }}
+            {{ else }}
+                {{ range split . "," }}
+                    {{ $shortkey := replaceRE "^\\s+|\\s+$" "" . }}
+                    {{ if $shortkey }}<span class="portfolio-shortkey">{{ $shortkey }}</span>{{ end }}
+                {{ end }}
+            {{ end }}
+        </span>
+        {{ end }}
+    </a>
+    {{ end }}
     <div class="card-body padding0">
         <ul class="list-inline margin-updown-1">
             <button type="button" class="btn-journal-name-purple">{{ .Params.conference }}</button>
-            <button type="button" class="btn-publication-meta-white">{{ .Params.shortkeys }}</button>
         </ul>
         <div class="mb-2 blog-title">
             <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
@@ -13,7 +27,5 @@
 
         
         <p class="project-blog-meta margin-updown-1">{{ .Params.metacontent }}</p>
-        <a href="{{ .Permalink }}" class="btn btn-link margin-bottom-20 margin-top-10 ">{{ i18n "read_more" }}</a
-    >
   </div>
 </article>

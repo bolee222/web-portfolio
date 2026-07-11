@@ -1,24 +1,27 @@
 ---
-title: "Interactive and Situated Guidelines to Help Users Design a Personal Desk that Fits Their Bodies"
+title: "BODY2DESK: Interactive and Situated Guidelines for Personalized Ergonomics"
+title_official: "Interactive and Situated Guidelines to Help Users Design a Personal Desk that Fits Their Bodies"
 date: 2018-06-02
 layout: projectSingle
 draft: false
 
 # Project thumb
-category: [ "System", "Innovation" ]
-image: "/projects/2018-Body2Desk/_[opt]teaser.gif"
-teaser: "/projects/2018-Body2Desk/_[opt]top.jpg"
+#["XR", "AI", "Physical AI", "UX", "Embodied Interaction", "Digital Twin" , "Convergence", "Interaction Design", "System", "Visualization", "User Study", "Cultural Technology", "User-centered Design", "Patent"]
+category: [ "XR", "UX", "Embodied Interaction", "Digital Human", "Interaction Design", "System", "User Study", "User-centered Design" ]
+image: "/projects/2018-Body2Desk/_[opt]teaser.webp"
+teaser: "/projects/2018-Body2Desk/_[opt]top.webp"
 metacontent: "We developed situated and interactive guidelines to assist users in design applications. We applied these guidelines in a Virtual Reality (VR) system that lets users customize their desk and provides real-time feedback and feedforward on pose and design."
 
 # Meta-Data
-conference: "DIS 2018"
+conference: "ACM DIS 2018"
 conference_full: "ACM 2018 Designing Interactive Systems Conference"
 con_date: "08 June 2018"
 keys: "simulation-driven design, virtual human with agency, digital human"
 researcher: <ins>Bokyung Lee</ins>, Sindy Wu, Maria Reyes, Daniel Saakes.
 summary: "In this paper, we explored the application of human factor guidelines in personal fabrication. This is useful for several Do-It-Yourself (DIY) scenarios, including users adjusting workstation configurations or designing a desk to fit a single person. We identified a dependency map between the user's anthropometrics, ergonomic pose recommendations, and design dimensions. Based on this, we developed situated and interactive guidelines to assist users in design applications. We applied these guidelines in a Virtual Reality (VR) system that lets users customize their desk and provides real-time feedback and feedforward on pose and design. We evaluated the system with six participants, had each one design a personal desk, fabricated their desks, and let them work on their desks for four hours. The design and evaluation contribute to fabrication tools as it helped users be aware of their pose and ergonomic knowledge, and design for their bodies and needs."
 tags: ["Design", "Bab", "Bibibib"]
-shortkeys: "#social comfort,   #data-driven"
+shortkeys: ["VR ergonomics", "embodied guidelines", "real-time feedback", "personalized workspace"]
+keywords: []
 
 # description
 description: "This is meta description"
@@ -30,10 +33,8 @@ links:
   - label : "Source URL"
     link : "https://dl.acm.org/doi/10.1145/3290605.3300814"
   - label : "Presentation"
-    link : "/projects/2017-orimandu//"
-
+    link : "/project/2016-bodymeter/"
 
 ---
-
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/377286809?h=fb4505550a" width="640" height="360" frameborder="0"    allowfullscreen></iframe>

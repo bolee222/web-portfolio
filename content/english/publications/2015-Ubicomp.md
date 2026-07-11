@@ -26,6 +26,6 @@ links:
     link : "https://www.dropbox.com/scl/fi/0qituzxvhzfxk8uqu5b1o/2015-Ubicomp.pdf?rlkey=jnk2jhiqgcl8djsslc8ha9rwf&dl=0"
   - label : "Project Page"
     link : "/projects/"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/2800835.2800845"
 ---

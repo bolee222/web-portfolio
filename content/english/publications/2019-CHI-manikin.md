@@ -26,6 +26,6 @@ links:
     link : "https://www.dropbox.com/scl/fi/4obshvjhyx60xxl4qiq5a/2019-CHI-SmartManikin.pdf?rlkey=mmve0oxs18iwkxp488p7y7hi0&dl=0"
   - label : "Project Page"
     link : "/projects/2019-smartmanikin/"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/3290605.3300814"
 ---

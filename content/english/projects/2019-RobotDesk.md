@@ -1,24 +1,27 @@
 ---
-title: "The Effect of Interruption Timings on Autonomous Height-Adjustable Desks that Responds to Task Changes"
+title: "The Effect of Interruption Timings on Autonomous Height-Adjustable Desks"
+title_official: "The Effect of Interruption Timings on Autonomous Height-Adjustable Desks that Responds to Task Changes"
 date: 2019-05-02
 layout: projectSingle
 draft: false
 
 # Project thumb
-category: [ "System", "Innovation" ]
-image: "/projects/2019-RobotDesk/_[opt]teaser.gif"
-teaser: "/projects/2019-RobotDesk/_[opt]top.jpg"
+#["XR", "AI", "Physical AI", "UX", "Embodied Interaction", "Digital Twin" , "Convergence", "Interaction Design", "System", "Visualization", "User Study", "Cultural Technology", "User-centered Design", "Patent"]
+category: [ "Physical AI", "UX", "Interaction Design", "System", "User Study", "User-centered Design" ]
+image: "/projects/2019-RobotDesk/_[opt]teaser.webp"
+teaser: "/projects/2019-RobotDesk/_[opt]top.webp"
 metacontent: "We performed a Wizard of Oz study to find the best timing for changing desk height to minimize interruption and discomfort. The results are in line with prior work on task interruption in graphical user interfaces and show that the table should change height during a task change."
 
 # Meta-Data
-conference: "CHI 2019"
+conference: "ACM CHI 2019"
 conference_full: "ACM Journal of Hum.-Comput. Interact. 4, CSCW3, Article 238"
 con_date: "02 May 2019"
 keys: "simulation-driven design, virtual human with agency, digital human"
 researcher: <ins>Bokyung Lee</ins>, Sindy Wu, Maria Reyes, Daniel Saakes.
 summary: "Actuated furniture, such as electric adjustable sit-stand desks, helps users vary their posture and contributes to comfort and health. However, studies found that users rarely initiate height changes. Therefore, in this paper, we look into furniture that adjusts itself to the user's needs. A situated interview study indicated task-changing as an opportune moment for automatic height adjustment. We then performed a Wizard of Oz study to find the best timing for changing desk height to minimize interruption and discomfort. The results are in line with prior work on task interruption in graphical user interfaces and show that the table should change height during a task change. However, results also indicate that until users build trust in the system, they prefer actuation after a task change to experience the impact of the adjustment. Based on the results, we discuss design guidelines for interactive desks with agency."
 tags: ["Design", "Bab", "Bibibib"]
-shortkeys: "#social comfort,   #data-driven"
+shortkeys: ["autonomous furniture", "interruption-aware UX", "adaptive workspace", "physical AI"]
+keywords: []
 
 # description
 description: "This is meta description"
@@ -32,8 +35,6 @@ links:
   - label : "Presentation"
     link : "/projects/2021-Occsim/"
 
-
 ---
-
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/315542941?h=bdb80855ff" width="640" height="360" frameborder="0"    allowfullscreen></iframe>

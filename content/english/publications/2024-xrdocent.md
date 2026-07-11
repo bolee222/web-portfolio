@@ -28,7 +28,7 @@ links:
     link : "https://www.dropbox.com/scl/fi/7dv6h9satbexenp3a83xz/2024-Roby.pdf?rlkey=oen7a92keeibc4wedn6ooja0g&dl=0"
   - label : "Project Page"
     link : "/projects/2024-xrdocent"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://aodr.org/_common/do.php?a=current&b=91&bidx=3779&aidx=41676"
 ---
 

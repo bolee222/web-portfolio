@@ -1,19 +1,21 @@
 ---
-title: "Ori-mandu: Korean Dumpling into Whatever Shape You Want"
+title: "ORI-MANDU: Korean Dumpling into Whatever Shape You Want"
+title_official: "Ori-mandu: Korean Dumpling into Whatever Shape You Want"
 date: 2017-05-02
 layout: projectSingle
 draft: false
 
 # Project thumb
-category: [ "System", "Innovation" ]
-image: 
+#["XR", "AI", "Physical AI", "UX", "Embodied Interaction", "Digital Twin" , "Convergence", "Interaction Design", "System", "Visualization", "User Study", "Cultural Technology", "User-centered Design", "Patent"]
+category: [ "UX", "Interaction Design", "Digital Creativity", "food", "System", "Cultural Technology", "User-centered Design" ]
+image: "/projects/2017-orimandu/_[opt]teaser.jpg"
 teaser: 
 metacontent: "We extend the research on digital gastronomy by using digital fabrication to create custom tools that
 assist the process of cooking. We present the iterative process of designing the “Ori-mandu” system, and how
 Ori-mandu enables users to fabricate dumplings in whatever shape they want."
 
 # Meta-Data
-conference: "DIS 2017"
+conference: "ACM DIS 2017"
 conference_full: "ACM 2017 Designing Interactive Systems Conference"
 con_date: "02 May 2017"
 keys: "simulation-driven design, virtual human with agency, digital human"
@@ -24,7 +26,8 @@ pictorial, we extend the research on digital gastronomy by using digital fabrica
 assist the process of cooking. We present the iterative process of designing the “Ori-mandu” system, and how
 Ori-mandu enables users to fabricate dumplings in whatever shape they want."
 tags: ["Design", "Bab", "Bibibib"]
-shortkeys: "#social comfort,   #data-driven"
+shortkeys: ["digital gastronomy", "food fabrication", "playful making", "cultural design tech"]
+keywords: []
 
 # description
 description: "This is meta description"
@@ -36,8 +39,7 @@ links:
   - label : "Source URL"
     link : "https://dl.acm.org/doi/10.1145/3064663.3064790"
   - label : "Presentation"
-    link : "/projects/2017-orimandu/"
-
+    link : "/project/2017-orimandu/"
 
 ---
 

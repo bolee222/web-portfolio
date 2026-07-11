@@ -27,6 +27,6 @@ links:
     link : "https://www.dropbox.com/scl/fi/z27nrslx85a3jbrbui64x/2019-Ubicomp-demo.pdf?rlkey=3hxvcgygqkhkc361px46egoij&dl=0"
   - label : "Project Page"
     link : "/projects/2019-skeletonographer"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/3341162.3343807"
 ---

@@ -26,6 +26,6 @@ links:
     link : "https://www.dropbox.com/scl/fi/33auv3g6ebxf7kuyzl4qb/2017-DIS-mandu.pdf?rlkey=2jhtjg6g6ftnj53gn8a6qi23y&dl=0"
   - label : "Project Page"
     link : "/projects/2017-orimandu/"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/3064663.3064790"
 ---

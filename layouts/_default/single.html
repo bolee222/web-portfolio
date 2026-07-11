@@ -9,6 +9,7 @@
         <div class="row">
 
             <article class="col-lg-10 col-md-10 mx-auto" data-file="{{.Permalink}}" data-target="article">
+                {{ if ne .File.BaseFileName "vision" }}
                 <div class="text-center">
                     {{ with .Params.Image }}
                     <img src="{{ . | absURL }}" alt="" class="img-fluid mb-4" /> {{ end }}
@@ -39,6 +40,7 @@
                     </ul>
                     {{ end }}
                 </div>
+                {{ end }}
                 <div class="content mt-5">{{ .Content }}</div>
             </article>
         </div>

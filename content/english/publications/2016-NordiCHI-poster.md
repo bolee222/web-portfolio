@@ -26,6 +26,6 @@ links:
     link : "https://www.dropbox.com/scl/fi/3q56br8776vk9sdex8t3w/2016-NordiCHI-poster.pdf?rlkey=ahg5kj2obuyc5zqoxgdne72bm&dl=0"
   - label : "Project Page"
     link : "/projects/"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/2971485.2996734"
 ---

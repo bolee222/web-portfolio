@@ -27,6 +27,6 @@ links:
     link : "https://www.dropbox.com/scl/fi/z0z7hqm84pq1kng9ltv3u/2019-CHI-Sindy.pdf?rlkey=l78zkflv8bziyij3ad6j31ozo&dl=0"
   - label : "Project Page"
     link : "/projects/2019-robotdesk"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/3290605.3300558"
 ---

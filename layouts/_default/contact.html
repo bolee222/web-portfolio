@@ -1,0 +1,54 @@
+{{ define "main" }}
+<section class="contact-page">
+  <div class="container">
+    <div class="row row-fix">
+      <div class="single-page-title padding-side-0">{{ .Title }}</div>
+    </div>
+    <div class="contact-grid">
+      <section class="contact-card">
+        <div class="contact-card-label">Email</div>
+        <div class="contact-card-content">
+          <a class="contact-primary-link" href="mailto:bo.lee@yonsei.ac.kr">bo.lee@yonsei.ac.kr</a>
+          <a class="contact-secondary-link" href="mailto:bokung.lee.lydia@gmail.com">bokung.lee.lydia@gmail.com</a>
+          <p class="contact-office-hours">Official office hours: 8am–5pm</p>
+        </div>
+      </section>
+      <section class="contact-card">
+        <div class="contact-card-label">Office</div>
+        <div class="contact-card-content">
+          <div class="contact-card-title">Veritas B #424</div>
+          <p>Yonsei University<br>85 Songdogwahak-ro, Yeonsu-gu<br>Incheon, Republic of Korea 21983</p>
+          <p>진리관 B #424호<br>연세대학교 국제캠퍼스<br>인천광역시 연수구 송도과학로 85</p>
+          <p>(+82) 032-749-3460</p>
+          <a class="contact-secondary-link" href="https://uic.yonsei.ac.kr/main/about.asp?mid=m01_06_02" target="_blank" rel="noopener">Directions</a>
+        </div>
+      </section>
+      <section class="contact-card contact-card-appointment">
+        <div class="contact-card-label">Appointment</div>
+        <div class="contact-card-content">
+          <div class="contact-card-title">Book a Meeting</div>
+          <p>Choose a 30-minute or 60-minute appointment through Google Calendar.</p>
+          <div class="contact-appointment-links">
+            <a href="https://calendar.app.google/CdAB6kkdpMgZT1Kx9" target="_blank" rel="noopener">30 minutes</a>
+            <a href="https://calendar.app.google/wc1cdPYWHQDM64jj9" target="_blank" rel="noopener">60 minutes</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="contact-visit">
+      <div class="contact-card-label">Visit</div>
+      <div class="contact-visit-grid">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25362.642505453692!2d126.672618!3d37.38202!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b77170b609651%3A0xa8fd0c97d13a9b66!2sYonsei%20University%2C%20International%20Campus!5e0!3m2!1sen!2skr!4v1695905774483!5m2!1sen!2skr" title="Yonsei University International Campus map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <img src="{{ `images/contact/parking.jpg` | relURL }}" alt="Parking directions for the Yonsei University office">
+      </div>
+    </section>
+    <nav class="contact-links" aria-label="Professional links">
+      <a href="https://github.com/bolee222/Bokyung-Lee-CV/blob/main/Bokyung_Lee_CV.pdf" target="_blank" rel="noopener">CV</a>
+      <a href="https://www.linkedin.com/in/bokyung-lee-83156257/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://vimeo.com/lydiabklee" target="_blank" rel="noopener">Vimeo</a>
+      <a href="https://convergencedesignlab.net/" target="_blank" rel="noopener">Convergence Design Lab</a>
+    </nav>
+  </div>
+</section>
+{{ end }}

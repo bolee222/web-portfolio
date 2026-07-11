@@ -34,6 +34,30 @@
     }
 }
 
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0 !important;
+}
+
+.navbar {
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    .navbar-collapse,
+    .navbar-nav {
+        align-items: center;
+    }
+}
+
 .navbar-pad {
     padding: 0.5rem 0.5rem !important;
 }

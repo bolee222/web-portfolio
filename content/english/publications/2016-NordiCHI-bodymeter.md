@@ -26,6 +26,6 @@ links:
     link : "https://www.dropbox.com/scl/fi/7caseczgv96ragkf2s8jx/2016-NordiCHI.pdf?rlkey=60fvjs8wffpzju1a6v2wnkmnh&dl=0"
   - label : "Project Page"
     link : "/projects/2016-bodymeter"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/2971485.2971487"
 ---

@@ -7,8 +7,8 @@
 
     
     <div class="row row-fix">
-        <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
-           <label class="btn btn-sm btn-outline-primary active padding-right-15">
+        <div class="btn-group btn-group-toggle project-filterbar" data-toggle="buttons" aria-label="Project categories">
+           <label class="btn btn-sm btn-outline-primary project-filter-chip active" data-project-filter="all">
              <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
            </label>
 
@@ -21,8 +21,13 @@
            {{end}}
         
            {{ range ( $categories | uniq ) }}
-           <label class="btn btn-sm btn-outline-primary padding-right-15">
-             <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
+           <label class="btn btn-sm btn-outline-primary project-filter-chip" data-project-filter="{{ . | urlize }}">
+             <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />
+             {{- if eq . "AI" -}}AI
+             {{- else if eq . "UX" -}}UX
+             {{- else if eq . "XR" -}}XR
+             {{- else -}}{{ . | humanize }}
+             {{- end -}}
            </label>
            {{ end }}
 
@@ -30,19 +35,65 @@
         </div>
       
         
-        <div class="row">
-          {{ $paginator := .Paginate .Data.Pages }}
-          {{ range $paginator.Pages.ByDate.Reverse  }}
-          <div class="col-sm-4 padding-right-3 margin-top-20 ">
+        <div class="row" id="project-filter-results">
+          {{ range .Data.Pages.ByDate.Reverse }}
+          {{ $projectCategories := .Params.category }}
+          {{ if not (reflect.IsSlice $projectCategories) }}
+            {{ $projectCategories = slice $projectCategories }}
+          {{ end }}
+          {{ $projectGroups := apply $projectCategories "urlize" "." }}
+          <div class="col-sm-4 padding-right-3 margin-top-20 project-filter-item" data-groups="{{ $projectGroups | jsonify }}">
             {{ .Render "blog" }}
           </div>
           {{ end }}
-          <div class="col-12 mt-5">
-            {{ template "_internal/pagination.html" . }}
-          </div>
         </div>
       </div>
   </div>
 </section>
+
+<script>
+  (function () {
+    var filterInputs = document.querySelectorAll('input[name="shuffle-filter"]');
+    var filterLabels = document.querySelectorAll('[data-project-filter]');
+    var projectItems = document.querySelectorAll('.project-filter-item');
+
+    function applyProjectFilter(selected) {
+      filterLabels.forEach(function (label) {
+        var isActive = label.dataset.projectFilter === selected;
+        label.classList.toggle('active', isActive);
+        var input = label.querySelector('input[name="shuffle-filter"]');
+        if (input) input.checked = isActive;
+      });
+
+      projectItems.forEach(function (item) {
+        var groups = [];
+        try {
+          groups = JSON.parse(item.getAttribute('data-groups') || '[]');
+        } catch (error) {
+          groups = [];
+        }
+        var shouldShow = selected === 'all' || groups.indexOf(selected) !== -1;
+        item.style.setProperty('display', shouldShow ? '' : 'none', shouldShow ? '' : 'important');
+        item.setAttribute('aria-hidden', shouldShow ? 'false' : 'true');
+      });
+    }
+
+    filterLabels.forEach(function (label) {
+      label.addEventListener('click', function (event) {
+        event.preventDefault();
+        applyProjectFilter(label.dataset.projectFilter);
+      });
+
+      label.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          applyProjectFilter(label.dataset.projectFilter);
+        }
+      });
+    });
+
+    window.applyProjectFilter = applyProjectFilter;
+  })();
+</script>
 
 {{ end }}

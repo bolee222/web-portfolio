@@ -27,6 +27,6 @@ links:
     link : "https://www.dropbox.com/scl/fi/232unan4jwyh4v3aw6up2/2020-NordiCHI.pdf?rlkey=a6um08mnvi4bhv85cwic4i4iq&dl=0"
   - label : "Project Page"
     link : "/projects/"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://dl.acm.org/doi/10.1145/3419249.3421247"
 ---

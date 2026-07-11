@@ -46,7 +46,7 @@ URL = ""
 weight = 2
 
 [[menu.main]]
-name = "vision"
+name = "Research"
 URL = "vision"
 weight = 3
 
@@ -65,10 +65,10 @@ weight = 5
 #URL = "news"
 #weight = 6
 
-#[[menu.main]]
-#name = "contact"
-#URL = "contact"
-#weight = 7
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 7
 
 #################### taxonomies ########################################
 [taxonomies]

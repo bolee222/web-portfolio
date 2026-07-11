@@ -26,6 +26,6 @@ links:
     link : "https://www.dropbox.com/scl/fi/4ued5mampjx43a1qtlh0x/2015-IASDR.pdf?rlkey=vpbej52bvcjlhwhrcb94zsxkt&dl=0"
   - label : "Project Page"
     link : "/projects/"
-  - label : "Source URL"
+  - label : "Publisher Page"
     link : "https://koasas.kaist.ac.kr/handle/10203/210415"
 ---
