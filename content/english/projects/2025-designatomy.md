@@ -3,6 +3,11 @@ title: "DESIGNATOMY: Tech-Driven Rapid Ideation Pedagogy for Tech-Novice Design 
 title_official: "DESIGNATOMY: Technology-Driven Rapid Ideation Pedagogy for Tech-Novice Design Students"
 date: 2025-01-24
 draft: false
+initiative_summary: "To help technology-novice design students quickly connect emerging technologies with user experience, I developed and tested Designatomy—a taxonomy-guided ideation method for generating meaningful technology-driven service concepts."
+initiative_title: "Proposing a New Concept Ideation Method\nto Help Tech-Novice Students Develop Technology-Driven Ideas"
+initiative_course_code: "CDM2006"
+initiative_course_title: "Contemporary Topics in Cultural Industry"
+initiative_term: "Fall 2023"
 
 # Project thumb
 #["XR", "AI", "Physical AI", "UX", "Embodied Interaction", "Digital Twin" , "Convergence", "Interaction Design", "System", "Visualization", "User Study", "Cultural Technology",  "Marketing", "User-centered Design", "Patent"]
@@ -15,7 +20,7 @@ metacontent: "We introduce Designatomy, a taxonomy-driven design pedagogy that h
 conference: "Int’l Journal of Design Education / 2025"
 conference_full: International Journal of Design Education (IJDE)
 con_date: "Undecided"
-keywords: "generative AI, XR, Design Pedagogy"
+keywords: "generative AI, XR, Design Pedagogy, Teaching Initiative"
 researcher: "Bokyung Lee"
 summary: "The rapid technological and cultural advancements of the Fourth Industrial Revolution require designers to develop two essential skills: (i) the ability to quickly adapt to emerging technology and (ii) the ability to generate creative ideas in both user-driven and technology-driven ways. However, conventional design education methods often fall short in simultaneously cultivating these skills. Therefore, this paper introduces Designatomy, a novel pedagogical approach to guide technology-driven design approaches to tech-novice design students. This method employs a taxonomy information framework as a foundational thinking strategy, encouraging students to independently explore and comprehend design features shaped by new technological advancements. Our study involving 22 students demonstrated that Designatomy effectively accelerates the acquisition of fundamental knowledge about the relationship between design and technology, fostering both engagement and efficiency. Furthermore, the acquired knowledge was successfully applied in students' idea-generation sessions. The results suggest that Designatomy has considerable potential to equip students with the skills necessary to navigate the rapidly evolving landscape of design, promoting a problem-solving mindset crucial for addressing emerging trends in design and technology."
 tags: ["Extended reality (XR)", "augmented reality (AR)", "exhibition", "situated communication", "virtual museum", "interactive visualization"]

@@ -1,0 +1,58 @@
+{{ define "main" }}
+<section class="news-page">
+  <div class="container">
+    <header class="archive-page-header">
+      <div class="row row-fix">
+        <div class="single-page-title">{{ .Title }}</div>
+      </div>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </header>
+
+    <aside class="news-lab-notice">
+      <strong>CXD Lab News:</strong>
+      <span>For more detailed lab updates and member achievements, visit</span>
+      <a href="https://convergencedesignlab.net/" target="_blank" rel="noopener noreferrer">CXD Lab website <span aria-hidden="true">↗</span></a>
+    </aside>
+
+    {{ $posts := .RegularPages.ByDate.Reverse }}
+    {{ if $posts }}
+      <div class="news-year-groups">
+        {{ range $posts.GroupByDate "2006" }}
+        <section class="news-year-group">
+          <h2 class="news-year">{{ .Key }}</h2>
+          <div class="news-list">
+            {{ range .Pages }}
+            {{ $externalURL := .Params.external_url | default .Params.link }}
+            {{ $hasContent := ne (replaceRE "^\\s*$" "" .RawContent) "" }}
+            <article class="news-item">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02" }}</time>
+              <span class="news-item-type"><i class="{{ .Params.icon | default "ti-announcement" }}"></i> {{ .Params.news_type | default "Update" }}</span>
+              <div class="news-item-copy">
+                <h3>
+                  {{ if $externalURL }}
+                    <a href="{{ $externalURL }}" target="_blank" rel="noopener noreferrer">{{ .Title }}</a>
+                  {{ else if $hasContent }}
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  {{ else }}
+                    {{ .Title }}
+                  {{ end }}
+                </h3>
+                {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+              </div>
+              {{ if $externalURL }}
+                <a class="news-item-arrow" href="{{ $externalURL }}" target="_blank" rel="noopener noreferrer" aria-label="Open related page for {{ .Title }}">↗</a>
+              {{ else if $hasContent }}
+                <a class="news-item-arrow" href="{{ .RelPermalink }}" aria-label="Read {{ .Title }}">→</a>
+              {{ end }}
+            </article>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+      </div>
+    {{ else }}
+      <p class="blog-empty">News and updates will be collected here.</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

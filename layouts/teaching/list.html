@@ -6,33 +6,146 @@
     </div>
 
     <section class="teaching-philosophy" aria-labelledby="teaching-philosophy-title">
-      <div class="teaching-section-label">Philosophy</div>
       <h1 id="teaching-philosophy-title" class="teaching-philosophy-title">{{ .Params.philosophy_title }}</h1>
       <div class="teaching-philosophy-copy">
         {{ range .Params.philosophy }}<p>{{ . }}</p>{{ end }}
       </div>
     </section>
 
-    <section class="teaching-courses" aria-label="Courses">
+    <section class="teaching-future teaching-content-section" aria-labelledby="future-talent-title">
+      <h2 id="future-talent-title" class="teaching-content-title">{{ .Params.future_title }}</h2>
+      <p class="teaching-content-intro">{{ .Params.future_intro }}</p>
+      <div class="teaching-principles">
+        {{ range .Params.future_principles }}
+        <article class="teaching-principle">
+          <h3>{{ .title }}</h3>
+          <p>{{ .text }}</p>
+        </article>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="teaching-courses" aria-labelledby="course-overview-title">
+      <h2 id="course-overview-title" class="teaching-courses-title">Courses I Teach</h2>
+      <div class="teaching-course-columns">
       {{ range .Params.course_groups }}
       <div class="teaching-course-group">
         <header class="teaching-course-level">
-          <span>Course Level</span>
           <h2>{{ .level }}</h2>
         </header>
         <div class="teaching-course-list">
           {{ range .courses }}
-          <article class="teaching-course-item">
-            <div class="teaching-course-main">
-              <h3>{{ .title }}</h3>
-              <p>{{ .institution }} · {{ .role }}</p>
+          <details class="teaching-course-item">
+            <summary class="teaching-course-summary">
+              <span class="teaching-course-code">{{ .code }}</span>
+              <span class="teaching-course-name">{{ .title }}</span>
+              <span class="teaching-course-toggle" aria-hidden="true"></span>
+            </summary>
+            <div class="teaching-course-details">
+              {{ with .description }}<p class="teaching-course-description">{{ . }}</p>{{ end }}
+              {{ with .keywords }}
+              <div class="teaching-course-keywords" aria-label="Course keywords">
+                {{ range . }}<span>#{{ . }}</span>{{ end }}
+              </div>
+              {{ end }}
+              {{ with .offerings }}<div class="teaching-course-offerings">{{ . }}</div>{{ end }}
             </div>
-            <div class="teaching-course-term">{{ .term }}</div>
-          </article>
+          </details>
           {{ end }}
         </div>
       </div>
       {{ end }}
+      </div>
+
+    {{ $coursePages := .Params.course_pages }}
+    {{ with .Params.course_db }}
+    <details class="teaching-course-db">
+      <summary id="course-db-title" class="teaching-course-db-summary">
+        <span>My Course DB</span>
+        <span class="teaching-course-db-toggle" aria-hidden="true"></span>
+      </summary>
+      <div class="teaching-course-db-scroll" tabindex="0" aria-label="My Course DB table; scroll horizontally to see all columns">
+        <table class="teaching-course-db-table">
+          <thead>
+            <tr>
+              <th scope="col">Year</th>
+              <th scope="col">Semester</th>
+              <th scope="col">Level</th>
+              <th scope="col">Code</th>
+              <th scope="col">Course Name</th>
+              <th scope="col">Memorable Unique Feature</th>
+              <th scope="col">Course Page</th>
+            </tr>
+          </thead>
+          <tbody id="course-db-rows">
+            {{ range $course := . }}
+            <tr>
+              <td>{{ $course.year }}</td>
+              <td>{{ $course.semester }}</td>
+              <td>{{ $course.level }}</td>
+              <td><strong>{{ $course.code }}</strong></td>
+              <td>{{ $course.name }}</td>
+              <td>{{ $course.feature }}</td>
+              <td>
+                {{ $courseURL := index $coursePages $course.code }}
+                {{ if $courseURL }}
+                <a class="teaching-course-db-link" href="{{ $courseURL | relURL }}">View page <span aria-hidden="true">↗</span></a>
+                {{ else }}—{{ end }}
+              </td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </details>
+    {{ end }}
+    </section>
+
+    <section class="teaching-experiments teaching-content-section" aria-labelledby="teaching-experiments-title">
+      <h2 id="teaching-experiments-title" class="teaching-content-title">{{ .Params.experiments_title }}</h2>
+      <p class="teaching-content-intro">{{ .Params.experiments_intro }}</p>
+      {{ $initiatives := slice }}
+      {{ range .Site.RegularPages }}
+        {{ $keywordsText := lower (printf "%v" .Params.keywords) }}
+        {{ if in $keywordsText "teaching initiative" }}
+          {{ $initiatives = $initiatives | append . }}
+        {{ end }}
+      {{ end }}
+      <div class="teaching-initiative-list">
+        {{ range $initiatives.ByDate.Reverse }}
+        {{ $sourceLabel := cond (eq .Section "projects") "Project" "Blog" }}
+        {{ $originalTitle := .Title }}
+        {{ $initiativeTitle := .Params.initiative_title | default .Title }}
+        {{ $summary := .Params.initiative_summary | default .Params.description | default .Params.metacontent | default .Summary }}
+        {{ $initiativeImage := .Params.initiative_image | default .Params.image }}
+        <article class="teaching-initiative-item">
+          <div class="teaching-initiative-card">
+            {{ with $initiativeImage }}
+            <figure class="teaching-initiative-image">
+              <img src="{{ . | relURL }}" alt="{{ $initiativeTitle }}" loading="lazy">
+            </figure>
+            {{ end }}
+            <div class="teaching-initiative-content">
+              <h3>{{ $initiativeTitle }}</h3>
+              {{ if or .Params.initiative_course_code .Params.initiative_term }}
+              <div class="teaching-initiative-course">
+                {{ with .Params.initiative_course_code }}<strong>{{ . }}</strong>{{ end }}
+                {{ with .Params.initiative_course_title }}<span>{{ . }}</span>{{ end }}
+                {{ with .Params.initiative_term }}<time>{{ . }}</time>{{ end }}
+              </div>
+              {{ end }}
+              <p>{{ $summary | plainify }}</p>
+              <div class="teaching-initiative-source">
+                <span>Related {{ $sourceLabel }}:</span>
+                <a class="teaching-initiative-link" href="{{ .RelPermalink }}">{{ $originalTitle }} <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+        </article>
+        {{ else }}
+        <p class="teaching-initiative-empty">Teaching initiative articles and projects will be collected here.</p>
+        {{ end }}
+      </div>
     </section>
   </div>
 </section>

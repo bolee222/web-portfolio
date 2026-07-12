@@ -56,7 +56,7 @@
                             <i class={{.Params.icon}}></i>
                         </div>
                         <div class="col-10 social-icon-list-bold">
-                            <div class="social-icon-list"><a href="www.google.com"> More News </a></div>
+                            <div class="social-icon-list"><a href="{{ "news/" | relLangURL }}"> More News </a></div>
                         </div>
                     </div>
                 </div>
@@ -363,16 +363,30 @@
                 <div class="cv-title mb-3">PUBLICATION</div>
             </div>
             <div class="col-lg-10">
-                {{ range first 100 (where .Site.RegularPages "Section" "==" "publications" )}}
-                <div>{{ .Render "publication_all" }}</div>
+                {{ range where .Site.RegularPages "Section" "==" "publications" }}
+                <div>{{ .Render "publication_all_acm" }}</div>
                 {{ end }}
-                <div class="text-left">
-                    <a href="{{ `publications` | absLangURL }}" class="btn btn-primary-allPublications ">{{ i18n "all_publications"}}</a>
-                </div>
             </div>
         </div>
     </div>
 </section>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const displayedYears = new Set();
+
+    document.querySelectorAll("#publication .publication-year").forEach(function (yearElement) {
+        const year = (yearElement.dataset.year || yearElement.textContent).trim();
+
+        if (!year || displayedYears.has(year)) {
+            yearElement.textContent = "";
+            return;
+        }
+
+        displayedYears.add(year);
+        yearElement.textContent = year;
+    });
+});
+</script>
 {{ end }}
 
 

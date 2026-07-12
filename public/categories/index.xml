@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Bokyung | Personal Website</title><link>https://boleehci.com/categories/</link><description>Recent content in Categories on Bokyung | Personal Website</description><generator>Hugo</generator><language>en-us</language><copyright>Copyright &amp;copy; Bokyung Lee</copyright><atom:link href="https://boleehci.com/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Bokyung | Personal Website</title>
+    <link>http://localhost:1315/categories/</link>
+    <description>Recent content in Categories on Bokyung | Personal Website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; Bokyung Lee</copyright>
+    <atom:link href="http://localhost:1315/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design &amp; Technology</title>
+      <link>http://localhost:1315/categories/design--technology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1315/categories/design--technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reflections</title>
+      <link>http://localhost:1315/categories/reflections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1315/categories/reflections/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research Notes</title>
+      <link>http://localhost:1315/categories/research-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1315/categories/research-notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teaching</title>
+      <link>http://localhost:1315/categories/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1315/categories/teaching/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

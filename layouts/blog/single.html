@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="blog-article">
+  <div class="container">
+    <header class="blog-article-header">
+      <div class="blog-article-meta">
+        {{ with .Params.category }}<span>{{ . }}</span>{{ end }}
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+      </div>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+    </header>
+    <div class="blog-article-content content">{{ .Content }}</div>
+    <a class="blog-back-link" href="{{ "blog/" | relLangURL }}">← Back to Blog</a>
+  </div>
+</article>
+{{ end }}

@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>News on Bokyung | Personal Website</title><link>https://boleehci.com/news/</link><description>Recent content in News on Bokyung | Personal Website</description><generator>Hugo</generator><language>en-us</language><copyright>Copyright &amp;copy; Bokyung Lee</copyright><lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://boleehci.com/news/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog1</title><link>https://boleehci.com/news/blog-1/</link><pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate><guid>https://boleehci.com/news/blog-1/</guid><description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description></item><item><title>Blog2</title><link>https://boleehci.com/news/blog-2/</link><pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate><guid>https://boleehci.com/news/blog-2/</guid><description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description></item><item><title>Blog3</title><link>https://boleehci.com/news/blog-3/</link><pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate><guid>https://boleehci.com/news/blog-3/</guid><description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description></item><item><title>Blog4</title><link>https://boleehci.com/news/blog-4/</link><pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate><guid>https://boleehci.com/news/blog-4/</guid><description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description></item><item><title>Blog5</title><link>https://boleehci.com/news/blog-5/</link><pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate><guid>https://boleehci.com/news/blog-5/</guid><description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description></item><item><title>Blog6</title><link>https://boleehci.com/news/blog-6/</link><pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate><guid>https://boleehci.com/news/blog-6/</guid><description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Bokyung | Personal Website</title>
+    <link>http://localhost:1315/news/</link>
+    <description>Recent content in News on Bokyung | Personal Website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; Bokyung Lee</copyright>
+    <lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1315/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TwistLens Project Receives Honorable Mention Award at ACM CHI 2026</title>
+      <link>http://localhost:1315/news/2026-twistlens-chi-honorable-mention/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0900</pubDate>
+      <guid>http://localhost:1315/news/2026-twistlens-chi-honorable-mention/</guid>
+      <description>TwistLens: A Docent-Informed Image Transformation to Create Previews That Prompt Anticipation and Interpretive Experiences Before Museum Visits received an Honorable Mention Award (Top 5%) at the ACM CHI Conference on Human Factors in Computing Systems 2026.</description>
+    </item>
+    <item>
+      <title>DanXeReflect Project Receives Honorable Mention Award at ACM CHI 2026</title>
+      <link>http://localhost:1315/news/2026-danxereflect-chi-honorable-mention/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0900</pubDate>
+      <guid>http://localhost:1315/news/2026-danxereflect-chi-honorable-mention/</guid>
+      <description>DanXeReflect: Interacting with the Spatio-Temporal Past Movements for Embodied, Reflective Choreographic Collaboration received an Honorable Mention Award (Top 5%) at the ACM CHI Conference on Human Factors in Computing Systems 2026.</description>
+    </item>
+  </channel>
+</rss>

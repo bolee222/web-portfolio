@@ -1,0 +1,63 @@
+{{ define "main" }}
+<section class="blog-page">
+  <div class="container">
+    <header class="archive-page-header">
+      <div class="row row-fix">
+        <div class="single-page-title">{{ .Title }}</div>
+      </div>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </header>
+
+    <nav class="blog-filterbar" aria-label="Blog categories">
+      <button class="blog-filter active" type="button" data-blog-filter="all">All</button>
+      {{ range .Params.categories }}
+      <button class="blog-filter" type="button" data-blog-filter="{{ . | urlize }}">{{ . }}</button>
+      {{ end }}
+    </nav>
+
+    <div class="blog-archive" id="blogArchive">
+      {{ $posts := .RegularPages.ByDate.Reverse }}
+      {{ if $posts }}
+        {{ range $posts }}
+        {{ $category := .Params.category | default "Reflections" }}
+        <article class="blog-archive-item" data-blog-category="{{ $category | urlize }}">
+          <a class="blog-archive-link" href="{{ .RelPermalink }}">
+            <div class="blog-archive-meta">
+              <span>{{ $category }}</span>
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+            </div>
+            <h2>{{ .Title }}</h2>
+            {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+            {{ with .Params.keywords }}
+            <div class="blog-archive-keywords">
+              {{ range . }}<span>#{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
+          </a>
+        </article>
+        {{ end }}
+      {{ else }}
+        <p class="blog-empty">Articles and notes will be collected here.</p>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const filters = document.querySelectorAll("[data-blog-filter]");
+  const posts = document.querySelectorAll("[data-blog-category]");
+
+  filters.forEach(function (filter) {
+    filter.addEventListener("click", function () {
+      const selected = filter.dataset.blogFilter;
+      filters.forEach(function (item) { item.classList.remove("active"); });
+      filter.classList.add("active");
+      posts.forEach(function (post) {
+        post.hidden = selected !== "all" && post.dataset.blogCategory !== selected;
+      });
+    });
+  });
+});
+</script>
+{{ end }}

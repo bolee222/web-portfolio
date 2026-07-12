@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1315&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <title>Blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Articles, research notes, and reflections by Bokyung Lee.">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.129.0">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="../plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="../plugins/themify-icons/themify-icons.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="../scss/style.3a40daff2487aedd7a2f407e3fbb2fa96398d99d686e7a70c42b16af1d775443.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="icon" href="../images/favicon-light.svg" type="image/svg+xml">
+  <link rel="icon" href="../images/favicon-light.svg" type="image/svg+xml" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="../images/favicon-bo.png" type="image/png" media="(prefers-color-scheme: dark)">
+</head>
+<body><!-- navigation -->
+<header class="sticky-top bg-black margin-top-20">
+  <div class="container padding-side-0">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <a class="navbar-brand " href="../"><img class="img-logo"
+          src="../images/logo_bolee.png" alt="Bokyung | Personal Website"></a>
+      <button class="navbar-toggler border-0 btn-navbar" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu text-white"></i>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end text-center" id="navigation">
+        <ul class="navbar-nav navbar-right">
+          
+
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="../">about</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="../vision">Research</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="../projects">projects</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="../publications">publications</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="../teaching">Teaching</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link active" href="../blog" aria-current="page">Blog</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="../news">News</a>
+          </li>
+          
+          
+          
+          <li class="nav-item"><a class="nav-link" href="../contact">Contact</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            
+            
+          </li>
+        </ul>
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+ 
+<section class="blog-page">
+  <div class="container">
+    <header class="archive-page-header">
+      <div class="row row-fix">
+        <div class="single-page-title">Blog</div>
+      </div>
+      <p>Articles, research notes, and reflections by Bokyung Lee.</p>
+    </header>
+
+    <nav class="blog-filterbar" aria-label="Blog categories">
+      <button class="blog-filter active" type="button" data-blog-filter="all">All</button>
+      
+      <button class="blog-filter" type="button" data-blog-filter="research-notes">Research Notes</button>
+      
+      <button class="blog-filter" type="button" data-blog-filter="teaching">Teaching</button>
+      
+      <button class="blog-filter" type="button" data-blog-filter="design-technology">Design &amp; Technology</button>
+      
+      <button class="blog-filter" type="button" data-blog-filter="reflections">Reflections</button>
+      
+    </nav>
+
+    <div class="blog-archive" id="blogArchive">
+      
+      
+        <p class="blog-empty">Articles and notes will be collected here.</p>
+      
+    </div>
+  </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const filters = document.querySelectorAll("[data-blog-filter]");
+  const posts = document.querySelectorAll("[data-blog-category]");
+
+  filters.forEach(function (filter) {
+    filter.addEventListener("click", function () {
+      const selected = filter.dataset.blogFilter;
+      filters.forEach(function (item) { item.classList.remove("active"); });
+      filter.classList.add("active");
+      posts.forEach(function (post) {
+        post.hidden = selected !== "all" && post.dataset.blogCategory !== selected;
+      });
+    });
+  });
+});
+</script>
+<footer class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        
+        <hr style="width:100%; height:1px;border-width:0;color:rgb(179, 179, 179);background-color:rgb(179, 179, 179)">
+
+        <p class=" mt-5"></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="../plugins/jQuery/jquery.min.js"></script>
+
+<script src="../plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="../plugins/particles/particles.min.js"></script>
+
+<script src="../plugins/particles/stats.min.js"></script>
+
+<script src="../plugins/reading-time/readingTime.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="../js/script.min.js"></script>
+
+<!-- google analitycs -->
+
+
+
+</body>
+
+</html>

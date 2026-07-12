@@ -26,6 +26,11 @@
     &:hover {
         color: $primary-color;
     }
+
+    &.active {
+        color: $primary-color !important;
+        font-weight: 600 !important;
+    }
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {

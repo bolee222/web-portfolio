@@ -13,13 +13,17 @@
         <ul class="navbar-nav navbar-right">
           {{ if .IsHome }}
           {{ range .Site.Menus.main }}
-          <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ $menuPath := strings.Trim .URL "/" }}
+          {{ $isActive := eq $menuPath "" }}
+          <li class="nav-item"><a class="nav-link{{ if $isActive }} active{{ end }}" href="{{ .URL }}"{{ if $isActive }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
           {{ end }}
 
           {{ else }}
 
           {{ range .Site.Menus.main }}
-          <li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}{{ .URL }}">{{ .Name }}</a>
+          {{ $menuPath := strings.Trim .URL "/" }}
+          {{ $isActive := eq $.Section $menuPath }}
+          <li class="nav-item"><a class="nav-link{{ if $isActive }} active{{ end }}" href="{{ $.Site.BaseURL | relLangURL }}{{ .URL }}"{{ if $isActive }} aria-current="page"{{ end }}>{{ .Name }}</a>
           </li>
           {{ end }}
           {{ end }}
