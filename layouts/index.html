@@ -7,13 +7,13 @@
         {{ with $data.homepage.banner }}
         <div class="col-7 col-sm-6 col-md-7 padding-side-0">
             {{ if $data.homepage.about.enable }} {{ with $data.homepage.about }}
-                <img src="{{ .image | absURL }}" class="bokyung-img image-cropper about-img img-responsive" alt="" style="width:60%" /> {{ end }} {{ end }}
+                <img src="{{ .image | relURL }}" class="bokyung-img image-cropper about-img img-responsive" alt="" style="width:60%" /> {{ end }} {{ end }}
 
                 <div class="banner-title-bold">{{ .title | markdownify }}</div>
                 <div class="banner-subtitle">{{ .subtitle | markdownify }}</div>
                 <div class="banner-subtitle-email"><a href = "mailto: bokung.lee.lydia@gmail.com">bokung.lee.lydia@gmail.com </a></div>
                 <div class="banner-subtitle-email"><a href = "mailto: bo.lee@yonsei.ac.kr">bo.lee@yonsei.ac.kr </a></div>
-                <div class="banner-subtitle-social"><a href="https://github.com/bolee222/Bokyung-Lee-CV/blob/main/Bokyung_Lee_CV.pdf" target="_blank"> CV </a> / <a href="https://www.linkedin.com/in/bokyung-lee-83156257/" target="_blank"> linked In </a> / <a href="https://vimeo.com/lydiabklee" target="_blank"> vimeo </a>
+                <div class="banner-subtitle-social"><a href="https://github.com/bolee222/Bokyung-Lee-CV/blob/main/Bokyung_Lee_CV.pdf" target="_blank"> CV </a> / <a href="https://www.linkedin.com/in/bokyung-lee-83156257/" target="_blank"> linked In </a> / <a href="https://vimeo.com/lydiabklee" target="_blank"> vimeo </a> / <a href="https://cxdlab.com/" target="_blank" rel="noopener"> CXD Lab </a>
                 </div>
         </div>
 
@@ -302,7 +302,7 @@
 
 <!-- Teaching Experience -->
 {{ if $data.homepage.teachingExperience.enable }} {{ with $data.homepage.teachingExperience }}
-<section class="section pb-0" id="project">
+<section class="section pb-0" id="teaching">
     <div class="container cv-section-padding">
         <div class="row">
             <div class="col-lg-2">

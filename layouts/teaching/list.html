@@ -1,0 +1,39 @@
+{{ define "main" }}
+<section class="teaching-page">
+  <div class="container">
+    <div class="row row-fix">
+      <div class="single-page-title">{{ .Title }}</div>
+    </div>
+
+    <section class="teaching-philosophy" aria-labelledby="teaching-philosophy-title">
+      <div class="teaching-section-label">Philosophy</div>
+      <h1 id="teaching-philosophy-title" class="teaching-philosophy-title">{{ .Params.philosophy_title }}</h1>
+      <div class="teaching-philosophy-copy">
+        {{ range .Params.philosophy }}<p>{{ . }}</p>{{ end }}
+      </div>
+    </section>
+
+    <section class="teaching-courses" aria-label="Courses">
+      {{ range .Params.course_groups }}
+      <div class="teaching-course-group">
+        <header class="teaching-course-level">
+          <span>Course Level</span>
+          <h2>{{ .level }}</h2>
+        </header>
+        <div class="teaching-course-list">
+          {{ range .courses }}
+          <article class="teaching-course-item">
+            <div class="teaching-course-main">
+              <h3>{{ .title }}</h3>
+              <p>{{ .institution }} · {{ .role }}</p>
+            </div>
+            <div class="teaching-course-term">{{ .term }}</div>
+          </article>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </section>
+  </div>
+</section>
+{{ end }}

@@ -2,7 +2,7 @@
 <article class="card rounded-0 border-0" data-file="{{.Permalink}}" data-target="article">
     {{ with .Params.Image }}
     <a class="portfolio-image-link" href="{{ $.Permalink }}">
-        <img src="{{ . | absURL }}" alt="{{ $.Title }}" class="card-img-top mb-3 rounded-0" />
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="card-img-top mb-3 rounded-0" />
         {{ with $.Params.shortkeys }}
         <span class="portfolio-shortkeys" aria-label="Project keywords">
             {{ if reflect.IsSlice . }}

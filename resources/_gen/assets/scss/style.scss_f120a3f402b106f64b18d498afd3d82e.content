@@ -364,7 +364,7 @@ a:link-text-publications {
   font-size: 32px !important;
   color: #2f2f2f;
   margin-top: 60px;
-  margin-bottom: 40px; }
+  margin-bottom: 80px; }
 
 .publication-type-title {
   font-family: "Roboto", sans-serif;
@@ -806,6 +806,8 @@ hr {
       margin: 10px auto; } }
 .navbar-dark .navbar-nav .nav-link {
   color: #2f2f2f;
+  font-size: 13px !important;
+  font-weight: 400 !important;
   text-transform: uppercase !important; }
   .navbar-dark .navbar-nav .nav-link:hover {
     color: #400599; }
@@ -819,7 +821,8 @@ hr {
 .navbar-nav .nav-item {
   display: flex;
   align-items: center;
-  font-weight: 500 !important;
+  font-size: 13px;
+  font-weight: 400 !important;
   padding-bottom: 0 !important; }
 
 .navbar {
@@ -1524,7 +1527,7 @@ textarea.form-control {
 .contact-page {
   padding-bottom: 70px; }
   .contact-page .single-page-title {
-    margin-bottom: 60px; }
+    margin-bottom: 120px; }
   .contact-page .contact-intro {
     max-width: 670px;
     margin-bottom: 30px; }
@@ -1532,6 +1535,76 @@ textarea.form-control {
       color: #5f5a63;
       font-size: 16px;
       line-height: 1.55; }
+
+.teaching-philosophy {
+  max-width: 920px;
+  margin-bottom: 100px; }
+
+.teaching-section-label,
+.teaching-course-level span {
+  color: #77727a;
+  font-size: 12px;
+  font-style: italic; }
+
+.teaching-philosophy-title {
+  margin: 8px 0 26px;
+  color: #2f2f2f;
+  font-size: 24px;
+  font-weight: 600; }
+
+.teaching-philosophy-copy {
+  max-width: 780px; }
+  .teaching-philosophy-copy p {
+    margin-bottom: 16px;
+    color: #2f2f2f;
+    font-size: 16px;
+    line-height: 1.65; }
+
+.teaching-courses {
+  max-width: 920px;
+  padding-bottom: 80px; }
+
+.teaching-course-group {
+  margin-bottom: 80px; }
+
+.teaching-course-level {
+  padding-bottom: 14px;
+  border-bottom: 1px solid #2f2f2f; }
+  .teaching-course-level h2 {
+    margin: 4px 0 0;
+    color: #2f2f2f;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .04em;
+    text-transform: uppercase; }
+
+.teaching-course-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  padding: 28px 0;
+  border-bottom: 1px solid #e4e1e6; }
+
+.teaching-course-main h3 {
+  margin: 0 0 9px;
+  color: #2f2f2f;
+  font-size: 18px;
+  font-weight: 600; }
+
+.teaching-course-main p {
+  margin: 0;
+  color: #666169;
+  font-size: 14px; }
+
+.teaching-course-term {
+  color: #77727a;
+  font-size: 13px;
+  white-space: nowrap; }
+
+@media (max-width: 600px) {
+  .teaching-course-item {
+    grid-template-columns: 1fr;
+    gap: 8px; } }
 
 .contact-grid {
   display: grid;

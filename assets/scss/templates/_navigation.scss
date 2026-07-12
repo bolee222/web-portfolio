@@ -20,6 +20,8 @@
 
 .navbar-dark .navbar-nav .nav-link {
     color: $text-color;
+    font-size: 13px !important;
+    font-weight: 400 !important;
     text-transform: uppercase !important;
     &:hover {
         color: $primary-color;
@@ -37,7 +39,8 @@
 .navbar-nav .nav-item {
     display: flex;
     align-items: center;
-    font-weight: 500 !important;
+    font-size: 13px;
+    font-weight: 400 !important;
     padding-bottom: 0 !important;
 }
 

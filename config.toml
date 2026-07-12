@@ -60,6 +60,11 @@ name = "publication"
 URL = "publications"
 weight = 5
 
+[[menu.main]]
+name = "Teaching"
+URL = "teaching"
+weight = 6
+
 #[[menu.main]]
 #name = "News"
 #URL = "news"
@@ -90,7 +95,7 @@ particles = false
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
